@@ -1,4 +1,4 @@
-type: melting
+type: GenericCrafter
 name: test block
 description: just a test block
 health: 1000
