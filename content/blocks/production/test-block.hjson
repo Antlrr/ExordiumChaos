@@ -1,47 +1,24 @@
 type: melting
-
 name: test block
-
 description: just a test block
-
 health: 1000
-
 size: 2
-
 hasItems: true
-
 hasPower: true
-
 itemCapacity: 5
-
 requirements: [
-
   silicon/1
-
   copper/4
-
 ]
-
 consumes: {
-
   power: 16
-
   items: {
-
     items: [
-
       copper/1
-
     ]
-
   }
-
 }
-
 outputItem: surge-alloy/5
-
 craftTime: 2
-
 craftEffect: melting 
-
 category: crafting
