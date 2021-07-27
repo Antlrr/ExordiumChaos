@@ -18,7 +18,7 @@ consumes: {
     ]
   }
 }
-outputItem: surge-alloy/5
+outputItem: silicon/1
 craftTime: 2
 craftEffect: melting 
 category: crafting
