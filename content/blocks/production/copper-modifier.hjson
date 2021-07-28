@@ -20,5 +20,5 @@ consumes: {
 }
 outputItem: silicon/1
 craftTime: 3
-craftEffect: melting 
+craftEffect: smelting 
 category: crafting
