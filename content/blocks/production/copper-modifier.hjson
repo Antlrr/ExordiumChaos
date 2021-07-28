@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: test block
+name: Copper Modifier
 description: Uses mysterious forces to turn Copper into Silicon
 health: 1000
 size: 2
