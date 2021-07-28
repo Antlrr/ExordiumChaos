@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Item Combiner
-description: combines ever single Item into Everything
+description: combines every single Item into Everything
 health: 1600
 size: 6
 hasItems: true
