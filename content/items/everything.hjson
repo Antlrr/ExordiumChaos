@@ -1,7 +1,4 @@
 cost: 10
-
-color: 353535FF
-
+color: FFFFFF
 research: surge-alloy
-
-explosiveness: 100
+explosiveness: 1000
