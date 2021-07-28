@@ -1,2 +1,3 @@
-# ignore this
-this is for testing purposes
+# Test Mod
+!ereHyddeS: helping with code
+Antlrr: making sprites
