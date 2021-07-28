@@ -20,5 +20,7 @@ consumes: {
 }
 outputItem: silicon/1
 craftTime: 3
-craftEffect: smelting 
+craftEffect: melting 
 category: crafting
+drawer = new DrawSmelter(Color.valueOf("ffef99"));
+
