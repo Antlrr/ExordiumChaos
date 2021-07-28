@@ -1,4 +1,7 @@
 cost: 10
 color: FFFFFF
 research: surge-alloy
-explosiveness: 1000
+explosiveness: 1
+flammability: 1
+radioactivity: 1
+charge: 1
