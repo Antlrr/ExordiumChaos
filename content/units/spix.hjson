@@ -9,11 +9,11 @@ lightRadius: 30
 lightColor: 6f7fe8
 weapons: [
    {
-   name: testUnit-weapon
+   name: spix-weapon
    top: false
    mirror: true
    x: 3
-   y: 3
+   y: 2.50
    shots: 2
    recoil: 2
    reload: 20
