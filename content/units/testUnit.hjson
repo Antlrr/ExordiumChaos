@@ -9,7 +9,7 @@ lightRadius: 30
 lightColor: 6f7fe8
 weapons: [
    {
-   name: test-unit-weapon
+   name: testUnit-weapon
    top: false
    mirror: true
    x: 3
