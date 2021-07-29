@@ -12,8 +12,8 @@ weapons: [
    name: test-unit-weapon
    top: false
    mirror: true
-   x: 2
-   y: 0
+   x: 4
+   y: 4
    shots: 2
    recoil: 2
    reload: 20
