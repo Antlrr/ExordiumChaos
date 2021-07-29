@@ -4,7 +4,7 @@ health: 300
 speed: 3
 accel: 3
 drag: 0.05
-controller: repairAI
+controller: attackAI
 lightRadius: 30
 lightColor: 6f7fe8
 weapons: [
@@ -20,9 +20,9 @@ weapons: [
    bullet: {
    type: basicBulletType
    collidesTeam: false
-   damage: 20
+   damage: 25
    lifetime: 15
-   speed: 8
+   speed: 4
     }
   }
 ]
