@@ -1,0 +1,17 @@
+type: flying
+
+flying: true
+
+health: 200
+
+speed: 2.5
+
+accel: 0.25
+
+drag: 0.01
+
+controller: repairAI
+
+lightRadius: 30
+
+lightColor: 6f7fe8
