@@ -5,7 +5,7 @@ consumes: {
 }
 plans: [
   {
-    unit: test-unit
+    unit: test unit
     time: 100
     requirements: [
       silicon/20
