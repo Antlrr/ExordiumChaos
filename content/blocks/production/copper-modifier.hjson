@@ -9,12 +9,13 @@ itemCapacity: 5
 requirements: [
   silicon/10
   copper/5
+  everything/1
 ]
-consumes: {
+consumes:
   power: 16
   items: {
     items: [
-      copper/2
+      copper/5
     ]
   }
 }
