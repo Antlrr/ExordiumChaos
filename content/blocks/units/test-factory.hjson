@@ -1,0 +1,39 @@
+type: UnitFactory
+
+size: 3
+
+consumes: {
+
+  power: 10
+
+}
+
+plans: [
+
+  {
+
+    unit: test-unit
+
+    time: 100
+
+    requirements: [
+
+      silicon/20
+
+      everything/5
+
+    ]
+
+  }
+
+  {
+
+requirements: [
+
+  titanium/20
+
+  silicon/50
+
+]
+
+category: units
