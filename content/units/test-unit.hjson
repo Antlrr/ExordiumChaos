@@ -9,13 +9,13 @@ lightRadius: 30
 lightColor: 6f7fe8
 weapons: [
    {
-   name: test-unit
+   name: test-unit-weapon
    top: false
-   mirror: false
-   x: 0
+   mirror: true
+   x: 2
    y: 0
    shots: 2
-   recoil: 0
+   recoil: 2
    reload: 20
    bullet: {
    type: basicBulletType
