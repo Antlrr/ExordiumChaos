@@ -20,7 +20,7 @@ consumes: {
   }
 }
 outputItem: silicon/1
-craftTime: 3
+craftTime: 9
 craftEffect: melting 
 category: crafting
 drawer: drawSmelter
