@@ -12,7 +12,7 @@ weapons: [
    name: test-unit-weapon
    top: false
    mirror: true
-   x: 4
+   x: 3
    y: 3
    shots: 2
    recoil: 2
