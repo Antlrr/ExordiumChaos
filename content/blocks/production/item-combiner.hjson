@@ -12,7 +12,7 @@ requirements: [
   silicon/50
 ]
 consumes: {
-  power: 620
+  power: 200
   items: {
     items: [
       copper/1
@@ -35,7 +35,7 @@ consumes: {
   }
 }
 outputItem: everything/1
-craftTime: 200
+craftTime: 600
 craftEffect: melting 
 category: crafting
 drawer: drawSmelter
