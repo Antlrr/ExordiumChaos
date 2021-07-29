@@ -7,3 +7,43 @@ drag: 0.05
 controller: repairAI
 lightRadius: 30
 lightColor: 6f7fe8
+weapons: [
+
+   {
+
+   name: test-unit
+
+   top: false
+
+   mirror: false
+
+   x: 0
+
+   y: 0
+
+   shots: 1
+
+   recoil: 0
+
+   reload: 22.5
+
+   bullet: {
+
+   type: basicBulletType
+
+   collidesTeam: false
+
+   damage: 20
+
+   piercing: false
+
+   lifetime: 15
+
+   speed: 8
+
+    }
+
+  }
+
+]
+
