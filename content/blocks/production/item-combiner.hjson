@@ -35,7 +35,7 @@ consumes: {
   }
 }
 outputItem: everything/1
-craftTime: 10
+craftTime: 20
 craftEffect: melting 
 category: crafting
 drawer: drawSmelter
