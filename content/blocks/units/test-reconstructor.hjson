@@ -7,6 +7,7 @@ consumes: {
       items: [
         silicon/120
         titanium/65
+        everything/1
       ]
     }
   }
@@ -16,6 +17,5 @@ upgrades: [
 requirements: [
   titanium/10
   silicon/35
-  everything/1
 ]
 category: units
