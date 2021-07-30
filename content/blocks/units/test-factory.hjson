@@ -19,9 +19,7 @@ size: 3
  ]
   
   requirements: [
-  copper/55
-  silicon/55
+  silicon/45
   titanium/35
-  duo-fragment/35
   ]
   category: units
