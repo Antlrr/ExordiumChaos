@@ -2,7 +2,7 @@ type: flying
 name: serinus
 flying: true
 health: 540
-speed: 4.10
+speed: 3.50
 accel: 2
 drag: 0.01
 controller: attackAI
