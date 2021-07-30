@@ -1,11 +1,11 @@
 type: UnitFactory
 size: 3
 consumes: {
-  power: 10
+  power: 15
 }
 plans: [
   {
-    unit:spix
+    unit: spix
     time: 100
     requirements: [
       silicon/20
