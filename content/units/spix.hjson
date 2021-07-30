@@ -3,15 +3,15 @@ name: spix
 flying: true
 health: 300
 speed: 3
-accel: 3
-drag: 0.05
+accel: 2
+drag: 0.01
 controller: attackAI
 lightRadius: 30
 lightColor: 6f7fe8
 weapons: [
    {
    name: spix-weapon
-   top: true
+   top: false
    mirror: true
    x: 3
    y: 2.50
