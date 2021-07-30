@@ -11,7 +11,7 @@ lightColor: 6f7fe8
 weapons: [
    {
    name: spix-weapon
-   top: false
+   top: true
    mirror: true
    x: 3
    y: 2.50
