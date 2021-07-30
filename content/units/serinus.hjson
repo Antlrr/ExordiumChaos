@@ -1,0 +1,29 @@
+type: flying
+name: serinus
+flying: true
+health: 540
+speed: 4.10
+accel: 2
+drag: 0.01
+controller: attackAI
+lightRadius: 30
+lightColor: 6f7fe8
+weapons: [
+   {
+   name: serinus-weapon
+   top: true
+   mirror: true
+   x: 4
+   y: 0
+   shots: 2
+   recoil: 2
+   reload: 13
+   bullet: {
+   type: laserBulletType
+   collidesTeam: false
+   damage: 40
+   lifetime: 18
+   speed: 4
+    }
+  }
+]
