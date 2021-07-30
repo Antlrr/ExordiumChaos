@@ -12,7 +12,7 @@ requirements: [
   silicon/50
 ]
 consumes: {
-  power: 160
+  power: 60
   items: {
     items: [
       copper/1
