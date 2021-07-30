@@ -10,7 +10,7 @@ size: 3
   plans: [
   {
   unit: spix
-  time: 350
+  time: 450
   requirements: [
   everything/1
   silicon/25
