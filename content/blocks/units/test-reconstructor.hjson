@@ -9,6 +9,7 @@ consumes: {
         titanium/65
       ]
     }
+  }
 upgrades: [
   [spix, serinus]
 ]
