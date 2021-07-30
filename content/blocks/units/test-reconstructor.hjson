@@ -1,0 +1,20 @@
+type: Reconstructor
+size: 3
+constructTime: 230
+consumes: {
+  power: 8
+    items: {
+      items: [
+        silicon/120
+        titanium/65
+      ]
+    }
+upgrades: [
+  [spix, serinus]
+]
+requirements: [
+  everything/1
+  titanium/10
+  silicon/35
+]
+category: units
