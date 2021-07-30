@@ -14,8 +14,8 @@ upgrades: [
   [spix, serinus]
 ]
 requirements: [
-  everything/1
   titanium/10
   silicon/35
+  everything/1
 ]
 category: units
