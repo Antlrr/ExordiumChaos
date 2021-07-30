@@ -1,4 +1,5 @@
 type: flying
+name: spix
 flying: true
 health: 300
 speed: 3
