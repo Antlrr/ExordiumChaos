@@ -22,7 +22,7 @@ weapons: [
    type: laserBulletType
    collidesTeam: false
    damage: 40
-   lightningColor: 7aFaDC
+   laserColor: 7aFaDC
    lifetime: 9
    speed: 1
     }
