@@ -4,7 +4,7 @@ description: makes units
 health: 450
 size: 3
  consumes: {
- power: 2.2
+ power: 2.5
  }
  
   plans: [
@@ -13,7 +13,7 @@ size: 3
   time: 350
   requirements: [
   everything/1
-  silicon/20
+  silicon/25
   ]
   }
  ]
