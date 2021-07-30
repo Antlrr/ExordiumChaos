@@ -1,0 +1,27 @@
+type: UnitFactory
+name: test factory
+description: makes units
+health: 450
+size: 3
+ consumes: {
+ power: 2.2
+ }
+ 
+  plans: [
+  {
+  unit: spix
+  time: 350
+  requirements: [
+  everything/1
+  silicon/20
+  ]
+  }
+ ]
+  
+  requirements: [
+  copper/55
+  silicon/55
+  titanium/35
+  duo-fragment/35
+  ]
+  category: units
