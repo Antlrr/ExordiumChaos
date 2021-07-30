@@ -1,8 +1,8 @@
 type: Reconstructor
 size: 3
-constructTime: 230
+constructTime: 450
 consumes: {
-  power: 8
+  power: 6
     items: {
       items: [
         silicon/120
