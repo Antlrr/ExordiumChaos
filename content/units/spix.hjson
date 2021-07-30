@@ -17,7 +17,7 @@ weapons: [
    y: 2.50
    shots: 2
    recoil: 2
-   reload: 20
+   reload: 14
    bullet: {
    type: basicBulletType
    collidesTeam: false
