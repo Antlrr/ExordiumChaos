@@ -5,7 +5,7 @@ groundLayer: 75
 visualElevation: 0.7
 health: 300
 armor: 55
-speed: 1.30
+speed: 0.60
 rotateSpeed: 1.8
 buildSpeed: 6.1
 mineSpeed: 10.8
@@ -15,7 +15,7 @@ legLength: 13
 legBaseOffset: 2
 legExtension: 0
 legSpeed: 0.1
-legSplashRange: 10
+legSplashRange: 1
 rippleScale: 2
 maxStretch: 1
 allowLegStep: true
