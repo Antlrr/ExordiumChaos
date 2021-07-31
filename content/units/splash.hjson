@@ -1,0 +1,59 @@
+type: naval
+
+name: Splash
+
+flying: false
+
+health: 430
+
+speed: 2
+
+accel: 2
+
+drag: 0.01
+
+rotateShooting: false
+
+controller: attackAI
+
+lightRadius: 30
+
+lightColor: 7AFADC
+
+weapons: [
+
+   {
+
+   name: splash-weapon
+
+   top: true
+
+   mirror: false
+
+   x: 0
+
+   y: 0
+
+   shots: 2
+
+   recoil: 1
+
+   reload: 15
+
+   bullet: {
+
+   type: basicBulletType
+
+   collidesTeam: false
+
+   damage: 35
+
+   lifetime: 20
+
+   speed: 4
+
+    }
+
+  }
+
+]
