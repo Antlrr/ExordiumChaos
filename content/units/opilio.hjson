@@ -11,9 +11,9 @@ buildSpeed: 6.1
 mineSpeed: 10.8
 mineTier: 6
 legCount: 6
-legLength: 10
-legBaseOffset: 20
-legExtension: -10
+legLength: 13
+legBaseOffset: 2
+legExtension: 0
 legSpeed: 0.1
 legSplashRange: 10
 rippleScale: 2
@@ -25,9 +25,10 @@ weapons: [
   {
     name: serinus-weapon
     top: true
-    x: 0
+    x: 4
     y: 0
     reload: 10
+    mirror: true
     recoil: 2
     shootSound: laser
     bullet: {
