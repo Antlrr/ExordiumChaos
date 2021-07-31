@@ -7,7 +7,7 @@ accel: 2
 drag: 0.01
 controller: attackAI
 lightRadius: 30
-lightColor: 7AFADC
+lightColor: 7aFaDC
 weapons: [
    {
    name: splash-mount
@@ -23,7 +23,7 @@ weapons: [
    type: basicBulletType
    collidesTeam: false
    damage: 35
-   lifetime: 20
+   lifetime: 40
    speed: 4.80
     }
   }
