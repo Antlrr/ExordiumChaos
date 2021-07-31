@@ -13,6 +13,7 @@ consumes: {
   }
 upgrades: [
   [spix, serinus]
+  [splash, spray]
 ]
 requirements: [
   titanium/10
