@@ -10,7 +10,8 @@ lightRadius: 30
 lightColor: 7AFADC
 weapons: [
    {
-   name: splash-weapon
+   name: splash-mount
+   rotate: true
    top: true
    mirror: false
    x: 0
