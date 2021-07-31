@@ -23,4 +23,4 @@ outputItem: silicon/1
 craftTime: 9
 craftEffect: melting 
 category: crafting
-drawer: drawSmelter
+drawer: drawMixer
