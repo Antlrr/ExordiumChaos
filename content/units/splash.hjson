@@ -5,7 +5,6 @@ health: 430
 speed: 2
 accel: 2
 drag: 0.01
-rotateShooting: false
 controller: attackAI
 lightRadius: 30
 lightColor: 7AFADC
