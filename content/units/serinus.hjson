@@ -1,8 +1,8 @@
 type: flying
 name: Serinus
 flying: true
-health: 640
-speed: 3.50
+health: 750
+speed: 4.50
 accel: 2
 drag: 0.01
 controller: attackAI
@@ -15,15 +15,15 @@ weapons: [
    mirror: true
    x: 4
    y: 0
-   shots: 2
+   shots: 3
    recoil: 2
    reload: 12
    bullet: {
    type: laserBulletType
    collidesTeam: false
-   damage: 40
-   lifetime: 9
-   speed: 1.20
+   damage: 69
+   lifetime: 12
+   speed: 3.20
     }
   }
 ]
