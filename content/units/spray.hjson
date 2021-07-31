@@ -4,6 +4,7 @@ flying: false
 health: 750
 speed: 2.30
 accel: 2
+armor: 65
 drag: 0.01
 controller: attackAI
 lightRadius: 30
