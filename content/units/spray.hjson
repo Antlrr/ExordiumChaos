@@ -20,7 +20,7 @@ weapons: [
    recoil: 1
    reload: 15
    bullet: {
-   type: basicBulletType
+   type: bombBulletType
    collidesTeam: false
    damage: 70
    lifetime: 60.50
