@@ -34,7 +34,7 @@ weapons: [
    top: true
    mirror: true
    x: 5
-   y: 0
+   y: 3
    shots: 2
    recoil: 1
    reload: 13.50
