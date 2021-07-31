@@ -23,7 +23,16 @@ plans: [
       everything/1
     ]
   }
-]
+  {
+    unit: opilio
+    time: 1200
+    requirements: [
+      silicon/25
+      thorium/20
+      everything/1
+    ]
+   }
+  ]
 requirements: [
   titanium/65
   silicon/40
