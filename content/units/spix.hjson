@@ -15,7 +15,7 @@ weapons: [
    top: false
    mirror: true
    x: 3
-   y: 2.50
+   y: 2
    shots: 2
    recoil: 2
    reload: 14
