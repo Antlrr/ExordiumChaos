@@ -38,4 +38,4 @@ outputItem: everything/1
 craftTime: 600
 craftEffect: melting 
 category: crafting
-drawer: drawMixer
+drawer: drawSmelter
