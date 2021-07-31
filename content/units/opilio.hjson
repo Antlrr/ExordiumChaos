@@ -1,0 +1,43 @@
+type: legs
+name: Opilio
+hovering: true
+groundLayer: 75
+visualElevation: 0.7
+health: 300
+armor: 55
+speed: 1.30
+rotateSpeed: 1.8
+buildSpeed: 6.1
+mineSpeed: 10.8
+mineTier: 6
+legCount: 6
+legLength: 10
+legBaseOffset: 20
+legExtension: -10
+legSpeed: 0.1
+legSplashRange: 10
+rippleScale: 2
+maxStretch: 1
+allowLegStep: true
+lightRadius: 30
+lightColor: ffffff
+weapons: [
+  {
+    name: serinus-weapon
+    top: true
+    x: 0
+    y: 0
+    reload: 10
+    recoil: 2
+    shootSound: laser
+    bullet: {
+      type: laserBulletType
+      damage: 38
+      lifetime: 9
+      length: 200
+      width: 10
+      collidesTeam: false
+      healPercent: 30
+    }
+  }
+]
