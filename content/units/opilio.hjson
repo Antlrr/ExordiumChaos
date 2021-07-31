@@ -17,7 +17,7 @@ legExtension: 0
 legSpeed: 0.1
 legSplashRange: 1
 rippleScale: 2
-maxStretch: 1
+maxStretch: 0.20
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
