@@ -41,7 +41,7 @@ weapons: [
    type: laserBulletType
    collidesTeam: false
    damage: 48
-   lifetime: 3
+   lifetime: 11
    speed: 4.20
     }
   }
