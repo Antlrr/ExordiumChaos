@@ -23,7 +23,7 @@ weapons: [
    type: basicBulletType
    collidesTeam: false
    damage: 59
-   lifetime: 48.20
+   lifetime: 35.50
    speed: 5.30
     }
  }
@@ -42,6 +42,7 @@ weapons: [
    collidesTeam: false
    damage: 48
    lifetime: 11
+   length: 200
    speed: 4.20
     }
   }
