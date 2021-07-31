@@ -1,7 +1,7 @@
 type: naval
 name: Splash
 flying: false
-health: 430
+health: 650
 speed: 1.50
 accel: 2
 drag: 0.01
@@ -22,9 +22,9 @@ weapons: [
    bullet: {
    type: basicBulletType
    collidesTeam: false
-   damage: 35
+   damage: 65
    lifetime: 30.50
-   speed: 4.80
+   speed: 5.80
     }
   }
 ]
