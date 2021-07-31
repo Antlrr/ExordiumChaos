@@ -1,8 +1,8 @@
 type: flying
 name: Spix
 flying: true
-health: 300
-speed: 3
+health: 500
+speed: 4
 accel: 2
 drag: 0.01
 controller: attackAI
@@ -21,9 +21,9 @@ weapons: [
    bullet: {
    type: basicBulletType
    collidesTeam: false
-   damage: 25
-   lifetime: 15
-   speed: 4
+   damage: 65
+   lifetime: 25
+   speed: 7
     }
   }
 ]
