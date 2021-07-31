@@ -42,7 +42,7 @@ weapons: [
    collidesTeam: false
    damage: 48
    lifetime: 11
-   length: 200
+   length: 130
    speed: 4.20
     }
   }
