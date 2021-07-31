@@ -32,7 +32,7 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 3
+   x: 5
    y: 0
    shots: 2
    recoil: 1
@@ -41,7 +41,7 @@ weapons: [
    type: laserBulletType
    collidesTeam: false
    damage: 48
-   lifetime: 1
+   lifetime: 1.90
    speed: 4.20
     }
   }
