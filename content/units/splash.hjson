@@ -20,7 +20,7 @@ weapons: [
    recoil: 1
    reload: 15
    bullet: {
-   type: hailBulletType
+   type: basicBulletType
    collidesTeam: false
    damage: 35
    lifetime: 30.50
