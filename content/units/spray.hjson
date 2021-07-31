@@ -1,8 +1,8 @@
 type: naval
 name: Spray
 flying: false
-health: 650
-speed: 1.30
+health: 750
+speed: 2.30
 accel: 2
 drag: 0.01
 controller: attackAI
@@ -22,8 +22,8 @@ weapons: [
    bullet: {
    type: basicBulletType
    collidesTeam: false
-   damage: 59
-   lifetime: 35.50
+   damage: 70
+   lifetime: 60.50
    speed: 5.30
     }
  }
@@ -40,7 +40,7 @@ weapons: [
    bullet: {
    type: laserBulletType
    collidesTeam: false
-   damage: 48
+   damage: 60
    lifetime: 11
    length: 130
    speed: 4.20
