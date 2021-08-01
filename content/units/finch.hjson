@@ -3,7 +3,7 @@ name: Finch
 flying: true
 health: 100
 speed: 0.80
-accel: 1
+accel: 2
 drag: 0.01
 controller: attackAI
 lightRadius: 30
