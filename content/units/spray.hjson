@@ -36,6 +36,7 @@ weapons: [
    x: 5
    y: 3
    shots: 2
+   shootSound: laser
    recoil: 1
    reload: 13.50
    bullet: {
