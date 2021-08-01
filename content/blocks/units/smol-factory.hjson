@@ -1,0 +1,33 @@
+type: UnitFactory
+size: 2
+consumes: {
+  power: 1
+}
+plans: [
+  {
+    unit: microscale
+    time: 100
+    requirements: [
+      silicon/25
+    ]
+  }
+  {
+    unit: finch
+    time: 100
+    requirements: [
+      silicon/15
+    ]
+  }
+  {
+    unit: guppy
+    time: 100
+    requirements: [
+      silicon/15
+    ]
+  }
+]
+requirements: [
+  silicon/45
+]
+research: ground-factory
+category: units
