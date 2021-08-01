@@ -1,6 +1,6 @@
 type: flying
 name: Finch
-floating: true
+flying: true
 health: 100
 speed: 0.80
 accel: 1
@@ -22,7 +22,7 @@ weapons: [
    type: basicBulletType
    collidesTeam: false
    damage: 20
-   lifetime: 30
+   lifetime: 10
    speed: 2
     }
   }
