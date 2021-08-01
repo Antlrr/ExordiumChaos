@@ -1,0 +1,28 @@
+type: mech
+name: Microscale
+health: 100
+speed: 2
+accel: 1
+drag: 0.01
+controller: attackAI
+lightRadius: 30
+lightColor: 8cc7f5
+weapons: [
+   {
+   name: microscale-weapon
+   top: false
+   mirror: true
+   x: 2
+   y: 1
+   shots: 1
+   recoil: 2
+   reload: 13
+   bullet: {
+   type: basicBulletType
+   collidesTeam: false
+   damage: 20
+   lifetime: 10
+   speed: 2
+    }
+  }
+]
