@@ -16,6 +16,7 @@ weapons: [
    mirror: true
    x: 4
    y: 0
+   shootSound: laser
    shots: 3
    recoil: 2
    reload: 12
