@@ -1,0 +1,28 @@
+type: flying
+name: Finch
+health: 100
+speed: 0.80
+accel: 1
+drag: 0.01
+controller: attackAI
+lightRadius: 30
+lightColor: 8cc7f5
+weapons: [
+   {
+   name: finch-weapon
+   top: true
+   mirror: false
+   x: 0
+   y: 0
+   shots: 1
+   recoil: 1
+   reload: 13
+   bullet: {
+   type: basicBulletType
+   collidesTeam: false
+   damage: 20
+   lifetime: 30
+   speed: 2
+    }
+  }
+]
