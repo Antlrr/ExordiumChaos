@@ -1,6 +1,7 @@
 type: flying
 name: Finch
 flying: true
+lowAltitude: true
 health: 100
 speed: 0.80
 accel: 2
