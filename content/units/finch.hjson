@@ -1,6 +1,6 @@
 type: flying
-flying: true
 name: Finch
+flying: true
 health: 100
 speed: 0.80
 accel: 1
@@ -10,7 +10,7 @@ lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
-   name: finch-weapon
+   name: finch-mount
    top: true
    mirror: false
    x: 0
