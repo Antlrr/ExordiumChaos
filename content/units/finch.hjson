@@ -22,7 +22,7 @@ weapons: [
    type: basicBulletType
    collidesTeam: false
    damage: 20
-   lifetime: 10
+   lifetime: 30
    speed: 2
     }
   }
