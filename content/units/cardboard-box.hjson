@@ -2,6 +2,7 @@ type: mech
 description: can somehow move
 name: Box
 health: 1000
+armor: 50
 commandLimit: 0
 itemCapacity: 100
 speed: 0.10
