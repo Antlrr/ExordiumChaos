@@ -28,12 +28,12 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 5
+   x: 6
    y: 0
    shots: 1
    shootSound: laser
    recoil: 1
-   reload: 10
+   reload: 20
    bullet: {
    type: laserBulletType
    collidesTeam: false
@@ -48,12 +48,12 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 2
-   y: 1
+   x: 3
+   y: 2
    shots: 2
    shootSound: laser
    recoil: 1
-   reload: 15
+   reload: 25.20
    bullet: {
    type: laserBulletType
    collidesTeam: false
