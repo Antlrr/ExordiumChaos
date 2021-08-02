@@ -22,11 +22,11 @@ weapons: [
    reload: 13
    bullet: {
    type: laserBoltBulletType
-   healPercent: 10
+   healPercent: 2.50
    collidesTeam: true
    damage: 20
    lifetime: 30
-   speed: 2
+   speed: 3.50
     }
   }
 ]
