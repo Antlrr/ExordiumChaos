@@ -23,7 +23,8 @@ lightRadius: 30
 lightColor: ffffff
 weapons: [
   }
-  {
+ }
+ {
     name: spix-weapon
     top: true
     x: 2
