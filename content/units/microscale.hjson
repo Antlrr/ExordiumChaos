@@ -21,8 +21,8 @@ weapons: [
    bullet: {
    type: basicBulletType
    collidesTeam: false
-   damage: 20
-   lifetime: 30
+   damage: 13
+   lifetime: 40
    speed: 2
     }
   }
