@@ -1,0 +1,10 @@
+type: mech
+name: Box
+health: 1000
+commandLimit: 0
+speed: 0.10
+accel: 0.5
+drag: 0.01
+controller: defenderAI
+lightRadius: 30
+lightColor: ffffff
