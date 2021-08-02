@@ -1,26 +1,25 @@
 type: GenericCrafter
 name: Copper Modifier
-description: Uses mysterious forces to turn Copper into Silicon
+description: Uses mysterious forces to turn Copper into Cardboard
 health: 580
 size: 2
 hasItems: true
 hasPower: true
 itemCapacity: 5
 requirements: [
-  silicon/10
-  copper/5
-  everything/1
+  silicon/25
+  copper/24
 ]
 consumes: {
-  power: 16
+  power: 12
   items: {
     items: [
-      copper/5
+      copper/2
     ]
   }
 }
-outputItem: silicon/1
-craftTime: 9
+outputItem: cardboard/1
+craftTime: 2
 craftEffect: melting 
 category: crafting
 drawer: drawSmelter
