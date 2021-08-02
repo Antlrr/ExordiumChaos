@@ -1,4 +1,5 @@
 type: mech
+description: can somehow move
 name: Box
 health: 1000
 commandLimit: 0
