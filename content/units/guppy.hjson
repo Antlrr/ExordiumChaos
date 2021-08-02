@@ -1,6 +1,7 @@
 type: naval
 name: Guppy
 flying: false
+commandLimit: 3
 health: 100
 speed: 0.80
 accel: 2
