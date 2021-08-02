@@ -21,7 +21,7 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-   type: missleBulletType
+   type: MissleBulletType
    collidesTeam: false
    damage: 25
    lifetime: 40
