@@ -1,6 +1,7 @@
 type: legs
 name: Opilio
 hovering: true
+armor: 30.50
 groundLayer: 75
 visualElevation: 0.7
 health: 300
