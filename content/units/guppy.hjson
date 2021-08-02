@@ -20,10 +20,10 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-   type: basicBulletType
+   type: missleBulletType
    collidesTeam: false
-   damage: 20
-   lifetime: 30
+   damage: 25
+   lifetime: 40
    speed: 2
     }
   }
