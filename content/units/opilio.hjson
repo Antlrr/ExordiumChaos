@@ -32,7 +32,7 @@ weapons: [
    shots: 1
    shootSound: laser
    recoil: 1
-   reload: 1
+   reload: 10
    bullet: {
    type: laserBulletType
    collidesTeam: false
@@ -52,7 +52,7 @@ weapons: [
    shots: 2
    shootSound: laser
    recoil: 1
-   reload: 1
+   reload: 15
    bullet: {
    type: laserBulletType
    collidesTeam: false
