@@ -3,6 +3,7 @@ description: can somehow move
 name: Box
 health: 1000
 commandLimit: 0
+itemCapacity: 100
 speed: 0.10
 accel: 0.5
 drag: 0.01
