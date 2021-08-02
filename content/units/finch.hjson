@@ -7,7 +7,7 @@ health: 100
 speed: 0.80
 accel: 2
 drag: 0.01
-controller: attackAI
+controller: repairAI
 lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
@@ -21,7 +21,8 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-   type: basicBulletType
+   type: laserBoltBulletType
+   healPercent: 10
    collidesTeam: false
    damage: 20
    lifetime: 30
