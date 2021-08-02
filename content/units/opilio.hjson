@@ -11,7 +11,7 @@ buildSpeed: 6.1
 mineSpeed: 10.8
 mineTier: 6
 legCount: 4
-legLength: 15
+legLength: 10
 legBaseOffset: 2
 legExtension: 0.30
 legSpeed: 2
