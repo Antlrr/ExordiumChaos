@@ -23,8 +23,8 @@ weapons: [
    bullet: {
    type: MissleBulletType
    collidesTeam: false
-   damage: 25
-   lifetime: 40
+   damage: 18
+   lifetime: 40.30
    speed: 2
     }
   }
