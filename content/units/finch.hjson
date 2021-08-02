@@ -22,7 +22,7 @@ weapons: [
    reload: 13
    bullet: {
    type: laserBoltBulletType
-   healPercent: 2.5
+   healPercent: 1.08
    pierce: true
    collidesTeam: true
    damage: 20
