@@ -1,0 +1,43 @@
+type: legs
+name: Limulid
+hovering: true
+groundLayer: 75
+visualElevation: 0.2
+health: 300
+armor: 60.40
+speed: 0.60
+rotateSpeed: 1.05
+mineSpeed: 5
+mineTier: 3
+legCount: 3
+legLength: 10.20
+legBaseOffset: 2
+legExtension: 0.20
+legSpeed: 1.50
+legSplashRange: 0
+rippleScale: 2
+maxStretch: 0.60
+allowLegStep: false
+lightRadius: 30
+lightColor: ffffff
+weapons: [
+  {
+    name: spix-weapon
+    top: true
+    x: 3
+    y: 0
+    reload: 10
+    rotate: true
+    mirror: true
+    recoil: 1
+    shootSound: laser
+    bullet: {
+      type: laserBulletType
+      damage: 26
+      lifetime: 9
+      length: 150
+      width: 5
+      collidesTeam: false
+    }
+  }
+]
