@@ -10,13 +10,13 @@ rotateSpeed: 1.05
 mineSpeed: 5
 mineTier: 3
 legCount: 4
-legLength: 10.20
-legBaseOffset: 2
+legLength: 8.20
+legBaseOffset: 1
 legExtension: 0.20
 legSpeed: 1.50
 legSplashRange: 0
 rippleScale: 2
-maxStretch: 0.60
+maxStretch: 0.30
 allowLegStep: false
 lightRadius: 30
 lightColor: ffffff
