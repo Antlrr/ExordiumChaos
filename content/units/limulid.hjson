@@ -9,7 +9,7 @@ speed: 0.60
 rotateSpeed: 1.05
 mineSpeed: 5
 mineTier: 3
-legCount: 3
+legCount: 2
 legLength: 10.20
 legBaseOffset: 2
 legExtension: 0.20
