@@ -1,7 +1,7 @@
 type: flying
 name: Finch
 flying: true
-commandLimit: 2
+commandLimit: 3
 lowAltitude: true
 health: 100
 speed: 0.80
