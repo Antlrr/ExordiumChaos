@@ -11,10 +11,10 @@ buildSpeed: 6.1
 mineSpeed: 10.8
 mineTier: 6
 legCount: 4
-legLength: 10
+legLength: 12
 legBaseOffset: 2
 legExtension: 0.30
-legSpeed: 2
+legSpeed: 1.50
 legSplashRange: 0.01
 rippleScale: 2
 maxStretch: 1
