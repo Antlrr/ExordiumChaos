@@ -9,21 +9,21 @@ plans: [
     unit: microscale
     time: 100
     requirements: [
-      silicon/25
+      silicon/20
     ]
   }
   {
     unit: finch
     time: 100
     requirements: [
-      silicon/15
+      silicon/25
     ]
   }
   {
     unit: guppy
     time: 100
     requirements: [
-      silicon/15
+      silicon/30
     ]
   }
 ]
