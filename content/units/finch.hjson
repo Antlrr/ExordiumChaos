@@ -4,7 +4,7 @@ flying: true
 commandLimit: 3
 lowAltitude: true
 health: 100
-speed: 3.80
+speed: 2.80
 accel: 2
 drag: 0.01
 controller: repairAI
