@@ -4,7 +4,7 @@ hovering: true
 groundLayer: 75
 visualElevation: 0.7
 health: 300
-armor: 55
+armor: 60.40
 speed: 0.60
 rotateSpeed: 1.8
 buildSpeed: 6.1
