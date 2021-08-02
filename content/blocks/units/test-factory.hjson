@@ -24,7 +24,7 @@ plans: [
     ]
   }
   {
-    unit: opilio
+    unit: limulid
     time: 1200
     requirements: [
       silicon/25
