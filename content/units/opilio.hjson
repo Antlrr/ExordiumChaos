@@ -22,11 +22,12 @@ allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
 weapons: [
+  }
   {
-    name: serinus-weapon
+    name: spix-weapon
     top: true
-    x: 4
-    y: 0
+    x: 2
+    y: 0.50
     reload: 10
     rotate: true
     mirror: true
@@ -34,12 +35,12 @@ weapons: [
     shootSound: laser
     bullet: {
       type: laserBulletType
-      damage: 38
-      lifetime: 9
-      length: 200
-      width: 10
+      damage: 37
+      lifetime: 9.30
+      length: 250
+      width: 12
       collidesTeam: false
-      healPercent: 30
+      healPercent: 10
     }
   }
 ]
