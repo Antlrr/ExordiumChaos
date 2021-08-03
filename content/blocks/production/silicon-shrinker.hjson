@@ -19,6 +19,6 @@ consumes: {
   }
 }
 outputItem: smolicon/2
-craftTime: 2
+craftTime: 10
 category: crafting
 drawer: drawSmelter
