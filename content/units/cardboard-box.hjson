@@ -38,7 +38,6 @@ weapons: [
      show: true
      speedMultiplier: 0
      reloadMultiplier: 0
-     effect: boxed
   }
     }
   }
