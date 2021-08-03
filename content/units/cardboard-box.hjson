@@ -11,6 +11,23 @@ drag: 0.01
 controller: suicideAI
 lightRadius: 30
 lightColor: ffffff
+weapons: [
+  {
+  name: cardboard-box
+  reload: 0
+  x: 0
+  y: 0
+  hitEffect: pulverize
+  shootSound: explosion
+  splashDamageRadius: 60
+  instantDisappear: true
+  splashDamage: 90
+  killShooter: true
+  hittable: false
+  collidesAir: true
+    }
+  }
+]
 status: {
    name: boxed
    localizedName: Boxed
