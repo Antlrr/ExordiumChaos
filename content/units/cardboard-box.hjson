@@ -5,9 +5,18 @@ health: 1000
 armor: 50
 commandLimit: 0
 itemCapacity: 100
-speed: 0.10
+speed: 1.20
 accel: 0.5
 drag: 0.01
 controller: defenderAI
 lightRadius: 30
 lightColor: ffffff
+status: {
+   name: boxed
+   localizedName: Boxed
+   damage: 10
+   show: true
+   speedMultiplier: 0
+   reloadMultiplier: 0
+   effectChance: 1
+   }
