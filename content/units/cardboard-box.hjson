@@ -26,7 +26,6 @@ weapons: [
   hittable: false
   collidesAir: true
     }
-  }
 ]
 status: {
    name: boxed
