@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Silicon Shrinker
+description: Splits silicon into smaller versions
+health: 240
+size: 1
+hasItems: true
+hasPower: true
+itemCapacity: 3
+requirements: [
+  silicon/10
+  graphite/5
+]
+consumes: {
+  power: 9
+  items: {
+    items: [
+      silicon/1
+    ]
+  }
+}
+outputItem: smolicon/2
+craftTime: 2
+category: crafting
+drawer: drawSmelter
