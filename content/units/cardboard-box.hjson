@@ -43,12 +43,3 @@ weapons: [
     }
   }
 ]
-status: {
-   name: boxed
-   localizedName: Boxed
-   damage: 10
-   show: true
-   speedMultiplier: 0
-   reloadMultiplier: 0
-   effectChance: 1
-   }
