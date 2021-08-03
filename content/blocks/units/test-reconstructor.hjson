@@ -1,6 +1,6 @@
 type: Reconstructor
 size: 3
-name: Advancer
+name: Amalgamate Advancer
 constructTime: 450
 consumes: {
   power: 6
