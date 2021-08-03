@@ -11,7 +11,7 @@ requirements: [
   graphite/5
 ]
 consumes: {
-  power: 9
+  power: 6
   items: {
     items: [
       silicon/1
