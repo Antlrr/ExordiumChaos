@@ -17,13 +17,13 @@ weapons: [
   reload: 0
   x: 0
   y: 0
-  hitEffect: pulverize
-  splashDamageRadius: 60
-  instantDisappear: true
-  killShooter: true
-  hittable: false
   bullet: {
    type: BombBulletType
+   hitEffect: pulverize
+   splashDamageRadius: 60
+   instantDisappear: true
+   killShooter: true
+   hittable: false
    splashDamage: 90
    splashDamageRadius: 60
    shootSound: explosion
