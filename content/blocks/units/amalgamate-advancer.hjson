@@ -1,6 +1,7 @@
 type: Reconstructor
 size: 3
 name: Amalgamate Advancer
+description: advances the Amalgamations
 constructTime: 450
 consumes: {
   power: 6
