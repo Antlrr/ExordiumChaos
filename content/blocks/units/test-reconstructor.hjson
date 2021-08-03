@@ -1,5 +1,6 @@
 type: Reconstructor
 size: 3
+name: Assembler
 constructTime: 450
 consumes: {
   power: 6
