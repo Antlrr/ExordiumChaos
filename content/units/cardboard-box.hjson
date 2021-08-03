@@ -14,7 +14,7 @@ lightColor: ffffff
 weapons: [
   {
   name: cardboard-box
-  reload: 0
+  reload: 0.4
   x: 0
   y: 0
   bullet: {
