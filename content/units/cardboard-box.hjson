@@ -39,7 +39,7 @@ weapons: [
    damage: 12
    collidesAir: true
    lifetime: 1
-   speed: 0
+   speed: 2
     }
   }
 ]
