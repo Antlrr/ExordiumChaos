@@ -39,12 +39,6 @@ weapons: [
    collidesAir: true
    lifetime: 10
    speed: 1
-   status: {
-      name: boxed
-      show: true
-      speedMultiplier: 0
-      reloadMultiplier: 0
-   }
     }
   }
 ]
