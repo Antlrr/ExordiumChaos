@@ -20,13 +20,11 @@ weapons: [
   x: 0
   y: 0
   shootSound: explosion
-  shootStatus: {
+  status: {
      name: boxed
-     damage: 10
-     show: true
      speedMultiplier: 0
      reloadMultiplier: 0
-     }
+  }
   shootStatusDuration: 150
   bullet: {
    type: BombBulletType
