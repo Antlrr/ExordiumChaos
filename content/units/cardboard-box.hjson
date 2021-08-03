@@ -6,6 +6,7 @@ armor: 50
 commandLimit: 0
 itemCapacity: 100
 speed: 1.20
+range: 16
 accel: 0.5
 drag: 0.01
 controller: suicideAI
@@ -14,7 +15,7 @@ lightColor: ffffff
 weapons: [
   {
   name: cardboard-box
-  reload: 0.4
+  reload: 24
   shootCone: 180
   x: 0
   y: 0
