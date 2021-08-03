@@ -21,6 +21,12 @@ weapons: [
   y: 0
   shootSound: explosion
   shootStatusDuration: 150
+  shootStatus: {
+     name: boxed
+     show: true
+     speedMultiplier: 0
+     reloadMultiplier: 0
+  }
   bullet: {
    type: BombBulletType
    hitEffect: pulverize
@@ -35,6 +41,7 @@ weapons: [
    speed: 1
    status: {
       name: boxed
+      show: true
       speedMultiplier: 0
       reloadMultiplier: 0
    }
