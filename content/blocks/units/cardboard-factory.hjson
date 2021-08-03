@@ -7,9 +7,9 @@ consumes: {
 plans: [
   {
     unit: cardboard-box
-    time: 1005
+    time: 1300
     requirements: [
-      cardboard/20
+      cardboard/75
     ]
    }
   ]
