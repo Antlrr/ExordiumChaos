@@ -24,7 +24,7 @@ weapons: [
    type: MissleBulletType
    collidesTeam: false
    damage: 18
-   lifetime: 40.30
+   lifetime: 60.20
    speed: 2
     }
   }
