@@ -18,13 +18,20 @@ weapons: [
   x: 0
   y: 0
   hitEffect: pulverize
-  shootSound: explosion
   splashDamageRadius: 60
   instantDisappear: true
-  splashDamage: 90
   killShooter: true
   hittable: false
-  collidesAir: true
+  bullet: {
+   type: bombBulletType
+   splashDamage: 90
+   splashDamageRadius: 60
+   shootSound: explosion
+   collidesTeam: false
+   damage: 12
+   collidesAir: true
+   lifetime: 1
+   speed: 0
     }
 ]
 status: {
