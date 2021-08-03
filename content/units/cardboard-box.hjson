@@ -23,7 +23,7 @@ weapons: [
   killShooter: true
   hittable: false
   bullet: {
-   type: bombBulletType
+   type: BombBulletType
    splashDamage: 90
    splashDamageRadius: 60
    shootSound: explosion
