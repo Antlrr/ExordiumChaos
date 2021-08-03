@@ -19,7 +19,7 @@ consumes: {
   }
 }
 outputItem: cardboard/1
-craftTime: 2
+craftTime: 15
 craftEffect: melting 
 category: crafting
 drawer: drawSmelter
