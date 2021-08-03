@@ -17,6 +17,14 @@ weapons: [
   reload: 0.4
   x: 0
   y: 0
+  shootStatus: {
+     name: boxed
+     damage: 10
+     show: true
+     speedMultiplier: 0
+     reloadMultiplier: 0
+     }
+  shootStatusDuration: 150
   bullet: {
    type: BombBulletType
    hitEffect: pulverize
