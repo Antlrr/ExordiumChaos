@@ -15,8 +15,10 @@ weapons: [
   {
   name: cardboard-box
   reload: 0.4
+  shootCone: 180
   x: 0
   y: 0
+  shootSound: explosion
   shootStatus: {
      name: boxed
      damage: 10
@@ -33,13 +35,10 @@ weapons: [
    killShooter: true
    hittable: false
    splashDamage: 90
-   splashDamageRadius: 60
-   shootSound: explosion
-   collidesTeam: false
    damage: 12
    collidesAir: true
-   lifetime: 1
-   speed: 2
+   lifetime: 10
+   speed: 1
     }
   }
 ]
