@@ -1,6 +1,6 @@
 type: Reconstructor
 size: 3
-name: Assembler
+name: Advancer
 constructTime: 450
 consumes: {
   power: 6
