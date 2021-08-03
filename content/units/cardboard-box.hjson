@@ -33,6 +33,7 @@ weapons: [
    lifetime: 1
    speed: 0
     }
+  }
 ]
 status: {
    name: boxed
