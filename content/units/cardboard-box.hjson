@@ -14,7 +14,7 @@ lightRadius: 30
 lightColor: ffffff
 weapons: [
   {
-  name: cardboard-box
+  name: cardboard-box-base
   reload: 24
   shootCone: 180
   x: 0
