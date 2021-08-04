@@ -33,6 +33,10 @@ weapons: [
         speed: 1
         status: {
         name: boxed2
+        show: false
+        speedMultiplier: 0
+        dragMultiplier: 1
+        disarm: true
         }
      }
   }
