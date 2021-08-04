@@ -19,6 +19,7 @@ weapons: [
      shootCone: 180
      x: 0
      y: 0
+     rotate: true
      shootSound: explosion
      shootStatusDuration: 150
      bullet: {
