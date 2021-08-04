@@ -24,11 +24,9 @@ weapons: [
   bullet: {
    type: basicBulletType
    hitEffect: pulverize
-   splashDamageRadius: 60
    instantDisappear: false
    killShooter: true
    hittable: true
-   splashDamage: 90
    damage: 12
    collidesAir: true
    lifetime: 10
