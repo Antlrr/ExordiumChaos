@@ -31,8 +31,6 @@ weapons: [
         collidesAir: true
         lifetime: 10
         speed: 1
-        status: {
-           name: burning
-        }
+        status: [burning]
   }
 ]
