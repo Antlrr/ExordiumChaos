@@ -2,8 +2,8 @@ type: flying
 name: Spix
 flying: true
 health: 500
-speed: 4
-accel: 2
+speed: 3
+accel: 3
 armor: 20
 drag: 0.01
 controller: attackAI
