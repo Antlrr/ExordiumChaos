@@ -22,7 +22,7 @@ weapons: [
      rotate: true
      shootSound: explosion
      shootStatusDuration: 180
-     shootStatus: pain
+     shootStatus: Pain
      bullet: {
         type: basicBulletType
         hitEffect: pulverize
