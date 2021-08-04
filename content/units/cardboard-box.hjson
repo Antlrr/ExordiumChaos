@@ -35,6 +35,7 @@ weapons: [
    speed: 1
    status: {
      name: boxed
+     localizedName: boxed
      show: true
      speedMultiplier: 0
      reloadMultiplier: 0
