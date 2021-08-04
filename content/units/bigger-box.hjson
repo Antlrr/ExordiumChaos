@@ -22,7 +22,6 @@ weapons: [
      rotate: true
      shootSound: explosion
      shootStatusDuration: 180
-     shootStatus: statuses.boxed
      bullet: {
         type: basicBulletType
         hitEffect: pulverize
@@ -34,6 +33,14 @@ weapons: [
         collidesAir: true
         lifetime: 100
         speed: 2
+        status: {
+           name: boxed2
+           localizedName: Boxed
+           show: false
+           speedMultiplier: 0
+           reloadMultiplier: 0
+           drag: 0
+        }
      }
   }
 ]
