@@ -33,7 +33,6 @@ weapons: [
    speed: 1
    status: {
      name: boxed
-     effect: boxed
   }
     }
   }
