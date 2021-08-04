@@ -33,7 +33,14 @@ weapons: [
    collidesAir: true
    lifetime: 10
    speed: 1
-   status: statuses.Boxed
+   status: {
+      name: boxed
+      localizedName: Boxed
+      show: true
+      speedMultiplier: 0
+      reloadMultiplier: 0
+      drag: 0
+   }
     }
   }
 ]
