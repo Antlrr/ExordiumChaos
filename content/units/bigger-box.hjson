@@ -27,10 +27,10 @@ weapons: [
         instantDisappear: false
         killShooter: true
         hittable: true
-        damage: 12
+        damage: 120
         collidesAir: true
-        lifetime: 1500
-        speed: 1
+        lifetime: 100
+        speed: 2
         status: {
         name: boxed2
         show: false
