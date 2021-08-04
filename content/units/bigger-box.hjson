@@ -29,7 +29,7 @@ weapons: [
         hittable: true
         damage: 12
         collidesAir: true
-        lifetime: 10
+        lifetime: 1500
         speed: 1
         status: {
         name: boxed2
