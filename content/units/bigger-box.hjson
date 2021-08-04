@@ -28,6 +28,7 @@ weapons: [
         instantDisappear: false
         killShooter: true
         hittable: true
+        homing: true
         damage: 120
         collidesAir: true
         lifetime: 100
