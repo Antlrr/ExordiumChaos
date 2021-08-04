@@ -35,7 +35,6 @@ weapons: [
         statusDuration: 180
         status: {
            name: boxed2
-           localizedName: boxed
            show: true
            speedMultiplier: 0
            dragMultiplier: 0
