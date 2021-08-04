@@ -1,8 +1,8 @@
 //boxed status effect
 
-const uhoh = extend(StatusEffect, "uhoh", {
-   localizedName: "UhOh",
+const boxed = extend(StatusEffect, "boxed", {
+   localizedName: "Bpxed",
    speedMultiplier: 0,
-   dragMultiplier: 0,
-   disarm: true
+   reloadMultiplier: 0,
+   drag: 0
 })
