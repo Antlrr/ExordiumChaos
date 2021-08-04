@@ -14,26 +14,24 @@ lightRadius: 30
 lightColor: ffffff
 weapons: [
   {
-  name: box-weapon
-  reload: 24
-  shootCone: 180
-  x: 0
-  y: 0
-  shootSound: explosion
-  shootStatusDuration: 150
-  bullet: {
-   type: basicBulletType
-   hitEffect: pulverize
-   instantDisappear: false
-   killShooter: true
-   hittable: true
-   damage: 12
-   collidesAir: true
-   lifetime: 10
-   speed: 1
-   status: {
-     name: boxed
-  }
-    }
+     name: box-weapon
+     reload: 24
+     shootCone: 180
+     x: 0
+     y: 0
+     shootSound: explosion
+     shootStatusDuration: 150
+     bullet: {
+        type: basicBulletType
+        hitEffect: pulverize
+        instantDisappear: false
+        killShooter: true
+        hittable: true
+        damage: 12
+        collidesAir: true
+        lifetime: 10
+        speed: 1
+        status: boxed
+     }
   }
 ]
