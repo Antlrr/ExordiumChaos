@@ -1,0 +1,44 @@
+type: mech
+description: has a weapon too strong that it destroys itself when shot
+name: Big Box
+health: 1500
+armor: 53
+commandLimit: 0
+itemCapacity: 120
+speed: 1.20
+range: 16
+accel: 0.5
+drag: 0.01
+controller: suicideAI
+lightRadius: 30
+lightColor: ffffff
+weapons: [
+  {
+  name: box-weapon
+  reload: 24
+  shootCone: 180
+  x: 0
+  y: 0
+  shootSound: explosion
+  shootStatusDuration: 150
+  bullet: {
+   type: basicBulletType
+   hitEffect: pulverize
+   splashDamageRadius: 60
+   instantDisappear: false
+   killShooter: true
+   hittable: true
+   splashDamage: 90
+   damage: 12
+   collidesAir: true
+   lifetime: 10
+   speed: 1
+   status: {
+     name: boxed
+     show: true
+     speedMultiplier: 0
+     reloadMultiplier: 0
+  }
+    }
+  }
+]
