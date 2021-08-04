@@ -14,7 +14,7 @@ weapons: [
    name: spix-weapon
    top: false
    mirror: true
-   x: 3
+   x: 4
    y: 2
    shots: 2
    recoil: 2
