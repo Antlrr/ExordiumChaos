@@ -37,7 +37,8 @@ weapons: [
    bullet: {
    type: laserBulletType
    collidesTeam: false
-
+   colors: [5fc79f, 7afadc, ffffff]
+   lightColor: 7afadc
    damage: 80.20
    lifetime: 9
    length:200
