@@ -32,6 +32,10 @@ weapons: [
         collidesAir: true
         lifetime: 100
         speed: 2
+        sprite: boxbullet
+        spin: 2
+        frontColor: c9a58f
+        backColor: b28768
         statusDuration: 180
         status: {
            name: unstable
