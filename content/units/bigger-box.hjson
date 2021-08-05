@@ -21,7 +21,6 @@ weapons: [
      y: 0
      rotate: true
      shootSound: explosion
-     shootStatusDuration: 180
      bullet: {
         type: basicBulletType
         hitEffect: pulverize
@@ -33,6 +32,15 @@ weapons: [
         collidesAir: true
         lifetime: 100
         speed: 2
+        statusDuration: 180
+        status: {
+           name: unstable
+           localizedName: Unstable
+           show: true
+           speedMultiplier: 0.25
+           reloadMultiplier: 0.30
+           buildSpeedMultiplier: 0.75
+        }
      }
   }
 ]
