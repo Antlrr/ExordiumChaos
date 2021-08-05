@@ -45,6 +45,16 @@ weapons: [
            speedMultiplier: 0.25
            reloadMultiplier: 0.30
            buildSpeedMultiplier: 0.75
+           effect: {
+             type: ParticleEffect
+             particles: 4
+             lifetime: 45
+             sizeFrom: 2
+             sizeTo: 1
+             region: antdustry-boxparticle
+             colorFrom: 5e7191
+             colorTo: 5e6991 5E6991FF
+          }
         }
      }
   }
