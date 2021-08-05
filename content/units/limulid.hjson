@@ -33,6 +33,8 @@ weapons: [
     shootSound: laser
     bullet: {
       type: laserBulletType
+      colors: [5fc79f, 7afadc, ffffff]
+      lightColor: 7afadc
       damage: 37.60
       lifetime: 10.30
       length: 150
