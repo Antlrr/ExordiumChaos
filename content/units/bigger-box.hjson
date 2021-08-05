@@ -33,14 +33,7 @@ weapons: [
         collidesAir: true
         lifetime: 100
         speed: 2
-        status: {
-           name: boxed2
-           localizedName: Boxed
-           show: false
-           speedMultiplier: 0
-           reloadMultiplier: 0
-           drag: 0
-        }
+        apply: statusEffect.pain
      }
   }
 ]
