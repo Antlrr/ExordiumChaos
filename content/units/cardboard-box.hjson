@@ -38,8 +38,8 @@ weapons: [
       localizedName: Boxed
       show: true
       speedMultiplier: 0
-      reloadMultiplier: 0
-      drag: 0
+      disarm: true
+      dragMultiplier: 4
    }
     }
   }
