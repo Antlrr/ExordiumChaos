@@ -14,33 +14,43 @@ lightRadius: 30
 lightColor: ffffff
 weapons: [
   {
-  name: cardboard-box-base
-  reload: 24
-  shootCone: 180
-  x: 0
-  y: 0
-  shootSound: explosion
-  shootStatusDuration: 150
-  bullet: {
-   type: BombBulletType
-   hitEffect: pulverize
-   splashDamageRadius: 60
-   instantDisappear: true
-   killShooter: true
-   hittable: false
-   splashDamage: 90
-   damage: 12
-   collidesAir: true
-   lifetime: 10
-   speed: 1
-   status: {
-      name: boxed
-      localizedName: Boxed
-      show: true
-      speedMultiplier: 0
-      disarm: true
-      dragMultiplier: 4
-   }
-    }
+     name: cardboard-box-base
+     reload: 24
+     shootCone: 180
+     x: 0
+     y: 0
+     shootSound: explosion
+     shootStatusDuration: 150
+     bullet: {
+       type: BombBulletType
+       hitEffect: pulverize
+       splashDamageRadius: 60
+       instantDisappear: true
+       killShooter: true
+       hittable: false
+       splashDamage: 90
+       damage: 12
+       collidesAir: true
+       lifetime: 10
+       speed: 1
+       status: {
+          name: boxed
+          localizedName: Boxed
+          show: true
+          speedMultiplier: 0
+          disarm: true
+          dragMultiplier: 4
+          effect: {
+             type: ParticleEffect
+             particles: 3
+             lifetime: 30
+             sizeFrom: 2
+             sizeTo: 2
+             region: antdustry-boxparticle
+             colorFrom: b28768
+             colorTo: b287687b
+          }
+       }
+     }
   }
 ]
