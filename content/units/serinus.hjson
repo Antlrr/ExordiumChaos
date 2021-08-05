@@ -11,23 +11,22 @@ lightRadius: 30
 lightColor: 7aFaDC
 weapons: [
    {
-   name: serinus-weapon
-   top: true
-   mirror: true
-   x: 4
-   y: 0
-   shootSound: laser
-   shots: 3
-   recoil: 2
-   reload: 12
-   bullet: {
-   type: laserBulletType
-   colors: [5fc79f, 7afadc, ffffff]
-   lightColor: 7afadc
-   collidesTeam: false
-   damage: 69
-   lifetime: 12
-   speed: 3.20
-    }
-  }
+      name: serinus-weapon
+      top: true
+      mirror: true
+      x: 4
+      y: 0
+      shootSound: laser
+      shots: 3
+      recoil: 2
+      reload: 12
+      bullet: {
+         type: laserBulletType
+         length: 40
+         colors: [5fc79f, 7afadc, ffffff]
+         lightColor: 7afadc
+         collidesTeam: false
+         damage: 69
+      }
+   }
 ]
