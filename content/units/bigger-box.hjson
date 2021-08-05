@@ -53,7 +53,7 @@ weapons: [
              sizeTo: 1
              region: antdustry-boxparticle
              colorFrom: 5e7191
-             colorTo: 5e6991 5E6991FF
+             colorTo: 5e6991
           }
         }
      }
