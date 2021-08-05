@@ -32,7 +32,7 @@ weapons: [
         collidesAir: true
         lifetime: 100
         speed: 2
-        sprite: boxbullet
+        sprite: antdustry-boxbullet
         spin: 2
         frontColor: c9a58f
         backColor: b28768
