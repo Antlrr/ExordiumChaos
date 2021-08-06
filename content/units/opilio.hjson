@@ -63,7 +63,7 @@ weapons: [
    lightColor: 7afadc
    damage: 65
    lifetime: 9
-   length: 250
+   length: 100
    speed: 1
     }
   }
