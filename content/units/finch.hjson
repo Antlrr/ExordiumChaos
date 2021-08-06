@@ -4,6 +4,7 @@ flying: true
 commandLimit: 3
 lowAltitude: true
 health: 100
+hitSize: 6
 speed: 2.30
 accel: 2
 drag: 0.01
