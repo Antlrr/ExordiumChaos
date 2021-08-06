@@ -25,11 +25,11 @@ lightColor: ffffff
 weapons: [
    {
    name: spix-weapon
-   rotate: false
-   top: false
+   rotate: true
+   top: true
    mirror: true
-   x: 8
-   y: -1
+   x: 4
+   y: 2
    shots: 1
    shootSound: sap
    recoil: 1
@@ -39,29 +39,29 @@ weapons: [
    collidesTeam: false
    colors: [5fc79f, 7afadc, ffffff]
    lightColor: 7afadc
-   damage: 80.20
+   damage:65.40
    lifetime: 9
    length:200
    speed: 1
     }
  }
  {
-   name: serinus-weapon
-   rotate: true
-   top: true
+   name: opilio-weapon
+   rotate: false
+   top: false
    mirror: true
-   x: 4
-   y: 2
+   x: 7.75
+   y: -0.20
    shots: 2
    shootSound: laser
    recoil: 1
-   reload: 25.20
+   reload: 14
    bullet: {
    type: laserBulletType
    collidesTeam: false
    colors: [5fc79f, 7afadc, ffffff]
    lightColor: 7afadc
-   damage: 65
+   damage: 80
    lifetime: 9
    length: 100
    speed: 1
