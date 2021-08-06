@@ -2,6 +2,7 @@ type: legs
 name: Opilio
 hovering: true
 armor: 20.30
+hitSize: 15
 groundLayer: 75
 visualElevation: 0.7
 health: 300
