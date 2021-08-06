@@ -28,14 +28,14 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 6
+   x: 7
    y: 0
    shots: 1
-   shootSound: laser
+   shootSound: sap
    recoil: 1
    reload: 20
    bullet: {
-   type: laserBulletType
+   type: sapBulletType
    collidesTeam: false
    colors: [5fc79f, 7afadc, ffffff]
    lightColor: 7afadc
@@ -50,7 +50,7 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 3
+   x: 4
    y: 2
    shots: 2
    shootSound: laser
