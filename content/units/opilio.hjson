@@ -51,7 +51,7 @@ weapons: [
    rotate: false
    top: false
    mirror: true
-   x: 7.75
+   x: 8.25
    y: -0.20
    shots: 2
    shootSound: laser
