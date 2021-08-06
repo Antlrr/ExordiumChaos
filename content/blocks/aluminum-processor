@@ -1,0 +1,35 @@
+type: Separator
+name: Aluminum Processor
+description: Processes bauxite into aluminum leaving traces of lead and thorium residue.
+health: 160
+size: 2
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 15
+requirements: [
+   copper: 30
+   lead: 30
+   graphite: 50
+   titanium: 60
+]
+consumes: {
+   power: 3
+   items: {
+      items: [
+         bauxite/5
+         pyratite/3
+      ]
+   }
+   liquids: {
+      liquid: water/15
+   }
+}
+results: [
+   aluminum/4
+   lead/2
+   thorium/1
+]
+craftTime: 900
+craftEffect: pulverizeMedium
+category: crafting
