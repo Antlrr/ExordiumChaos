@@ -3,6 +3,7 @@ description: can somehow move
 name: Box
 health: 1000
 armor: 50
+hitSisze: 7
 commandLimit: 0
 itemCapacity: 100
 speed: 1.20
