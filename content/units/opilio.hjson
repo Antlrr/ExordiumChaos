@@ -50,12 +50,12 @@ weapons: [
    rotate: false
    top: false
    mirror: true
-   x: 8
-   y: 2
+   x: 7.75
+   y: -0.20
    shots: 2
    shootSound: laser
    recoil: 1
-   reload: 25.20
+   reload: 20
    bullet: {
    type: laserBulletType
    collidesTeam: false
