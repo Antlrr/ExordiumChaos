@@ -1,7 +1,7 @@
 type: legs
 name: Opilio
 hovering: true
-armor: 30.50
+armor: 20.30
 groundLayer: 75
 visualElevation: 0.7
 health: 300
@@ -25,11 +25,11 @@ lightColor: ffffff
 weapons: [
    {
    name: spix-weapon
-   rotate: true
-   top: true
+   rotate: false
+   top: false
    mirror: true
-   x: 7
-   y: 0
+   x: 8
+   y: -1
    shots: 1
    shootSound: sap
    recoil: 1
