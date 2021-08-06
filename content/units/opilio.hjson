@@ -34,7 +34,7 @@ weapons: [
    shots: 1
    shootSound: sap
    recoil: 1
-   reload: 20
+   reload: 12.30
    bullet: {
    type: sapBulletType
    collidesTeam: false
@@ -56,7 +56,7 @@ weapons: [
    shots: 2
    shootSound: laser
    recoil: 1
-   reload: 14
+   reload: 20
    bullet: {
    type: laserBulletType
    collidesTeam: false
