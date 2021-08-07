@@ -11,6 +11,7 @@ drag: 0.1
 commandLimit: 4
 itemcapacity: 30
 controller: flyingAI
+faceTarget: true
 lightRadius: 30
 lightColor: 8cc7f5
 abilities: [
@@ -19,9 +20,9 @@ abilities: [
       damage: 75
       reload: 165
       range: 80
-      shootSound: plasmaDrop
+      shootSound: bigshot
       color: bf92f9
-      healPercent: 0
+      healPercent: 0.015
       status: sapped
    }
 ]
