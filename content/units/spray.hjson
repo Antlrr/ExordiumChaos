@@ -52,12 +52,3 @@ weapons: [
     }
   }
 ]
-abilities: [
-  {
-    type: UnitSpawnAbility
-    unit: guppy
-    spawnX: 0
-    spawnY: 0
-    spawnTime: 1050
-  }
-]
