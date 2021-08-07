@@ -15,7 +15,7 @@ lightRadius: 30
 lightColor: 8cc7f5
 abilities: [
    {
-      type: schaus-ouline
+      type: EnergyFieldAbility
       damage: 75
       reload: 165
       range: 80
