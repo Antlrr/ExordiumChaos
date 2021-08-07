@@ -2,6 +2,7 @@ type: legs
 name: Opilio
 hovering: true
 armor: 20.30
+hitSize: 15
 groundLayer: 75
 visualElevation: 0.7
 health: 300
@@ -33,7 +34,7 @@ weapons: [
    shots: 1
    shootSound: sap
    recoil: 1
-   reload: 20
+   reload: 12.30
    bullet: {
    type: sapBulletType
    collidesTeam: false
@@ -50,12 +51,12 @@ weapons: [
    rotate: false
    top: false
    mirror: true
-   x: 7.75
+   x: 8.25
    y: -0.20
    shots: 2
    shootSound: laser
    recoil: 1
-   reload: 14
+   reload: 20
    bullet: {
    type: laserBulletType
    collidesTeam: false

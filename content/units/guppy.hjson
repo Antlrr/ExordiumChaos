@@ -3,6 +3,7 @@ name: Guppy
 flying: false
 commandLimit: 3
 health: 100
+hitSize: 5
 speed: 0.80
 accel: 2
 drag: 0.01

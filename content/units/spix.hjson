@@ -5,6 +5,7 @@ health: 500
 speed: 3
 accel: 3
 armor: 20
+hitSize: 10
 drag: 0.01
 controller: attackAI
 lightRadius: 30

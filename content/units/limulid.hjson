@@ -5,6 +5,7 @@ groundLayer: 75
 visualElevation: 0.2
 health: 300
 armor: 60.40
+hitSize: 7
 speed: 0.60
 rotateSpeed: 2.05
 mineSpeed: 5
