@@ -22,7 +22,8 @@ consumes: {
       ]
    }
    liquid: {
-      liquid: water/15
+      liquid: water
+      amount: 15
    }
 }
 results: [
