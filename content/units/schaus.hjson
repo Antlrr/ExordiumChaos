@@ -10,7 +10,6 @@ accel: 0.5
 drag: 0.1
 commandLimit: 4
 itemcapacity: 30
-controller: flyingAI
 faceTarget: true
 lightRadius: 30
 lightColor: 8cc7f5
@@ -20,6 +19,7 @@ abilities: [
       damage: 75
       reload: 165
       range: 80
+      maxTargets: 15
       shootSound: bigshot
       color: bf92f9
       healPercent: 0.015
