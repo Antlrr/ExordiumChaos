@@ -31,7 +31,9 @@ weapons: [
     recoil: 1
     shootSound: lasershoot
     bullet: {
-      type: laserBoltBulletType
+      type: BulletType
+      shootEffect: shootSmallFlame
+      hitEffect: hitFlameSmall
       colors: [e341a5, fc62b5, ffffff]
       lightColor: fc62b5
       damage: 30.20
