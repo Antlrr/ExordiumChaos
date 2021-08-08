@@ -18,8 +18,8 @@ Events.on(ClientLoadEvent, () => {
     planet-h.localizedName = "Planet h";
 
     for(var i = 0; i < 31; i++){
-        var h = new SectorPreset("sector" + i, routros, i);
-        h.localizedName = "sector" + i;
+        var h = new SectorPreset("h" + i, planet-h, i);
+        h.localizedName = "h" + i;
         h.alwaysUnlocked = false;
     };
 });
