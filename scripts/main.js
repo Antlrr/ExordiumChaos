@@ -17,7 +17,7 @@ Events.on(ClientLoadEvent, () => {
     planeth.alwaysUnlocked = true;
     planeth.localizedName = "Planet h";
 
-    for(var i = 0; i < 1; i++){
+    for(var i = 0; i < 5; i++){
         var h = new SectorPreset("h" + i, planeth, i);
         h.localizedName = "h" + i;
         h.alwaysUnlocked = true;
