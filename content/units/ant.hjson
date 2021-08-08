@@ -25,7 +25,7 @@ weapons: [
     top: false
     x: 1.25
     y: 4.75
-    reload: 32
+    reload: 10
     rotate: false
     mirror: true
     recoil: 1
