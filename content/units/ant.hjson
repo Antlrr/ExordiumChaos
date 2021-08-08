@@ -25,7 +25,7 @@ weapons: [
     top: false
     x: 1
     y: 4.50
-    reload: 8.40
+    reload: 32
     rotate: false
     mirror: true
     recoil: 1
@@ -38,7 +38,7 @@ weapons: [
       colors: [e341a5, fc62b5, ffffff]
       lightColor: fc62b5
       damage: 30.20
-      lifetime: 40.20
+      lifetime: 10.20
       collidesTeam: false
     }
   }
