@@ -24,8 +24,8 @@ weapons: [
    bullet: {
    type: laserBoltBulletType
    shootSound: lasershoot
-   colors: [8cc7f5, 6a84c4, ffffff]
-   lightColor: 8cc7f5
+   frontColor: 6a84c4
+   backColor: 8cc7f5
    healPercent: 1.08
    pierce: true
    collidesTeam: true
