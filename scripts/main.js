@@ -3,7 +3,7 @@ require("libs/refresh")
 Events.on(ClientLoadEvent, () => {
     const planeth = new Planet("planeth", Planets.sun, 1, 1);
     planeth.generator = new SerpuloPlanetGenerator();
-    planeth.mesh = new HexMesh(routros, 5);
+    planeth.mesh = new HexMesh(planeth, 5);
     planeth.orbitRadius = 10;
     planeth.orbitTime = 1.5 * 60;
     planeth.rotateTime = 30;
