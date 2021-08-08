@@ -1,24 +1,24 @@
 require("libs/statuses")
 require("libs/refresh")
 Events.on(ClientLoadEvent, () => {
-    const planet-h = new Planet("planet-h", Planets.sun, 1, 1);
-    planet-h.generator = new SerpuloPlanetGenerator();
-    planet-h.mesh = new HexMesh(routros, 5);
-    planet-h.orbitRadius = 10;
-    planet-h.orbitTime = 1.5 * 60;
-    planet-h.rotateTime = 30;
-    planet-h.bloom = true;
-    planet-h.accessible = true;
-    planet-h.startSector = 1;
-    planet-h.hasAtmosphere = true;
-    planet-h.atmosphereColor = Liquids.cryofluid.color;
-    planet-h.atmosphereRadIn = 0.1;
-    planet-h.atmosphereRadOut = 0.3;
-    planet-h.alwaysUnlocked = true;
-    planet-h.localizedName = "Planet h";
+    const planeth = new Planet("planeth", Planets.sun, 1, 1);
+    planeth.generator = new SerpuloPlanetGenerator();
+    planeth.mesh = new HexMesh(routros, 5);
+    planeth.orbitRadius = 10;
+    planeth.orbitTime = 1.5 * 60;
+    planeth.rotateTime = 30;
+    planeth.bloom = true;
+    planeth.accessible = true;
+    planeth.startSector = 1;
+    planeth.hasAtmosphere = true;
+    planeth.atmosphereColor = Liquids.cryofluid.color;
+    planeth.atmosphereRadIn = 0.1;
+    planeth.atmosphereRadOut = 0.3;
+    planeth.alwaysUnlocked = true;
+    planeth.localizedName = "Planet h";
 
     for(var i = 0; i < 31; i++){
-        var h = new SectorPreset("h" + i, planet-h, i);
+        var h = new SectorPreset("h" + i, planeth, i);
         h.localizedName = "h" + i;
         h.alwaysUnlocked = false;
     };
