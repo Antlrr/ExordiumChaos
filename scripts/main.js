@@ -1,5 +1,3 @@
-require("libs/statuses")
-require("libs/refresh")
 Events.on(ClientLoadEvent, () => {
     const planeth = new Planet("planeth", Planets.sun, 1, 1);
     planeth.generator = new SerpuloPlanetGenerator();
@@ -23,3 +21,5 @@ Events.on(ClientLoadEvent, () => {
         h.alwaysUnlocked = true;
     };
 }); 
+require("libs/statuses")
+require("libs/refresh")
