@@ -29,11 +29,12 @@ weapons: [
     rotate: false
     mirror: true
     recoil: 1
-    shootSound: lasershoot
+    shootSound: flame
     bullet: {
       type: BulletType
       shootEffect: shootSmallFlame
       hitEffect: hitFlameSmall
+      despawnEffect: none
       colors: [e341a5, fc62b5, ffffff]
       lightColor: fc62b5
       damage: 30.20
