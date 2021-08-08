@@ -23,9 +23,9 @@ weapons: [
   {
     name: ant-weapon
     top: false
-    x: 0.85
+    x: 1
     y: 4.50
-    reload: 10
+    reload: 1
     rotate: false
     mirror: true
     recoil: 1
@@ -35,7 +35,7 @@ weapons: [
       colors: [e341a5, fc62b5, ffffff]
       lightColor: fc62b5
       damage: 30.20
-      lifetime: 20.60
+      lifetime: 40.20
       collidesTeam: false
     }
   }
