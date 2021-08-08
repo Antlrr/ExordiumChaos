@@ -23,7 +23,7 @@ weapons: [
   {
     name: ant-weapon
     top: false
-    x: 2
+    x: 0.50
     y: 3
     reload: 10
     rotate: false
