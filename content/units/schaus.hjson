@@ -17,20 +17,14 @@ controller: suicideAI
 abilities: [
    {
       type: EnergyFieldAbility
-      damage: 75
+      damage: 80
       reload: 165
       range: 80
       maxTargets: 15
       shootSound: bigshot
       color: bf92f9
-      healPercent: 0.015
+      healPercent: 0.025
       status: sapped
       statusDuration: 165
-      shootStatus: unmoving
-      shootStatusDuration: 210
-      bullet: {
-         type: SapBulletType
-         sapStrength: 0.75
-      }
    }
 ]
