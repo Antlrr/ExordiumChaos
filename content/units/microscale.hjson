@@ -21,6 +21,8 @@ weapons: [
    reload: 13
    bullet: {
    type: basicBulletType
+   frontColor: 6a84c4
+   backColor: 8cc7f5
    collidesTeam: false
    damage: 13
    lifetime: 40
