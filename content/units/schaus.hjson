@@ -26,6 +26,8 @@ abilities: [
       healPercent: 0.015
       status: sapped
       statusDuration: 165
+      shootStatus: unmoving
+      shootStatusDuration: 210
       bullet: {
          type: SapBulletType
          sapStrength: 0.75
