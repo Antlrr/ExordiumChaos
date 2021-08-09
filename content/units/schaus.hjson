@@ -25,5 +25,7 @@ abilities: [
       color: bf92f9
       healPercent: 0.015
       status: sapped
+      statusDuration: 165
+      sapStrength: 0.75
    }
 ]
