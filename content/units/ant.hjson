@@ -4,6 +4,9 @@ description: worker ant. [yellow]Sandbox Only
 hovering: true
 groundLayer: 75
 visualElevation: 0.1
+buildSpeed: 1.30
+mineSpeed: 2.30
+mineTier: 4
 health: 320
 armor: 30.40
 hitSize: 7
