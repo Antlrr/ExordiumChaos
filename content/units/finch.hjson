@@ -24,6 +24,8 @@ weapons: [
    bullet: {
    type: laserBoltBulletType
    shootSound: lasershoot
+   shootEffect: none
+   despawnEffect: none
    frontColor: 6a84c4
    backColor: 8cc7f5
    healPercent: 1.08
