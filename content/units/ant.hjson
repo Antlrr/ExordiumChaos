@@ -1,6 +1,6 @@
 type: legs
 name: Ant
-description: worker ant. [yellow]Sandbox Only
+description: worker ant. Sandbox Only
 hovering: true
 groundLayer: 75
 visualElevation: 0.1
