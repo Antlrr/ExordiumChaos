@@ -1,6 +1,7 @@
 type: flying
 flying: true
 name: Schaus
+localizedName: Schaus
 description: Saps nearby enemy units
 health: 320
 armor: 5
