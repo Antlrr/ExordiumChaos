@@ -13,7 +13,7 @@ itemcapacity: 30
 faceTarget: true
 lightRadius: 30
 lightColor: 8cc7f5
-controller: attackAI
+controller: suicideAI
 abilities: [
    {
       type: EnergyFieldAbility
