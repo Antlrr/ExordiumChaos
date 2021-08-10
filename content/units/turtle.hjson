@@ -23,8 +23,8 @@ weapons: [
   {
     name: turtle-weapon
     top: true
-    x: 2
-    y: 4
+    x: 3
+    y: 3.50
     reload: 10
     rotate: false
     mirror: true
