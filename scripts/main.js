@@ -23,4 +23,3 @@ Events.on(ClientLoadEvent, () => {
 }); 
 require("libs/statuses")
 require("libs/refresh")
-require("libs/stalker")
