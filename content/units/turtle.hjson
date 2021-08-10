@@ -2,7 +2,7 @@ type: legs
 name: Turtle
 description: is Turtle. Sandbox Only
 hovering: true
-groundLayer: 30
+groundLayer: 75
 visualElevation: 0.09
 health: 650
 armor: 60.40
