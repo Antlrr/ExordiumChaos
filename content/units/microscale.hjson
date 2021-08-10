@@ -21,8 +21,8 @@ weapons: [
    reload: 13
    bullet: {
    type: basicBulletType
-   frontColor: 6a84c4
-   backColor: 8cc7f5
+   frontColor: 8cc7f5
+   backColor: 6a84c4
    shootEffect: none
    despawnEffect: none
    collidesTeam: false
