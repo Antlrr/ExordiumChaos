@@ -7,7 +7,7 @@ visualElevation: 0.09
 health: 650
 armor: 60.40
 speed: 0.20
-rotateSpeed: 1.20
+rotateSpeed: 2.30
 legCount: 4
 legLength: 4.50
 legBaseOffset: 1
@@ -15,7 +15,7 @@ legExtension: 1
 legSpeed: 0.30
 legSplashRange: 0.01
 rippleScale: 0.21
-maxStretch: 0.30
+maxStretch: 1.20
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
