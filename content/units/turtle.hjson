@@ -23,8 +23,8 @@ abilities: [
   {
     type: UnitSpawnAbility
     unit: microscale
-    spawnX: -1
-    spawnY: 0
+    spawnX: 0
+    spawnY: -1
     spawnTime: 1050
   }
 ]
