@@ -9,7 +9,6 @@ mineSpeed: 2.30
 mineTier: 4
 health: 320
 armor: 30.40
-hitSize: 7
 speed: 1.20
 rotateSpeed: 3.40
 legCount: 6
