@@ -19,3 +19,12 @@ maxStretch: 1.20
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
+abilities: [
+  {
+    type: UnitSpawnAbility
+    unit: microscale
+    spawnX: -1
+    spawnY: 0
+    spawnTime: 1050
+  }
+]
