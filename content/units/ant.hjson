@@ -2,7 +2,7 @@ type: legs
 name: Ant
 description: worker ant. Sandbox Only
 hovering: true
-groundLayer: 75
+groundLayer: 30
 visualElevation: 0.1
 buildSpeed: 1.30
 mineSpeed: 2.30
