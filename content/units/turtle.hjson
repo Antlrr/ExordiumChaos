@@ -19,6 +19,30 @@ maxStretch: 1.20
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
+weapons: [
+  {
+    name: turtle-weapon
+    top: true
+    x: 2
+    y: 4
+    reload: 10
+    rotate: false
+    mirror: true
+    recoil: 1
+    shootSound: flame
+    bullet: {
+      type: BulletType
+      shootEffect: shootSmallFlame
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      colors: [e341a5, fc62b5, ffffff]
+      lightColor: fc62b5
+      damage: 30.20
+      lifetime: 10.20
+      collidesTeam: false
+    }
+  }
+]
 abilities: [
   {
     type: UnitSpawnAbility
