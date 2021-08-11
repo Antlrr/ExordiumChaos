@@ -2,13 +2,13 @@ type: flying
 name: Delta
 description: Defends the Cytoplast core from enemies. Builds structures
 controller: BuilderAI
-health: 550
+health: 650
 speed: 3
-armor: 10
+armor: 0
 mineTier: 3
-mineSpeed: 15
+mineSpeed: 11
 buildSpeed: 1.30
-itemCapacity: 75
+itemCapacity: 85
 engineOffset: 9
 engineSize: 4
 flying: true
@@ -28,8 +28,8 @@ weapons: [
   recoil: 1
   bullet: {
     type: basicBulletType
-    lifetime: 86.40
-    speed: 1.40
+    lifetime: 80
+    speed: 2
     inaccuracy: 4.05
     damage: 11
     length: 45
