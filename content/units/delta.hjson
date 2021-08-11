@@ -19,7 +19,7 @@ weapons: [
   shots: 3
   spacing: 4
   inaccuracy: 2
-  shotDelay: 3.50
+  shotDelay: 6.50
   ejectEffect: casing1
   x: 1
   y: 3
@@ -28,9 +28,9 @@ weapons: [
     type: basicBulletType
     lifetime: 35.40
     speed: 2.40
-    inaccuracy: 3.05
+    inaccuracy: 4.05
     damage: 25
-    length: 33
+    length: 45
     width: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
