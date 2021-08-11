@@ -8,6 +8,8 @@ mineTier: 4
 mineSpeed: 15
 buildSpeed: 1.30
 itemCapacity: 75
+engineOffset: 5
+engineSize: 4.5
 flying: true
 weapons: [
   {
