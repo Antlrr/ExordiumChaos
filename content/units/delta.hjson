@@ -13,7 +13,7 @@ engineSize: 4
 flying: true
 weapons: [
   {
-  name: spix-weapon
+  name: delta-weapon
   top:false
   mirror: true
   shots: 3
