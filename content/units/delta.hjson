@@ -16,19 +16,25 @@ weapons: [
   name: spix-weapon
   top:false
   mirror: true
-  shootSound: lasershoot
   shots: 3
+  spacing: 3
+  inaccuracy: 2
+  shotDelay: 2.50
+  ejectEffect: casing1
   x: 1
   y: 3
   reload: 5
   bullet: {
-    type: laserBoltBulletType
+    type: basicBulletType
     lifetime: 40
     damage: 30
-    length: 85
-    width: 2
+    length: 11
+    width: 6.5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    homingPower: 1.05
     toColor: ffffff
     buildingDamageMultiplier: 0.01
-  }
+    }
   }
 ]
