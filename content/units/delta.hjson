@@ -14,15 +14,16 @@ flying: true
 weapons: [
   {
   name: spix-weapon
+  top:false
   mirror: true
   shootSound: lasershoot
   shots: 3
-  x: 2
-  y: 1
+  x: 1
+  y: 3
   reload: 5
   bullet: {
     type: laserBoltBulletType
-    lifetime: 40
+    lifeTime: 40
     damage: 30
     length: 85
     width: 2
