@@ -8,8 +8,8 @@ mineTier: 3
 mineSpeed: 15
 buildSpeed: 1.30
 itemCapacity: 75
-engineOffset: 10
-engineSize: 4.5
+engineOffset: 9
+engineSize: 4
 flying: true
 weapons: [
   {
@@ -23,7 +23,7 @@ weapons: [
   reload: 5
   bullet: {
     type: laserBoltBulletType
-    lifeTime: 40
+    lifetime: 40
     damage: 30
     length: 85
     width: 2
