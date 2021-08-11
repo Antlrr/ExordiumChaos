@@ -4,7 +4,7 @@ controller: BuilderAI
 health: 550
 speed: 3
 armor: 10
-mineTier: 4
+mineTier: 3
 mineSpeed: 15
 buildSpeed: 1.30
 itemCapacity: 75
@@ -17,8 +17,8 @@ weapons: [
   mirror: true
   shootSound: lasershoot
   shots: 3
-  x: 1
-  y: 0
+  x: 2
+  y: 1
   reload: 5
   bullet: {
     type: laserBoltBulletType
