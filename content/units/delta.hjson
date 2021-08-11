@@ -27,7 +27,7 @@ weapons: [
   bullet: {
     type: basicBulletType
     lifetime: 35.40
-    speed: 5.40
+    speed: 2.40
     inaccuracy: 3.05
     damage: 25
     length: 33
