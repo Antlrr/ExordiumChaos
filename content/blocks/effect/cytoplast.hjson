@@ -9,8 +9,9 @@ unitType: delta
 unitCapModifier: 48
 thrusterLength: 0
 requirements: [
-  copper/1200
-  lead/1200
-  titanium/1200
-  thorium/1200
+  copper/15000
+  lead/15000
+  titanium/15000
+  thorium/15000
+  silicon/15000
 ]
