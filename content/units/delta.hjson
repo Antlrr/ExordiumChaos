@@ -17,9 +17,9 @@ weapons: [
   top:false
   mirror: true
   shots: 3
-  spacing: 3
+  spacing: 4
   inaccuracy: 2
-  shotDelay: 2.50
+  shotDelay: 3.50
   ejectEffect: casing1
   x: 1
   y: 3
@@ -28,13 +28,13 @@ weapons: [
     type: basicBulletType
     lifetime: 35.40
     speed: 5.40
-    inaccuracy: 2.05
-    damage: 30
-    length: 20
+    inaccuracy: 3.05
+    damage: 25
+    length: 33
     width: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    homingPower: 1.05
+    homingPower: 0.50
     toColor: ffffff
     buildingDamageMultiplier: 0.01
     }
