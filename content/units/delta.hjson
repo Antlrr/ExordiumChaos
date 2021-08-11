@@ -26,7 +26,8 @@ weapons: [
   reload: 5
   bullet: {
     type: basicBulletType
-    lifetime: 40
+    lifetime: 35
+    speed: 5.40
     damage: 30
     length: 11
     width: 6.5
