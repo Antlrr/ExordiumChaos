@@ -3,7 +3,7 @@ name: Queen Ant
 description: worker ant. Sandbox Only
 hovering: true
 groundLayer: 75.50
-visualElevation: 2
+visualElevation: 1
 buildSpeed: 1.30
 mineSpeed: 2.30
 mineTier: 4
@@ -51,21 +51,21 @@ abilities: [
     type: UnitSpawnAbility
     unit: ant
     spawnX: 0
-    spawnY: -35
+    spawnY: -25
     spawnTime: 1050
   }
   {
     type: UnitSpawnAbility
     unit: ant
-    spawnX: 20
-    spawnY: -30
+    spawnX: 10
+    spawnY: -20
     spawnTime: 1050
    }
    {
     type: UnitSpawnAbility
     unit: ant
-    spawnX: -20
-    spawnY: -30
+    spawnX: -10
+    spawnY: -20
     spawnTime: 1050
    }
  ]
