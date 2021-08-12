@@ -1,6 +1,4 @@
 type: legs
-name: Queen Ant
-description: queen ant. Sandbox Only
 hovering: true
 groundLayer: 75.50
 visualElevation: 1
