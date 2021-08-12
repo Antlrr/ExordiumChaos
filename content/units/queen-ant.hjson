@@ -57,14 +57,14 @@ abilities: [
   {
     type: UnitSpawnAbility
     unit: ant
-    spawnX: 12
+    spawnX: 12.50
     spawnY: -23
     spawnTime: 1050
    }
    {
     type: UnitSpawnAbility
     unit: ant
-    spawnX: -12
+    spawnX: -12.50
     spawnY: -23
     spawnTime: 1050
    }
