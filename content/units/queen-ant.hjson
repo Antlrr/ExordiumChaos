@@ -46,3 +46,26 @@ weapons: [
     }
   }
 ]
+abilities: [
+  {
+    type: UnitSpawnAbility
+    unit: ant
+    spawnX: 0
+    spawnY: 50
+    spawnTime: 1050
+  }
+  {
+    type: UnitSpawnAbility
+    unit: ant
+    spawnX: 20
+    spawnY: 50
+    spawnTime: 1050
+   }
+   {
+    type: UnitSpawnAbility
+    unit: ant
+    spawnX: -20
+    spawnY: 50
+    spawnTime: 1050
+   }
+ ]
