@@ -1,5 +1,4 @@
 type: flying
-name: Finch
 flying: true
 commandLimit: 3
 lowAltitude: true
