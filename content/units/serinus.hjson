@@ -1,5 +1,4 @@
 type: flying
-name: Serinus
 flying: true
 health: 750
 speed: 4.50
