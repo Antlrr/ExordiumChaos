@@ -1,6 +1,5 @@
 type: GenericCrafter
-name: Copper Modifier
-description: Uses mysterious forces to turn Copper into Cardboard
+name: Cardboard Manufacturer
 health: 580
 size: 2
 hasItems: true
@@ -14,12 +13,11 @@ consumes: {
   power: 12
   items: {
     items: [
-      copper/2
+      bauxite/3
     ]
   }
 }
 outputItem: cardboard/1
-craftTime: 15
-craftEffect: melting 
+craftTime: 60
 category: crafting
 drawer: drawSmelter
