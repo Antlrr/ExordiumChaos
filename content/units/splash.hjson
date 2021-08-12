@@ -1,5 +1,4 @@
 type: naval
-name: Splash
 flying: false
 health: 650
 speed: 1.50
