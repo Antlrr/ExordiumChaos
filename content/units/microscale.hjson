@@ -1,5 +1,4 @@
 type: mech
-name: Microscale
 health: 100
 hitSize: 4
 commandLimit: 3
