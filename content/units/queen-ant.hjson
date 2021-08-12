@@ -27,21 +27,19 @@ weapons: [
     name: ant-weapon
     top: false
     x: 1.25
-    y: 4.75
+    y: 30
     reload: 10
     rotate: false
     mirror: true
     recoil: 1
-    shootSound: flame
+    shootSound: laser
     bullet: {
-      type: BulletType
-      shootEffect: shootSmallFlame
-      hitEffect: hitFlameSmall
+      type: laserBulletType
       despawnEffect: none
       colors: [e341a5, fc62b5, ffffff]
       lightColor: fc62b5
-      damage: 30.20
-      lifetime: 10.20
+      damage: 400
+      lifetime: 20.20
       collidesTeam: false
     }
   }
