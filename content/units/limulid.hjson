@@ -1,5 +1,4 @@
 type: legs
-name: Limulid
 hovering: true
 groundLayer: 75
 visualElevation: 0.2
