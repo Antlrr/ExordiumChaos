@@ -1,11 +1,11 @@
 type: legs
 name: Queen Ant
-description: worker ant. Sandbox Only
+description: queen ant. Sandbox Only
 hovering: true
 groundLayer: 75.50
 visualElevation: 1
-buildSpeed: 1.30
-mineSpeed: 2.30
+buildSpeed: 2.30
+mineSpeed: 1.30
 mineTier: 4
 health: 1500
 armor: 50.50
