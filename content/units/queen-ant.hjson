@@ -12,7 +12,7 @@ armor: 30.40
 speed: 1.20
 rotateSpeed: 3.40
 legCount: 6
-legLength: 29.20
+legLength: 49.20
 legBaseOffset: 1
 legExtension: 1
 legSpeed: 0.70
