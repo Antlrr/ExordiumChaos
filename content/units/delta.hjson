@@ -1,6 +1,4 @@
 type: flying
-name: Delta
-description: Defends the Cytoplast core from enemies. Builds structures
 controller: BuilderAI
 health: 650
 speed: 3
