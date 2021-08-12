@@ -1,0 +1,48 @@
+type: legs
+name: Ant
+description: worker ant. Sandbox Only
+hovering: true
+groundLayer: 75
+visualElevation: 0.1
+buildSpeed: 1.30
+mineSpeed: 2.30
+mineTier: 4
+health: 320
+armor: 30.40
+speed: 1.20
+rotateSpeed: 3.40
+legCount: 6
+legLength: 9.20
+legBaseOffset: 1
+legExtension: 1
+legSpeed: 0.70
+legSplashRange: 0
+rippleScale: 0.20
+maxStretch: 1.30
+allowLegStep: true
+lightRadius: 30
+lightColor: ffffff
+weapons: [
+  {
+    name: ant-weapon
+    top: false
+    x: 1.25
+    y: 4.75
+    reload: 10
+    rotate: false
+    mirror: true
+    recoil: 1
+    shootSound: flame
+    bullet: {
+      type: BulletType
+      shootEffect: shootSmallFlame
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      colors: [e341a5, fc62b5, ffffff]
+      lightColor: fc62b5
+      damage: 30.20
+      lifetime: 10.20
+      collidesTeam: false
+    }
+  }
+]
