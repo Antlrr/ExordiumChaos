@@ -1,5 +1,4 @@
 type: naval
-name: Spray
 flying: false
 health: 750
 speed: 2.30
