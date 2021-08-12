@@ -1,6 +1,4 @@
 type: mech
-description: has a weapon too strong that it destroys itself when shot
-name: Big Box
 health: 1500
 armor: 53
 hitSize: 9.5
