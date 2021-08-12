@@ -1,8 +1,8 @@
 type: legs
-name: Ant
+name: Queen Ant
 description: worker ant. Sandbox Only
 hovering: true
-groundLayer: 75
+groundLayer: 95.50
 visualElevation: 0.1
 buildSpeed: 1.30
 mineSpeed: 2.30
@@ -12,13 +12,13 @@ armor: 30.40
 speed: 1.20
 rotateSpeed: 3.40
 legCount: 6
-legLength: 9.20
+legLength: 29.20
 legBaseOffset: 1
 legExtension: 1
 legSpeed: 0.70
-legSplashRange: 0
+legSplashRange: 2
 rippleScale: 0.20
-maxStretch: 1.30
+maxStretch: 5.30
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
