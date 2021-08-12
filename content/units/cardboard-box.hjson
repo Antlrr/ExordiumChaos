@@ -1,6 +1,4 @@
 type: mech
-description: can somehow move
-name: Box
 health: 1000
 armor: 50
 hitSisze: 7
