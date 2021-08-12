@@ -2,8 +2,8 @@ type: legs
 name: Queen Ant
 description: worker ant. Sandbox Only
 hovering: true
-groundLayer: 95.50
-visualElevation: 10
+groundLayer: 75.50
+visualElevation: 2
 buildSpeed: 1.30
 mineSpeed: 2.30
 mineTier: 4
@@ -51,21 +51,21 @@ abilities: [
     type: UnitSpawnAbility
     unit: ant
     spawnX: 0
-    spawnY: -55
+    spawnY: -35
     spawnTime: 1050
   }
   {
     type: UnitSpawnAbility
     unit: ant
     spawnX: 20
-    spawnY: -50
+    spawnY: -30
     spawnTime: 1050
    }
    {
     type: UnitSpawnAbility
     unit: ant
     spawnX: -20
-    spawnY: -50
+    spawnY: -30
     spawnTime: 1050
    }
  ]
