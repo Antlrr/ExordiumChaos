@@ -9,27 +9,28 @@ plans: [
     unit: microscale
     time: 100
     requirements: [
-      smolicon/30
+      silicon/7
+      coal/5
     ]
   }
   {
     unit: finch
     time: 100
     requirements: [
-      smolicon/45
+      silicon/7
     ]
   }
   {
     unit: guppy
     time: 100
     requirements: [
-      smolicon/40
+      silicon/7
+      lead/5
     ]
   }
 ]
 requirements: [
-  silicon/45
-  smolicon/20
+  silicon/35
 ]
 research: ground-factory
 category: units
