@@ -2,8 +2,8 @@
 adds some stuff
 
 # Credits
-Antlrr: Making sprites
+Antlrr: sprites, and code
 
-!ereHyddeS: Helping alot with code
+!ereHyddeS: code
 
-Blop: Making sprites
+Blop: sprites
