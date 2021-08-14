@@ -28,7 +28,8 @@ weapons: [
         hittable: true
         homing: true
         damage: 120
-        hitSize: 32
+        height: 20
+        width: 20
         collidesAir: true
         lifetime: 100
         speed: 2
