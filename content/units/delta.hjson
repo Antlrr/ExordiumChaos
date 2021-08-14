@@ -26,7 +26,7 @@ weapons: [
   recoil: 1
   bullet: {
     type: basicBulletType
-    lifetime: 80
+    lifetime: 120
     speed: 2
     inaccuracy: 4.05
     damage: 11
