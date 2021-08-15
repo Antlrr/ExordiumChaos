@@ -24,6 +24,8 @@ weapons: [
      backColor: 6a84c4
      shootEffect: none
      despawnEffect: none
+     height: 6
+     width: 4
      collidesTeam: false
      homingPower: 0.50
      damage: 23
