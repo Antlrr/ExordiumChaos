@@ -10,7 +10,7 @@ lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
-   name: microscale-weapon
+   name: pico-weapon
    top: false
    mirror: true
    x: 2.20
