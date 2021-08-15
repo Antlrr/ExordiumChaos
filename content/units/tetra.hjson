@@ -1,11 +1,11 @@
 type: naval
 flying: false
-commandLimit: 3
-health: 100
+commandLimit: 6
+health: 150
 hitSize: 5
 speed: 0.80
 accel: 2
-drag: 0.01
+drag: 0.2
 controller: attackAI
 lightRadius: 30
 lightColor: 8cc7f5
@@ -23,8 +23,8 @@ weapons: [
    bullet: {
    type: fireBulletType
    collidesTeam: false
-   damage: 18
-   lifetime: 60.20
+   damage: 28
+   lifetime: 63.20
    speed: 2
     }
   }
