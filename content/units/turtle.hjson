@@ -44,7 +44,7 @@ weapons: [
 abilities: [
   {
     type: UnitSpawnAbility
-    unit: microscale
+    unit: pico
     spawnX: 0
     spawnY: -1
     spawnTime: 1050
