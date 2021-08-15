@@ -7,33 +7,8 @@ hitSize: 6
 speed: 2.30
 accel: 2
 drag: 0.01
-controller: repairAI
+mineTier: 1
+controller: minerAI
 lightRadius: 30
 lightColor: 8cc7f5
-weapons: [
-   {
-   name: finch-mount
-   top: true
-   mirror: false
-   x: 0
-   y: 0
-   shots: 1
-   recoil: 1
-   reload: 13
-   shootSound: lasershoot
-   bullet: {
-     type: laserBoltBulletType
-     shootEffect: none
-     despawnEffect: none
-     frontColor: 6a84c4
-     backColor: 8cc7f5
-     healPercent: 1.08
-     pierce: true
-     collidesTeam: true
-     damage: 12
-     lifetime: 30
-     speed: 2.50
-    }
-  }
-]
 research: smol-factory
