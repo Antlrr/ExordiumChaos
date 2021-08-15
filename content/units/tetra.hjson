@@ -1,0 +1,31 @@
+type: naval
+flying: false
+commandLimit: 3
+health: 100
+hitSize: 5
+speed: 0.80
+accel: 2
+drag: 0.01
+controller: attackAI
+lightRadius: 30
+lightColor: 8cc7f5
+weapons: [
+   {
+   name: guppy-mount
+   rotate: true
+   top: true
+   mirror: false
+   x: 0
+   y: 0.20
+   shots: 1
+   recoil: 1
+   reload: 13
+   bullet: {
+   type: fireBulletType
+   collidesTeam: false
+   damage: 18
+   lifetime: 60.20
+   speed: 2
+    }
+  }
+]
