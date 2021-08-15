@@ -4,7 +4,7 @@ hitSize: 4
 commandLimit: 3
 speed: 0.60
 accel: 1
-drag: 0.01
+drag: 2
 controller: attackAI
 lightRadius: 30
 lightColor: 8cc7f5
