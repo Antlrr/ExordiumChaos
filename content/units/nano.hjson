@@ -10,10 +10,10 @@ lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
-   name: pico-weapon
+   name: nano-weapon
    top: false
    mirror: true
-   x: 4.20
+   x: 4.50
    y: 0
    shots: 1
    recoil: 1
@@ -24,8 +24,8 @@ weapons: [
      backColor: 6a84c4
      shootEffect: none
      despawnEffect: none
-     height: 6
-     width: 4
+     height: 8
+     width: 6
      collidesTeam: false
      homingPower: 0.50
      damage: 23
