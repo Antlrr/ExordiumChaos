@@ -31,7 +31,7 @@ weapons: [
      pierce: true
      collidesTeam: true
      damage: 22
-     lifetime: 30
+     lifetime: 50
      speed: 2.50
     }
   }
