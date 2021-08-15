@@ -22,8 +22,6 @@ weapons: [
      type: basicBulletType
      frontColor: 8cc7f5
      backColor: 6a84c4
-     shootEffect: none
-     despawnEffect: none
      height: 8
      width: 6
      collidesTeam: false
