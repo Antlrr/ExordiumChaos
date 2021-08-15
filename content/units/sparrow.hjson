@@ -12,13 +12,13 @@ lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
-   name: finch-mount
+   name: sparrow
    top: false
    mirror: false
    x: 0
-   y: 0.50
+   y: 0
    shots: 1
-   recoil: 1
+   recoil: 0
    reload: 13
    shootSound: lasershoot
    bullet: {
