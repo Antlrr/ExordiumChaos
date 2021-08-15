@@ -12,10 +12,10 @@ lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
-   name: sparrow
+   name: cardboard-box-base
    top: false
    mirror: false
-   x: 0
+   x: 2
    y: 0
    shots: 1
    recoil: 0
