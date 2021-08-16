@@ -1,7 +1,11 @@
 name: "Antdustry"
 displayName: "Antdustry"
-author: "Antlrr, !ereHyddeS"
-description: "adds some stuff"
+author: "Antlrr"
+description: "adds some stuff
+
+[green]Contributors:
+[white]ereHyddeS
+BlopTM"
 version: "1.0"
 minGameVersion: "120"
 hidden: "false"
