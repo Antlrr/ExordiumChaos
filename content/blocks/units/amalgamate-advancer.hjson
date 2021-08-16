@@ -9,7 +9,7 @@ consumes: {
       items: [
         silicon/65
         graphite/45
-        silicon/15
+        aluminum/15
       ]
     }
   }
