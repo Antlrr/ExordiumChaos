@@ -7,7 +7,7 @@ size: 6
 category: effect
 unitType: delta
 unitCapModifier: 48
-thrusterLength: 7
+thrusterLength: 15
 requirements: [
   copper/15000
   lead/15000
