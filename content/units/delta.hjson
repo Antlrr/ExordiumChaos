@@ -2,6 +2,7 @@ type: flying
 controller: BuilderAI
 health: 650
 speed: 3
+drag: 1.20
 armor: 0
 mineTier: 3
 mineSpeed: 11
