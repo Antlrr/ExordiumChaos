@@ -1,6 +1,7 @@
 type: flying
 controller: BuilderAI
 health: 650
+isCounted: false
 speed: 3
 rotateSpeed: 3.40
 drag: 0.60
