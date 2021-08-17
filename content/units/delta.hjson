@@ -7,7 +7,7 @@ accel: 0.60
 armor: 0
 mineTier: 3
 mineSpeed: 21
-buildSpeed: 1.30
+buildSpeed: 1.60
 itemCapacity: 85
 engineOffset: 9
 engineSize: 4
