@@ -11,6 +11,7 @@ rotateSpeed: 1.50
 buildSpeed: 6.1
 mineSpeed: 10.8
 mineTier: 3
+controller: AttackAI
 legCount: 6
 legLength: 12
 legBaseOffset: 2
@@ -41,7 +42,7 @@ weapons: [
    lightColor: 7afadc
    damage:65.40
    lifetime: 9
-   length:200
+   length: 100
    speed: 1
     }
  }
