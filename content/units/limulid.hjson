@@ -7,7 +7,7 @@ armor: 60.40
 hitSize: 7
 speed: 0.60
 rotateSpeed: 2.05
-controller: AttackAI
+controller: GroundAI
 mineSpeed: 5
 mineTier: 2
 legCount: 4
