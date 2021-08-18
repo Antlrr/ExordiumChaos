@@ -7,7 +7,7 @@ hitSize: 6
 speed: 2.30
 accel: 2
 drag: 0.1
-controller: repairAI
+controller: RepairAI
 lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
