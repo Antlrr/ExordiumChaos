@@ -9,7 +9,7 @@ health: 320
 armor: 30.40
 speed: 1.20
 rotateSpeed: 3.40
-controller: AttackAI
+controller: GroundAI
 legCount: 6
 legLength: 9.20
 legBaseOffset: 1
