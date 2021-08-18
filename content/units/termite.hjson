@@ -11,7 +11,7 @@ controller: BuilderAI
 mineSpeed: 5
 mineTier: 2
 buildSpeed: 0.8
-legCount: 2
+legCount: 6
 legLength: 8
 legBaseOffset: 1
 legExtension: 1
