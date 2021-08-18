@@ -44,6 +44,7 @@ weapons: [
       length: 10
       width: 5
       collidesTeam: false
+      buildingDamageMultiplier: 0.01
     }
   }
 ]
