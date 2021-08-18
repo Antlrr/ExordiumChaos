@@ -41,8 +41,8 @@ weapons: [
       damage: 11
       lifetime: 40.30
       speed: 3
-      length: 150
-      width: 10
+      length: 10
+      width: 5
       collidesTeam: false
     }
   }
