@@ -11,7 +11,7 @@ rotateSpeed: 1.50
 buildSpeed: 6.1
 mineSpeed: 10.8
 mineTier: 3
-controller: AttackAI
+controller: GroundAI
 legCount: 6
 legLength: 12
 legBaseOffset: 2
