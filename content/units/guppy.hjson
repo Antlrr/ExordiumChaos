@@ -6,7 +6,7 @@ hitSize: 5
 speed: 0.80
 accel: 2
 drag: 0.01
-controller: attackAI
+controller: AttackAI
 lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
@@ -21,11 +21,11 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-   type: fireBulletType
-   collidesTeam: false
-   damage: 18
-   lifetime: 60.20
-   speed: 2
+     type: MissleBulletType
+     collidesTeam: false
+     damage: 18
+     lifetime: 60.20
+     speed: 2
     }
   }
 ]
