@@ -33,9 +33,8 @@ weapons: [
     mirror: false
     recoil: 0
     shots: 20
-    shootSound: laser
     bullet: {
-      type: basicBulletTyp
+      type: BasicBulletType
       inaccuracy: 360
       damage: 35.50
       lifetime: 20.30
