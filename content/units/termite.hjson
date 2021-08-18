@@ -33,6 +33,7 @@ weapons: [
     mirror: false
     recoil: 0
     shots: 20
+    spacing: 1
     bullet: {
       type: BasicBulletType
       inaccuracy: 360
