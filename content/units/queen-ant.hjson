@@ -8,6 +8,7 @@ mineTier: 4
 health: 1500
 armor: 50.50
 speed: 0.60
+controller: GroundAI
 rotateSpeed: 1.40
 legCount: 6
 legLength: 49.20
