@@ -27,20 +27,20 @@ weapons: [
     name: cardboard-box-base
     top: false
     x: 0
-    y: 2
+    y: 1
     reload: 10
     rotate: false
     mirror: false
     recoil: 0
+    shots: 20
     shootSound: laser
     bullet: {
-      type: laserBulletType
-      colors: [000000, 000000, ffffff]
-      lightColor: ffffff
+      type: basicBulletTyp
+      inaccuracy: 360
       damage: 35.50
-      lifetime: 10.30
+      lifetime: 20.30
       length: 150
-      width: 5
+      width: 3
       collidesTeam: false
     }
   }
