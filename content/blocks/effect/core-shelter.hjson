@@ -3,7 +3,7 @@ health: 100
 itemCapacity: 100
 size: 3
 category: effect
-unitType: limulid
+unitType: termite
 unitCapModifier: 28
 thrusterLength: 0
 requirements: [
