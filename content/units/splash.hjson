@@ -6,7 +6,7 @@ accel: 2
 armor: 30
 hitSize: 13.5
 drag: 0.01
-controller: attackAI
+controller: GroundAI
 lightRadius: 30
 lightColor: 7aFaDC
 weapons: [
