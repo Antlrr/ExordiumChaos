@@ -9,7 +9,7 @@ accel: 2
 drag: 0.01
 mineTier: 1
 mineSpeed: 1
-controller: minerAI
+controller: MinerAI
 lightRadius: 30
 lightColor: 8cc7f5
 research: smol-factory
