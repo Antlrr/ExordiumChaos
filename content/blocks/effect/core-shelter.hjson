@@ -1,0 +1,13 @@
+Type: CoreBlock
+health: 100
+itemCapacity: 100
+size: 3
+category: effect
+unitType: limulid
+unitCapModifier: 28
+thrusterLength: 0
+requirements: [
+  copper/1
+  lead/1
+  silicon/1
+]
