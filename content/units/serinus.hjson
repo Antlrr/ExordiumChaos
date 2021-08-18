@@ -6,7 +6,7 @@ accel: 2
 armor: 50
 hitSize: 13
 drag: 0.01
-controller: attackAI
+controller: FlyingAI
 lightRadius: 30
 lightColor: 7aFaDC
 weapons: [
