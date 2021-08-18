@@ -33,13 +33,14 @@ weapons: [
     mirror: false
     recoil: 0
     shots: 20
-    spacing: 1
-    shotDelay: 2
+    spacing: 360
+    shotDelay: 10
     bullet: {
       type: BasicBulletType
       inaccuracy: 360
       damage: 35.50
       lifetime: 20.30
+      speed: 3
       length: 150
       width: 3
       collidesTeam: false
