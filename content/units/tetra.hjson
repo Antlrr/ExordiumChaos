@@ -6,7 +6,7 @@ hitSize: 5
 speed: 0.80
 accel: 2
 drag: 0.2
-controller: attackAI
+controller: GroundAI
 lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
