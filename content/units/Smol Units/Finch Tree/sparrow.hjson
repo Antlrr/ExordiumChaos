@@ -26,6 +26,7 @@ weapons: [
      frontColor: 8cc7f5
      backColor: 6a84c4
      healPercent: 2
+     pierce: false
      pierceBuilding: true
      pierceCap: 3
      collidesTeam: true
