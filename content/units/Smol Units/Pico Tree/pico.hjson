@@ -2,7 +2,7 @@ type: mech
 health: 100
 hitSize: 4
 commandLimit: 3
-speed: 0.60
+speed: 0.75
 accel: 1
 drag: 2
 controller: GroundAI
@@ -17,7 +17,7 @@ weapons: [
    y: 0
    shots: 1
    recoil: 1
-   reload: 13
+   reload: 10
    bullet: {
    type: basicBulletType
    frontColor: 8cc7f5
@@ -25,8 +25,8 @@ weapons: [
    shootEffect: none
    despawnEffect: none
    collidesTeam: false
-   damage: 13
-   lifetime: 40
+   damage: 5
+   lifetime: 84
    speed: 2
     }
   }

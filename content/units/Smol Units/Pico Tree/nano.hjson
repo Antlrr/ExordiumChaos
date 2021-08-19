@@ -17,7 +17,7 @@ weapons: [
    y: -0.25
    shots: 1
    recoil: 1
-   reload: 13
+   reload: 10
    bullet: {
      type: basicBulletType
      frontColor: 8cc7f5
@@ -26,9 +26,9 @@ weapons: [
      width: 6
      collidesTeam: false
      homingPower: 0.04
-     damage: 23
-     lifetime: 60
-     speed: 2
+     damage: 35
+     lifetime: 27
+     speed: 3
     }
   }
 ]
