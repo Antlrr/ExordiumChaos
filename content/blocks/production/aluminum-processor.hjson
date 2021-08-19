@@ -1,6 +1,4 @@
 type: Separator
-name: Aluminum Processor
-description: Processes bauxite into aluminum leaving traces of lead and thorium residue.
 health: 160
 size: 2
 hasItems: true
