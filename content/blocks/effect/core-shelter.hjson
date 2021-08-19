@@ -1,13 +1,13 @@
 Type: CoreBlock
-health: 100
-itemCapacity: 100
+health: 2050
+itemCapacity: 5000
 size: 3
 category: effect
 unitType: termite
-unitCapModifier: 28
+unitCapModifier: 8
 thrusterLength: 0
 requirements: [
-  copper/1
-  lead/1
-  silicon/1
+  copper/2000
+  lead/2000
+  silicon/1000
 ]
