@@ -7,7 +7,7 @@ consumes: {
 plans: [
   {
     unit: pico
-    time: 100
+    time: 420
     requirements: [
       silicon/7
       coal/5
@@ -15,17 +15,18 @@ plans: [
   }
   {
     unit: finch
-    time: 100
+    time: 900
     requirements: [
       silicon/15
     ]
   }
   {
     unit: guppy
-    time: 100
+    time: 1200
     requirements: [
       silicon/7
       lead/5
+      metaglass/5
     ]
   }
 ]
