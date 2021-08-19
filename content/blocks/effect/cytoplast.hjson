@@ -1,6 +1,4 @@
 Type: CoreBlock
-name: "Core: Cytoplast"
-description: Core of the base, Excessively well armored. Stores enormous amounts of resources
 health: 11500
 itemCapacity: 98000
 size: 6
