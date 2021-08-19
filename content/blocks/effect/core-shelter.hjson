@@ -11,3 +11,4 @@ requirements: [
   lead/2000
   silicon/1000
 ]
+buildVisibility: editorOnly
