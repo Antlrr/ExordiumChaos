@@ -2,9 +2,9 @@ type: flying
 flying: true
 commandLimit: 6
 lowAltitude: true
-health: 150
+health: 175
 hitSize: 6
-speed: 2.30
+speed: 2.15
 accel: 2
 drag: 0.1
 controller: RepairAI
@@ -25,12 +25,14 @@ weapons: [
      type: laserBoltBulletType
      frontColor: 8cc7f5
      backColor: 6a84c4
-     healPercent: 1.08
-     pierce: true
+     healPercent: 2
+     pierceBuilding: true
+     pierceCap: 3
      collidesTeam: true
-     damage: 22
-     lifetime: 50
-     speed: 2.50
+     damage: 10
+     buildingDamageMultiplier: 0.7
+     lifetime: 83
+     speed: 3
     }
   }
 ]

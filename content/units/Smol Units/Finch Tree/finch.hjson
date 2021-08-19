@@ -1,10 +1,11 @@
 type: flying
 flying: true
-commandLimit: 3
+commandLimit: 4
 lowAltitude: true
-health: 100
+isCounted: false
+health: 50
 hitSize: 6
-speed: 2.30
+speed: 2
 accel: 2
 drag: 0.01
 mineTier: 1

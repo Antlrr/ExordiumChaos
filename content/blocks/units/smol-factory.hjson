@@ -17,7 +17,7 @@ plans: [
     unit: finch
     time: 100
     requirements: [
-      silicon/7
+      silicon/15
     ]
   }
   {
