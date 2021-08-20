@@ -5,3 +5,6 @@ chargeTime: 100
 range: 1000
 maxPayloadSize: 3.5
 category: units
+requirements: [
+   copper/1
+]
