@@ -21,7 +21,7 @@ plans: [
     ]
   }
   {
-    unit: guppy
+    unit: cypris
     time: 1200
     requirements: [
       silicon/7
