@@ -1,0 +1,6 @@
+type:PayloadMassDriver
+size: 3
+reloadTime: 130
+chargeTime: 100
+range: 1000
+maxPayloadSize: 3.5
