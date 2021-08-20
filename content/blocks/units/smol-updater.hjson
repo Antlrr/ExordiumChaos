@@ -14,7 +14,7 @@ consumes: {
   }
 upgrades: [
   [finch, sparrow]
-  [guppy, tetra]
+  [cypris, guppy]
   [pico, nano]
 ]
 requirements: [
