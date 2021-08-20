@@ -6,11 +6,11 @@ range: 600
 maxPayloadSize: 2.1
 category: units
 requirements: [
-   200/titanium
-   150/silicon
-   20/phase-fabric
-   100/thorium
+   titanium/200
+   silicon/150
+   phase-fabric/20
+   thorium/100
 ]
-consumes: {
+consumes: [
    power: 4.2
-}
+]
