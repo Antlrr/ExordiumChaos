@@ -11,6 +11,6 @@ requirements: [
    phase-fabric/20
    thorium/100
 ]
-consumes: [
+consumes: {
    power: 4.2
-]
+}
