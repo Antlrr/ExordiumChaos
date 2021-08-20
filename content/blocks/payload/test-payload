@@ -1,4 +1,4 @@
-type:PayloadMassDriver
+type: PayloadMassDriver
 size: 3
 reloadTime: 130
 chargeTime: 100
