@@ -1,9 +1,9 @@
 type: PayloadMassDriver
 size: 3
-reloadTime: 130
-chargeTime: 100
-range: 1000
-maxPayloadSize: 2
+reloadTime: 78
+chargeTime: 60
+range: 600
+maxPayloadSize: 2.1
 category: units
 requirements: [
    copper/1
