@@ -4,3 +4,4 @@ reloadTime: 130
 chargeTime: 100
 range: 1000
 maxPayloadSize: 3.5
+category: units
