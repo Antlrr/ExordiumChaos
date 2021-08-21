@@ -33,11 +33,11 @@ weapons: [
     mirror: false
     recoil: 0
     shots: 2
-    spacing: 10
-    shotDelay: 8
+    spacing: 360
+    shotDelay: 360
     bullet: {
       type: BasicBulletType
-      inaccuracy: 30
+      inaccuracy: 360
       damage: 11
       lifetime: 40.30
       speed: 3
