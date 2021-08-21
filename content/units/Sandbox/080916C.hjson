@@ -39,6 +39,7 @@ weapons: [
          type: laserBulletType
          length: 999
          damage: 999999999
+         speed: 2
          width: 76
          lifetime: 65
          lightningSpacing: 35
@@ -77,7 +78,7 @@ weapons: [
          type: laserBulletType
          length: 999
          damage: 999999999
-         speed: -0.01
+         speed: -2
          width: 76
          lifetime: 65
          lightningSpacing: 35
