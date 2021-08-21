@@ -25,7 +25,6 @@ weapons: [
    {
    name: GRB-080916C
    shootSound: biglasergopew
-   chargeSound: biglasergopew
       top: false
       mirror: false
       shake: 17
@@ -61,6 +60,7 @@ weapons: [
        }
        {
    name: GRB-080916C
+   shootSound: laser
       top: false
       mirror: false
       shake: 17
