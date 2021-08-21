@@ -34,7 +34,7 @@ weapons: [
     recoil: 0
     shots: 2
     spacing: 360
-    shotDelay: 360
+    shotDelay: 8
     bullet: {
       type: BasicBulletType
       inaccuracy: 360
