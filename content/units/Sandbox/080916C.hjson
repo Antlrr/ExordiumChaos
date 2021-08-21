@@ -72,7 +72,7 @@ weapons: [
       reload: 350
       recoil: 0
       cooldownTime: 35
-      spacing: 360
+      spacing: 90
       bullet: {
          type: laserBulletType
          length: 999
@@ -95,7 +95,7 @@ weapons: [
          sideWidth: 0
          sideLength: 0
          colors: [000000, ffffff]
-         inaccuracy: 360
+         inaccuracy: 90
          }
        }
      ]
