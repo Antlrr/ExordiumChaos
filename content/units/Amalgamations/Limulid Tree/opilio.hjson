@@ -65,7 +65,6 @@ weapons: [
    damage: 80
    lifetime: 9
    length: 100
-   speed: 1
     }
   }
 ]
