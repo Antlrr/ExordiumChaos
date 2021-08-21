@@ -24,7 +24,7 @@ lightColor: ffffff
 weapons: [
    {
    name: GRB-080916C
-   chargeSound: biglasergopew
+   chargeSound: biglasergopew.ogg
       top: false
       mirror: false
       shake: 17
@@ -60,7 +60,6 @@ weapons: [
        }
        {
    name: GRB-080916C
-   chargeSound: biglasergopew
       top: false
       mirror: false
       shake: 17
