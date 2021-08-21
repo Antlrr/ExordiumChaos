@@ -1,6 +1,6 @@
 type: Drill
 tier: 1
-drillTime: 100
+drillTime: 800
 size: 1
 requirements: [
    copper/15
