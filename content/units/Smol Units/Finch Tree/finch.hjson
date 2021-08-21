@@ -11,6 +11,7 @@ drag: 0.01
 mineTier: 1
 mineSpeed: 1
 engineSize: 1
+engineOffset: -1
 controller: MinerAI
 lightRadius: 30
 lightColor: 8cc7f5
