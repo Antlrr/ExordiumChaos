@@ -24,8 +24,7 @@ lightColor: ffffff
 weapons: [
    {
    name: GRB-080916C
-   shootSound: laserblasted
-   chargeSound: lasercharge
+   chargeSound: biglasergopew
       top: false
       mirror: false
       shake: 17
@@ -51,7 +50,6 @@ weapons: [
          largeHit: true
          lightColor: Fc62b5
          lightningColor: Fc62b5
-         shootEffect: greenLaserCharge
          healPercent: 9999999
          collidesTeam: false
          sideAngle: 15
@@ -62,8 +60,7 @@ weapons: [
        }
        {
    name: GRB-080916C
-   shootSound: laserblasted
-   chargeSound: lasercharge
+   chargeSound: biglasergopew
       top: false
       mirror: false
       shake: 17
@@ -90,7 +87,6 @@ weapons: [
          largeHit: true
          lightColor: Fc62b5
          lightningColor: Fc62b5
-         shootEffect: greenLaserCharge
          healPercent: 9999999
          collidesTeam: false
          sideAngle: 15
