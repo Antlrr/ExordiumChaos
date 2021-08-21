@@ -1,4 +1,28 @@
+type: legs
+hovering: true
+groundLayer: 75
+visualElevation: 0.1
+buildSpeed: 1.30
+mineSpeed: 2.30
+mineTier: 4
+health: 10000
+armor: 80
+speed: 0.20
+rotateSpeed: 0.30
+controller: GroundAI
+legCount: 4
+legLength: 4
+legBaseOffset: 1
+legExtension: 1
+legSpeed: 0.20
+legSplashRange: 4
+rippleScale: 1
+maxStretch: 1.30
+allowLegStep: true
+lightRadius: 30
+lightColor: ffffff
 weapons: [
+   {
    name: GRB-080916C
    shootSound: laserblasted
    chargeSound: lasercharge
@@ -34,4 +58,5 @@ weapons: [
          sideLength: 0
          colors: [000000, ffffff]
          }
-       ]
+       }
+     ]
