@@ -73,6 +73,7 @@ weapons: [
       recoil: 0
       cooldownTime: 35
       spacing: 90
+      velocity: -1
       bullet: {
          type: laserBulletType
          length: 999
