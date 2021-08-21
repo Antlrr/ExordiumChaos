@@ -73,11 +73,11 @@ weapons: [
       recoil: 0
       cooldownTime: 35
       spacing: 90
-      velocity: -1
       bullet: {
          type: laserBulletType
          length: 999
          damage: 999999999
+         speed: -100
          width: 76
          lifetime: 65
          lightningSpacing: 35
