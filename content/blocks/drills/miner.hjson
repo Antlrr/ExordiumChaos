@@ -1,0 +1,8 @@
+type: drill
+tier: 1
+drillTime: 100
+size: 1
+requirements: [
+   copper/15
+]
+alwaysUnlocked: true
