@@ -1,1 +1,10 @@
-
+type: Wall
+health: 80
+category: defense
+requirements: [
+   copper/6
+]
+ambientSound: fard
+ambientSoundVolume: 100
+destroySound: fard
+breakSound: fard
