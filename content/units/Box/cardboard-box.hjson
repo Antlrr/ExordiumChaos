@@ -53,4 +53,5 @@ weapons: [
      }
   }
 ]
+immunities: [boxed]
 research: cardboard-factory
