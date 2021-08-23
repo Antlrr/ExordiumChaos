@@ -22,3 +22,4 @@ consumes: {
 results: [
    liquid: oil
    amount: 0.5
+]
