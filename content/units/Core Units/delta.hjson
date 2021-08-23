@@ -5,7 +5,7 @@ isCounted: false
 speed: 3
 rotateSpeed: 3.40
 drag: 0.60
-accel: 2
+accel: 5
 armor: 0
 mineTier: 3
 mineSpeed: 21
