@@ -1,0 +1,15 @@
+type: ShockMine
+hasShadow: false
+health: 50
+damage: 25
+tileDamage: 7
+length: 10
+tendrils: 4
+requirements: [
+   lead/25
+   silicon/1
+]
+category: effect
+lightningColor: 5fc79f
+hitSound: fard
+destroySound: fard
