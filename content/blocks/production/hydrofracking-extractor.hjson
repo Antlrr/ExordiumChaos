@@ -2,7 +2,6 @@ type: fracker
 updateEffect: pulverize
 liquidCapacity: 50
 updateEffectChance: 0.05
-pumpAmount: 0.25
 size: 3
 liquidCapacity: 30
 ItemUseTime: 60
@@ -19,8 +18,6 @@ consumes: {
        amount: 0.15
        }
     }
-results: [
-   liquid: oil
-   amount: 0.5
-]
+results: oil
+pumpAmount: 0.5
 category: crafting
