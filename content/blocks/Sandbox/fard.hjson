@@ -8,3 +8,16 @@ ambientSound: fard
 ambientSoundVolume: 100
 destroySound: fard
 breakSound: fard
+effects: [
+   {
+      type: ParticleEffect
+      particles: 1
+      lifetime: 120
+      length: 0
+      sizeFrom: 32
+      sizeTo: 32
+      colorFrom: 9daeff00
+      colorTo: 9daeff
+      region: box-particle
+   }
+]
