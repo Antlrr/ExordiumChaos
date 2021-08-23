@@ -1,14 +1,14 @@
 type: legs
 hovering: true
-groundLayer: 75
+groundLayer: 10
 visualElevation: 0.2
 health: 300
-armor: 60.40
+armor: 10.05
 hitSize: 7
 speed: 0.60
 rotateSpeed: 2.05
 controller: GroundAI
-mineSpeed: 5
+mineSpeed: 1
 mineTier: 2
 legCount: 4
 legLength: 9.20
@@ -37,7 +37,7 @@ weapons: [
       colors: [5fc79f, 7afadc, ffffff]
       lightColor: 7afadc
       damage: 37.60
-      lifetime: 10.30
+      lifetime: 15.30
       length: 150
       width: 5
       collidesTeam: false
