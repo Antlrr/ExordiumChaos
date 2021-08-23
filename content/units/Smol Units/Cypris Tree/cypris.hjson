@@ -21,7 +21,7 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-     type: MissleBulletType
+     type: MissileBulletType
      collidesTeam: false
      damage: 18
      inaccuracy: 1
