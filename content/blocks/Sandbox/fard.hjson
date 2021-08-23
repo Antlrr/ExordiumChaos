@@ -18,6 +18,6 @@ effects: [
       sizeTo: 32
       colorFrom: 9daeff00
       colorTo: 9daeff
-      region: boxparticle
+      region: antdustry-boxparticle
    }
 ]
