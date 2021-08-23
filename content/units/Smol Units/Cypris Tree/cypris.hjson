@@ -21,7 +21,7 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-     type: MissileBulletType
+     type: FireBulletType
      collidesTeam: false
      damage: 18
      inaccuracy: 1
@@ -30,4 +30,5 @@ weapons: [
     }
   }
 ]
+immunities: [burning]
 research: smol-factory
