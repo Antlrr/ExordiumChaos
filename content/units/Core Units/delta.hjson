@@ -4,7 +4,7 @@ health: 650
 isCounted: false
 speed: 3
 rotateSpeed: 3.40
-drag: 0.60
+drag: 0.05
 accel: 0.5
 armor: 0
 mineTier: 3
@@ -17,8 +17,8 @@ flying: true
 weapons: [
   {
   name: delta-weapon
-  top:false
-  mirror: true
+  top: false
+  mirror: false
   shots: 3
   spacing: 10
   inaccuracy: 4
@@ -41,6 +41,33 @@ weapons: [
     homingPower: 0.25
     toColor: ffffff
     buildingDamageMultiplier: 0.01
+    }
+  }
+{
+      name: delta-weapon-mount
+      top: true
+      mirror: false
+      shots: 3
+      spacing: 10
+      inaccuracy: 4
+      shotDelay: 6.50
+      x: 2
+      y: 0
+      reload: 10
+      recoil: 1
+      bullet: {
+         type: basicBulletType
+         lifetime: 120
+         speed: 2
+         inaccuracy: 4.05
+         damage: 11
+         length: 45
+         width: 5.50
+         shootEffect: shootSmall
+         smokeEffect: shootSmallSmoke
+         homingPower: 0.25
+         toColor: ffffff
+         buildingDamageMultiplier: 0.01
     }
   }
 ]
