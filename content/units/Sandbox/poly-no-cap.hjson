@@ -1,0 +1,12 @@
+type: flying
+controller: defenderAI
+health: 20
+speed: 1
+UnitDecal: {
+   region: antdustry-poly-cap
+   x: 0
+   y: 0
+   rotation: 0
+   layer: 1
+   color: 84f491
+}
