@@ -7,5 +7,5 @@ description: "adds some stuff
 [white]ereHyddeS
 BlopTM"
 version: "1.0"
-minGameVersion: "103"
+minGameVersion: "130"
 hidden: "false"
