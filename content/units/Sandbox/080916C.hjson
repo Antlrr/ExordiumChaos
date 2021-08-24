@@ -56,9 +56,19 @@ weapons: [
          sideWidth: 0
          sideLength: 0
          colors: [Fc62b5, ffffff]
+         shootEffect: {
+            type: WaveEffect
+            sizeFrom: 40
+            sizeTo: 0
+            lifetime: 30
+            strokeFrom: 2
+            strokeTo: 1
+            colorFrom: Fc62b5
+            colorTo: fffffff
+            }
          }
-       }
-       {
+      }
+      {
    name: GRB-080916C
    shootSound: laser
       top: false
@@ -94,6 +104,16 @@ weapons: [
          sideLength: 0
          colors: [Fc62b5, ffffff]
          inaccuracy: 90
+         shootEffect: {
+            type: WaveEffect
+            sizeFrom: 40
+            sizeTo: 0
+            lifetime: 30
+            strokeFrom: 2
+            strokeTo: 1
+            colorFrom: Fc62b5
+            colorTo: fffffff
+           }
          }
        }
      ]
