@@ -47,12 +47,12 @@ weapons: [
       name: delta-weapon-mount
       top: true
       mirror: false
-      shots: 3
+      shots: 1
       spacing: 10
       inaccuracy: 4
       shotDelay: 6.50
       x: 0
-      y: 2
+      y: -2
       reload: 10
       recoil: 1
       bullet: {
