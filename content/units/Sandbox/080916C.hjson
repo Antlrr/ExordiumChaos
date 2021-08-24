@@ -97,4 +97,18 @@ weapons: [
          }
        }
      ]
+abilities: [
+   {
+      type: EnergyFieldAbility
+      damage: 99999
+      reload: 5
+      range: 100
+      maxTargets: 20
+      shootSound: bigshot
+      color: Fc62b5
+      healPercent: 9999999
+      status: unmoving
+      statusDuration: 100
+   }
+]
 
