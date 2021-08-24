@@ -38,7 +38,7 @@ weapons: [
     width: 5.50
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    homingPower: 0.25
+    homingPower: 0.10
     toColor: ffffff
     buildingDamageMultiplier: 0.01
     }
@@ -56,10 +56,10 @@ weapons: [
       reload: 10
       recoil: 1
       bullet: {
-         type: basicBulletType
+         type: MissileBulletType
          lifetime: 120
-         speed: 2
-         inaccuracy: 4.05
+         speed: 1
+         inaccuracy: 6
          damage: 11
          length: 45
          width: 5.50
