@@ -38,7 +38,7 @@ weapons: [
     width: 5.50
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    homingPower: 0.10
+    homingPower: 0.05
     toColor: ffffff
     buildingDamageMultiplier: 0.01
     }
@@ -51,8 +51,8 @@ weapons: [
       spacing: 10
       inaccuracy: 4
       shotDelay: 6.50
-      x: 0
-      y: -2
+      x: -10
+      y: 0
       reload: 10
       recoil: 1
       bullet: {
@@ -60,7 +60,7 @@ weapons: [
          lifetime: 120
          speed: 1
          inaccuracy: 6
-         damage: 11
+         damage: 20
          length: 45
          width: 5.50
          shootEffect: shootSmall
