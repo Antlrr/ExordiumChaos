@@ -24,8 +24,8 @@ weapons: [
   inaccuracy: 4
   shotDelay: 6.50
   ejectEffect: casing1
-  x: 1
-  y: 3
+  x: 0
+  y: 0
   reload: 10
   recoil: 1
   bullet: {
