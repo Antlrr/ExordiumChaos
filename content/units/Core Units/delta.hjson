@@ -51,8 +51,8 @@ weapons: [
       spacing: 10
       inaccuracy: 4
       shotDelay: 6.50
-      x: 2
-      y: 0
+      x: 0
+      y: 2
       reload: 10
       recoil: 1
       bullet: {
