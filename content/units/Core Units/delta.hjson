@@ -48,26 +48,21 @@ weapons: [
       rotate: true
       top: true
       mirror: false
-      shots: 1
+      shots: 2
       spacing: 10
       inaccuracy: 4
       shotDelay: 6.50
       x: 14
       y: 0
-      reload: 10
+      reload: 9
       recoil: 1
+      targetInterval: 10
+      targetSwitchInterval: 15
       bullet: {
-         type: MissileBulletType
-         lifetime: 120
-         speed: 1
-         inaccuracy: 6
-         damage: 20
-         length: 45
-         width: 5.50
-         shootEffect: shootSmall
-         smokeEffect: shootSmallSmoke
-         homingPower: 0.25
-         toColor: ffffff
+         type: BulletType
+         shootEffect: sparkShoot
+         hitEffect: pointHit
+         damage: 15
          buildingDamageMultiplier: 0.01
     }
   }
