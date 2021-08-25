@@ -49,11 +49,10 @@ weapons: [
       rotate: true
       top: true
       mirror: false
-      shots: 2
-      spacing: 10
+      shots: 1
       inaccuracy: 4
       shotDelay: 6.50
-      x: 14
+      x: 6
       y: 0
       reload: 9
       recoil: 1
