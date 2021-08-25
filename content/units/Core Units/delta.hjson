@@ -52,7 +52,7 @@ weapons: [
       shots: 1
       inaccuracy: 4
       shotDelay: 6.50
-      x: 6
+      x: 10
       y: 0
       reload: 9
       recoil: 1
