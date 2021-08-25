@@ -62,6 +62,7 @@ weapons: [
       bullet: {
          type: BulletType
          shootEffect: sparkShoot
+         maxRange: 100
          hitEffect: pointHit
          despawnEffect: none
          damage: 15
