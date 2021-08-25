@@ -45,6 +45,7 @@ weapons: [
   }
 {
       name: delta-weapon-mount
+      type: pointDefenseWeapon
       rotate: true
       top: true
       mirror: false
@@ -62,6 +63,7 @@ weapons: [
          type: BulletType
          shootEffect: sparkShoot
          hitEffect: pointHit
+         despawnEffect: none
          damage: 15
          buildingDamageMultiplier: 0.01
     }
