@@ -7,15 +7,17 @@ consumes: {
 plans: [
   {
     unit: cardboard-box
-    time: 1300
+    time: 1500
     requirements: [
-      cardboard/75
+      cardboard/15
     ]
    }
   ]
 requirements: [
+  copper/50
+  lead/100
   silicon/40
-  cardboard/5
+  cardboard/20
 ]
 category: units
 research: cardboard-manufacturer
