@@ -32,26 +32,7 @@ weapons: [
        collidesAir: true
        lifetime: 10
        speed: 1
-       status: {
-          name: boxed
-          localizedName: Boxed
-          show: true
-          speedMultiplier: 0
-          disarm: true
-          dragMultiplier: 4
-          effect: {
-             type: ParticleEffect
-             particles: 3
-             lifetime: 30
-             sizeFrom: 2
-             sizeTo: 2
-             region: antdustry-boxparticle
-             colorFrom: b28768
-             colorTo: b287687b
-          }
-       }
      }
   }
 ]
-immunities: [boxed]
 research: cardboard-factory
