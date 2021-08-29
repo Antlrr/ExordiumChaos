@@ -17,6 +17,7 @@ weapons: [
   {
      name: box-weapon
      reload: 24
+     mirror: false
      shootCone: 180
      x: 0
      y: 0
