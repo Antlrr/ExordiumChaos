@@ -1,13 +1,13 @@
 type: mech
-health: 1500
-armor: 53
+health: 550
+armor: 1
 hitSize: 9.5
-commandLimit: 0
-itemCapacity: 120
-speed: 1.20
+commandLimit: 5
+itemCapacity: 65
+speed: 1.4
 range: 16
-accel: 0.5
-drag: 0.01
+accel: 0.45
+drag: 0.02
 controller: GroundAI
 lightRadius: 30
 lightColor: ffffff
@@ -19,6 +19,9 @@ weapons: [
      x: 0
      y: 0
      rotate: true
+     shots: 8
+     firstShotDelay: 10
+     shotDelay: 0
      shootSound: explosion
      bullet: {
         type: basicBulletType
@@ -26,14 +29,17 @@ weapons: [
         instantDisappear: false
         killShooter: true
         hittable: true
-        homing: true
-        damage: 210
+        damage: 15
         hitsize: 15
         height: 15
         width: 15
+        spacing: 5
         collidesAir: true
-        lifetime: 100
+        lifetime: 52
         speed: 2
+        pierce: true
+        pierceCap: 3
+        pierceBuildings: false
         sprite: antdustry-boxbullet
         spin: 2
         frontColor: c9a58f
