@@ -30,7 +30,6 @@ weapons: [
         type: basicBulletType
         hitEffect: pulverize
         instantDisappear: false
-        killShooter: true
         hittable: true
         damage: 15
         hitsize: 15
