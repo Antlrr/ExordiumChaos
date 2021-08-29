@@ -38,25 +38,6 @@ weapons: [
         spin: 2
         frontColor: c9a58f
         backColor: b28768
-        statusDuration: 180
-        status: {
-           name: unstable
-           localizedName: Unstable
-           show: true
-           speedMultiplier: 0.25
-           reloadMultiplier: 0.30
-           buildSpeedMultiplier: 0.75
-           effect: {
-             type: ParticleEffect
-             particles: 4
-             lifetime: 45
-             sizeFrom: 2
-             sizeTo: 1
-             region: antdustry-boxparticle
-             colorFrom: 5e7191
-             colorTo: 5e6991
-          }
-        }
      }
   }
 ]
