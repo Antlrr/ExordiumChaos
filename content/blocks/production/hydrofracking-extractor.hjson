@@ -20,4 +20,4 @@ consumes: {
     }
 results: oil
 pumpAmount: 0.5
-category: crafting
+category: production
