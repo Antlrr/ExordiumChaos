@@ -8,6 +8,8 @@ speed: 1.4
 range: 16
 accel: 0.45
 drag: 0.02
+mechSideSway: 0
+mechFrontSway: 0
 controller: GroundAI
 lightRadius: 30
 lightColor: ffffff
@@ -20,6 +22,7 @@ weapons: [
      y: 0
      rotate: true
      shots: 8
+     spacing: 5
      firstShotDelay: 10
      shotDelay: 0
      shootSound: explosion
@@ -33,7 +36,6 @@ weapons: [
         hitsize: 15
         height: 15
         width: 15
-        spacing: 5
         collidesAir: true
         lifetime: 52
         speed: 2
