@@ -2,10 +2,16 @@ const statuses = require("libs/statuses")
 const refresh = require("libs/refresh")
 
 const box = extendContent(UnitType, "cardboard-box", {});
-lathra.constructor = () => extend(UnitEntity, {
+box.constructor = () => extend(MechUnit, {
+});
+const bigbox = extendContent(UnitType, "bigger-box", {});
+bigbox.constructor = () => extend(MechUnit, {
 });
 Events.on(ClientLoadEvent, b  => {
    box.immunities.add(statuses.boxedStatus);
-   lathra.weapons.get(0).bullet.status = StatusEffects.invincible;
-   lathra.weapons.get(0).bullet.statusDuration = 60;
+   box.weapons.get(0).bullet.status = statuses.boxedStatus;
+   box.weapons.get(0).bullet.statusDuration = 150;
+   bigbox.immunities.add(statuses.boxedStatus);
+   bigbox.weapons.get(0).bullet.status = statuses.boxedStatus;
+   bigbox.weapons.get(0).bullet.statusDuration = 180;
 });
