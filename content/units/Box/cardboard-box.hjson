@@ -1,13 +1,15 @@
 type: mech
-health: 1000
-armor: 50
-hitSisze: 7
-commandLimit: 0
-itemCapacity: 100
+health: 225
+armor: 0
+hitSize: 7
+commandLimit: 4
+itemCapacity: 50
 speed: 1.20
 range: 16
 accel: 0.5
 drag: 0.01
+mechSideSway: 0
+mechFrontSway: 0
 controller: SuicideAI
 lightRadius: 30
 lightColor: ffffff
@@ -22,12 +24,12 @@ weapons: [
      bullet: {
        type: BombBulletType
        hitEffect: pulverize
-       splashDamageRadius: 60
+       splashDamageRadius: 64
        instantDisappear: true
        killShooter: true
        hittable: false
-       splashDamage: 90
-       damage: 12
+       splashDamage: 45
+       damage: 0
        collidesAir: true
        lifetime: 10
        speed: 1
