@@ -19,7 +19,6 @@ weapons: [
      x: 0
      y: 0
      shootSound: explosion
-     shootStatusDuration: 150
      bullet: {
        type: BombBulletType
        hitEffect: pulverize
