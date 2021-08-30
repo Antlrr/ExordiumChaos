@@ -16,7 +16,7 @@ lightColor: ffffff
 weapons: [
   {
      name: box-weapon
-     reload: 24
+     reload: 120
      mirror: false
      shootCone: 180
      x: 0

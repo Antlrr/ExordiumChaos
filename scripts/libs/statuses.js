@@ -8,9 +8,9 @@ const boxedStatus = extend(StatusEffect, "boxedStatus", {
 });
 
 //eeee status effect
-const eeeeStatus = extend(StatusEffect, "eeee", {
+const eeeeStatus = extend(StatusEffect, "eeeeStatus", {
     localizedName: "EEEE",
-    damage: 4,
+    damage: 12,
     permanent: true,
 });
 
@@ -18,5 +18,5 @@ const eeeeStatus = extend(StatusEffect, "eeee", {
 //Note to self: ADD COMMA
 module.exports = {
     boxedStatus: boxedStatus,
-    eeee: eeee,
+    eeeeStatus: eeeeStatus,
 };
