@@ -46,6 +46,15 @@ weapons: [
         spin: 2
         frontColor: c9a58f
         backColor: b28768
+           shootEffect: {
+            type: WaveEffect
+            sizeFrom: 30
+            sizeTo: 0
+            lifetime: 20
+            strokeFrom: 2
+            strokeTo: 1
+            colorFrom: B28768
+            colorTo: fffffff
      }
   }
 ]
