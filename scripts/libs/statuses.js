@@ -10,7 +10,7 @@ const boxedStatus = extend(StatusEffect, "boxedStatus", {
 //eeee status effect
 const eeeeStatus = extend(StatusEffect, "eeeeStatus", {
     localizedName: "EEEE",
-    damage: 12,
+    damage: 2.5,
     permanent: true,
 });
 

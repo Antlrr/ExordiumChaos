@@ -16,7 +16,7 @@ lightColor: ffffff
 weapons: [
   {
      name: box-weapon
-     reload: 120
+     reload: 240
      mirror: false
      shootCone: 15
      x: 0
@@ -24,7 +24,7 @@ weapons: [
      rotate: true
      shots: 8
      spacing: 5
-     firstShotDelay: 30
+     firstShotDelay: 10
      shotDelay: 0
      shootSound: explosion
      bullet: {
