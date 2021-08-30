@@ -46,6 +46,7 @@ weapons: [
         spin: 2
         frontColor: c9a58f
         backColor: b28768
+        shootEffect: hitLancer
      }
   }
 ]
