@@ -53,7 +53,7 @@ weapons: [
             lifetime: 20
             strokeFrom: 2
             strokeTo: 1
-            colorFrom: B28768
+            colorFrom: b28768
             colorTo: fffffff
      }
   }
