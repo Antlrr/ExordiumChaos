@@ -18,13 +18,13 @@ weapons: [
      name: box-weapon
      reload: 120
      mirror: false
-     shootCone: 180
+     shootCone: 15
      x: 0
      y: 0
      rotate: true
      shots: 8
      spacing: 5
-     firstShotDelay: 10
+     firstShotDelay: 30
      shotDelay: 0
      shootSound: explosion
      bullet: {
