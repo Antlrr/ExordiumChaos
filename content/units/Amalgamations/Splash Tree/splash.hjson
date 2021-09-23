@@ -52,8 +52,9 @@ weapons: [
             lenTo: 6
             colorFrom: 7afadc
             colorTo: 7afadc
-            }
-         ]
+               }
+            ]
+         }
       }
    }
 ]
