@@ -39,7 +39,7 @@ weapons: [
             {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 9
+            sizeTo: 5
             colorFrom: 7afadc
             colorTo: 7afadc
             }
@@ -49,7 +49,7 @@ weapons: [
             strokeFrom: 2
             strokeTo: 0
             lenFrom: 0
-            lenTo: 6
+            lenTo: 3
             colorFrom: 7afadc
             colorTo: 7afadc
                }
@@ -71,7 +71,7 @@ abilities: [
       lightOpacity: 10
       particles: 10
       region: circle
-      lifetime: 1
+      lifetime: 10
       length: 0
       sizeFrom: 2
       sizeTo: 2
