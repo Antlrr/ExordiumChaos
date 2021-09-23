@@ -8,24 +8,50 @@ hitSize: 13.5
 drag: 0.01
 controller: GroundAI
 lightRadius: 30
-lightColor: 7aFaDC
+lightColor: 7afadc
 weapons: [
    {
-   name: splash-mount
    rotate: true
    top: true
    mirror: false
    x: 0
    y: 0
-   shots: 2
+   shots: 1
    recoil: 1
    reload: 15
    bullet: {
-   type: basicBulletType
-   collidesTeam: false
-   damage: 65
-   lifetime: 30.50
-   speed: 5.80
-    }
-  }
+      type: BasicBulletType
+      sprite: circle-bullet
+      collidesTeam: false
+      damage: 32
+      lifetime: 36
+      speed: 2
+      width: 4
+      height: 4
+      backColor: 7afadc
+      frontColor: 7afadc
+      }
+   }
+]
+abilities: [
+    {
+    type: MoveLightningAbility
+    chance: 1
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: ParticleEffect
+      lightOpacity: 10
+      particles: 1
+      region: circle
+      lifetime: 80
+      length: 0
+      sizeFrom: 4
+      sizeTo: 4
+      colorFrom: 7afadc
+      colorTo: 7afadc
+      }
+   }
 ]
