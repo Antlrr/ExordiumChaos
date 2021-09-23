@@ -1,7 +1,7 @@
 type: naval
 flying: false
 health: 650
-speed: 1.50
+speed: 0.60
 accel: 2
 armor: 30
 hitSize: 13.5
@@ -19,6 +19,7 @@ weapons: [
    shots: 1
    recoil: 1
    reload: 15
+   shootSound: lasershoot
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
@@ -30,6 +31,8 @@ weapons: [
       height: 4
       backColor: 7afadc
       frontColor: 7afadc
+      shrinkX: 0
+      shrinkY: 0
       }
    }
 ]
@@ -46,10 +49,10 @@ abilities: [
       lightOpacity: 10
       particles: 1
       region: circle
-      lifetime: 80
+      lifetime: 30
       length: 0
-      sizeFrom: 4
-      sizeTo: 4
+      sizeFrom: 2
+      sizeTo: 2
       colorFrom: 7afadc
       colorTo: 7afadc
       }
