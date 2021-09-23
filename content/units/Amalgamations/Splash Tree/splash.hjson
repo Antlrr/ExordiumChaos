@@ -33,6 +33,27 @@ weapons: [
       frontColor: 7afadc
       shrinkX: 0
       shrinkY: 0
+      despawnEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 9
+            colorFrom: 7afadc
+            colorTo: 7afadc
+            }
+            {
+            type: ParticleEffect
+            line: True
+            strokeFrom: 2
+            strokeTo: 0
+            lenFrom: 0
+            lenTo: 6
+            colorFrom: 7afadc
+            colorTo: 7afadc
+            }
+         ]
       }
    }
 ]
@@ -47,9 +68,9 @@ abilities: [
     shootEffect: {
       type: ParticleEffect
       lightOpacity: 10
-      particles: 1
+      particles: 10
       region: circle
-      lifetime: 30
+      lifetime: 1
       length: 0
       sizeFrom: 2
       sizeTo: 2
