@@ -4,7 +4,7 @@ health: 650
 speed: 0.60
 accel: 2
 armor: 30
-hitSize: 13.5
+hitSize: 8
 drag: 0.01
 controller: GroundAI
 lightRadius: 30
