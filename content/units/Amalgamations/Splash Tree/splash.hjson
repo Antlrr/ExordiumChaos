@@ -85,6 +85,19 @@ weapons: [
          }
       }
    }
+   {
+   type: RepairBeamWeapon
+   x: 0
+   y: 0
+   shootY: 6
+   beamWidth: 0.8
+   mirror: false
+   repairSpeed: 7
+   bullet: {
+      type: BulletType
+      maxRange: 120
+      }
+   }
 ]
 abilities: [
     {
