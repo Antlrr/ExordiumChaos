@@ -18,14 +18,14 @@ weapons: [
    y: 0
    shots: 1
    recoil: 1
-   reload: 15
+   reload: 60
    shootSound: lasershoot
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
       collidesTeam: false
       damage: 32
-      lifetime: 36
+      lifetime: 50
       speed: 2
       width: 4
       height: 4
@@ -43,7 +43,7 @@ weapons: [
       fragBullet: {
          type: MissileBulletType
          homingPower: 0.8
-         lifetime: 39
+         lifetime: 48
          speed: 1
          collidesTeam: false
          damage: 20
