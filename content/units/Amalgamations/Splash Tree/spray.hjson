@@ -109,6 +109,7 @@ weapons: [
    shootEffect: none
    rotate: true
    shootX: -2
+   targetAir: true
    bullet: {
       type: LiquidBulletType
       liquid: water
