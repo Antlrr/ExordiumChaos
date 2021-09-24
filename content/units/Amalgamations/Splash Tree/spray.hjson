@@ -20,14 +20,15 @@ weapons: [
    recoil: 1
    reload: 180
    shootSound: lasershoot
-   shots: 8
-   shotDelay: 10
-   inaccuracy: 7
+   shots: 4
+   shotDelay: 16
+   inaccuracy: 10
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
       collidesTeam: false
       damage: 46
+      homingPower: 0.2
       lifetime: 80
       speed: 1
       width: 5
@@ -102,8 +103,9 @@ weapons: [
    }
    {
    top: false
-   reload: 9
+   reload: 2
    ejectEffect: none
+   shootSound: smallFlame
    bullet: {
       type: LiquidBulletType
       liquid: water
