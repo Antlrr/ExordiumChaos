@@ -11,42 +11,92 @@ lightRadius: 30
 lightColor: 7aFaDC
 weapons: [
    {
-   name: splash-mount
    rotate: true
    top: true
    mirror: false
    x: 0
-   y: 2
+   y: 0
    shots: 1
    recoil: 1
-   reload: 15
+   reload: 60
+   shootSound: lasershoot
+   shots: 8
+   shotDelay: 2
    bullet: {
-   type: artilleryBulletType
-   collidesTeam: false
-   damage: 70
-   lifetime: 60.50
-   speed: 5.30
-    }
- }
- {
-   name: serinus-weapon
-   rotate: true
-   top: true
-   mirror: true
-   x: 5
-   y: 3
-   shots: 2
-   shootSound: laser
-   recoil: 1
-   reload: 13.50
+      type: BasicBulletType
+      sprite: circle-bullet
+      collidesTeam: false
+      damage: 46
+      lifetime: 80
+      speed: 1
+      width: 5
+      height: 5
+      backColor: 7afadc
+      frontColor: 7afadc
+      shrinkX: 0
+      shrinkY: 0
+      trailLength: 0
+      trailWidth: 3.5
+      trailMult: 6
+      trailSize: 1
+      trailColor: 7afadc
+      trailInterval: 1
+      fragBullets: 4
+      fragBullet: {
+         type: MissileBulletType
+         homingPower: 0.8
+         lifetime: 48
+         speed: 1
+         collidesTeam: false
+         damage: 20
+         backColor: 7afadc
+         frontColor: 7afadc
+         pierce: true
+         pierceBuilding: true
+         pierceCap: 3
+         weaveScale: 6
+         weaveMag: 7
+         trailLength: 10
+         trailWidth: 2
+         trailMult: 0
+         trailSize: 1
+         trailColor: 7afadc
+         trailInterval: 0
+         }
+      despawnEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 5
+            colorFrom: 7afadc
+            colorTo: 7afadc
+            }
+            {
+            type: ParticleEffect
+            line: True
+            strokeFrom: 2
+            strokeTo: 0
+            lenFrom: 0
+            lenTo: 3
+            colorFrom: 7afadc
+            colorTo: 7afadc
+               }
+            ]
+         }
+      }
+   }
+   {
+   type: RepairBeamWeapon
+   x: 0
+   y: 0
+   beamWidth: 0.8
+   mirror: false
+   repairSpeed: 8
    bullet: {
-   type: laserBulletType
-   collidesTeam: false
-   colors: [5fc79f, 7afadc, ffffff]
-   lightColor: 7afadc
-   damage: 60
-   lifetime: 11
-   length: 130
-    }
-  }
+      type: BulletType
+      maxRange: 100
+      }
+   }
 ]
