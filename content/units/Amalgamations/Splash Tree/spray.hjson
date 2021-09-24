@@ -18,10 +18,11 @@ weapons: [
    y: 0
    shots: 1
    recoil: 1
-   reload: 60
+   reload: 180
    shootSound: lasershoot
    shots: 8
-   shotDelay: 2
+   shotDelay: 7
+   inaccuracy: 4
    bullet: {
       type: BasicBulletType
       sprite: circle-bullet
