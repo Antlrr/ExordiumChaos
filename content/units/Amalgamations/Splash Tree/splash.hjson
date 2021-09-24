@@ -39,12 +39,11 @@ weapons: [
       trailSize: 1
       trailColor: 7afadc
       trailInterval: 1
-      fragBullets: 10
-      shotDelay: 4
+      fragBullets: 4
       fragBullet: {
          type: MissileBulletType
          homingPower: 0.8
-         lifetime: 10
+         lifetime: 39
          speed: 1
          collidesTeam: false
          damage: 20
