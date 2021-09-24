@@ -100,6 +100,23 @@ weapons: [
       maxRange: 100
       }
    }
+   {
+   top: false
+   reload: 9
+   ejectEffect: none
+   shootSound: 
+   bullet: {
+      type: LiquidBulletType
+      liquid: water
+      damage: 11
+      speed: 2.4
+      drag : 0.009
+      knockback: 2
+      shootEffect: shootSmall
+      lifetime: 84
+      collidesAir: false
+      }
+   }
 ]
 abilities: [
     {
