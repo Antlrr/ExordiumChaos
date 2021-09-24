@@ -45,8 +45,8 @@ weapons: [
       fragBullet: {
          type: MissileBulletType
          homingPower: 0.8
-         lifetime: 48
-         speed: 1
+         lifetime: 30
+         speed: 4
          collidesTeam: false
          damage: 20
          backColor: 7afadc
