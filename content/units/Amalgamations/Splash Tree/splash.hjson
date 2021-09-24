@@ -58,6 +58,14 @@ weapons: [
             lenTo: 3
             colorFrom: 7afadc
             colorTo: 7afadc
+            fragBullets: 10
+            shotDelay: 10
+            fragBullet: {
+               type: MissileBulletType
+               homingPower: 0.8
+               lifetime: 10
+               speed: 1
+               }
                }
             ]
          }
