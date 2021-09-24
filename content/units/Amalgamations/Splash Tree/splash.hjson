@@ -33,6 +33,12 @@ weapons: [
       frontColor: 7afadc
       shrinkX: 0
       shrinkY: 0
+      trailLength: 0
+      trailWidth: 3.5
+      trailMult: 6
+      trailSize: 1
+      trailColor: 7afadc
+      trailInterval: 1
       despawnEffect: {
          type: MultiEffect
          effects: [
