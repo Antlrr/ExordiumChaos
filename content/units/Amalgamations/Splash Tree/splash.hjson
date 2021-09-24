@@ -52,11 +52,11 @@ weapons: [
          pierce: true
          pierceBuilding: true
          pierceCap: 3
-         weaveScale: 3
-         weaveMag: 4
-         trailLength: 4
+         weaveScale: 6
+         weaveMag: 7
+         trailLength: 10
          trailWidth: 3.5
-         trailMult: 6
+         trailMult: 0
          trailSize: 1
          trailColor: 7afadc
          trailInterval: 0
