@@ -102,9 +102,8 @@ weapons: [
    }
    {
    top: false
-   reload: 9
+   reload: 1
    ejectEffect: none
-   shootSound: 
    bullet: {
       type: LiquidBulletType
       liquid: water
