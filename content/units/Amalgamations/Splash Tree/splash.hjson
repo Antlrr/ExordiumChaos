@@ -9,7 +9,7 @@ drag: 0.01
 controller: GroundAI
 lightRadius: 30
 lightColor: 7afadc
-trailX: 7
+trailX: 6
 trailY: -6
 trailScl: 2
 trailLength: 10
