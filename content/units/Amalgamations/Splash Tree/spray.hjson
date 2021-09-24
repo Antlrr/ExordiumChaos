@@ -105,7 +105,10 @@ weapons: [
    top: false
    reload: 2
    ejectEffect: none
-   shootSound: smallFlame
+   shootSound: SmallFlame
+   shootEffect: none
+   rotate: true
+   shootX: -2
    bullet: {
       type: LiquidBulletType
       liquid: water
