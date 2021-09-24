@@ -65,6 +65,10 @@ weapons: [
                homingPower: 0.8
                lifetime: 10
                speed: 1
+               collidesTeam: false
+               damage: 20
+               backColor: 7afadc
+               frontColor: 7afadc
                }
                }
             ]
