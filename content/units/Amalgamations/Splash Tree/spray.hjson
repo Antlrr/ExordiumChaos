@@ -108,7 +108,11 @@ weapons: [
    shootSound: SmallFlame
    shootEffect: none
    rotate: true
-   shootX: -2
+   x: 0
+   y: 0
+   mirror: false
+   autoTarget: true
+   controllable: false
    targetAir: true
    bullet: {
       type: LiquidBulletType
