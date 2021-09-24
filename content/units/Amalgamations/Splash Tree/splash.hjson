@@ -39,6 +39,29 @@ weapons: [
       trailSize: 1
       trailColor: 7afadc
       trailInterval: 1
+      fragBullets: 10
+      shotDelay: 4
+      fragBullet: {
+         type: MissileBulletType
+         homingPower: 0.8
+         lifetime: 10
+         speed: 1
+         collidesTeam: false
+         damage: 20
+         backColor: 7afadc
+         frontColor: 7afadc
+         pierce: true
+         pierceBuilding: true
+         pierceCap: 3
+         weaveScale: 3
+         weaveMag: 4
+         trailLength: 4
+         trailWidth: 3.5
+         trailMult: 6
+         trailSize: 1
+         trailColor: 7afadc
+         trailInterval: 0
+         }
       despawnEffect: {
          type: MultiEffect
          effects: [
@@ -58,20 +81,6 @@ weapons: [
             lenTo: 3
             colorFrom: 7afadc
             colorTo: 7afadc
-            fragBullets: 4
-            fragBullet: {
-               type: MissileBulletType
-               homingPower: 0.8
-               lifetime: 10
-               speed: 1
-               collidesTeam: false
-               damage: 20
-               backColor: 7afadc
-               frontColor: 7afadc
-               pierce: true
-               pierceBuilding: true
-               pierceCap: 3
-               }
                }
             ]
          }
