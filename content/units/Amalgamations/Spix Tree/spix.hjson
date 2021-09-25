@@ -9,8 +9,8 @@ drag: 0.01
 controller: FlyingAI
 lightRadius: 30
 lightColor: 6f7fe8
-engineOffset: -0.25
-engineSize: 4
+engineOffset: -0.4
+engineSize: 3
 weapons: [
    {
    top: false
@@ -20,8 +20,8 @@ weapons: [
    y: 0
    shots: 2
    shotDelay: 6
-   recoil: 3
-   reload: 20
+   recoil: 4
+   reload: 30
    bullet: {
       type: basicBulletType
       sprite: antdustry-spin-bullet
@@ -43,7 +43,7 @@ weapons: [
          type: WaveEffect
          sizeFrom: 0
          sizeTo: 10
-         strokeFrom: 2
+         strokeFrom: 1
          strokeTo: 0
          colorFrom: 7afadc
          colorTo: 7afadc00
