@@ -9,7 +9,8 @@ drag: 0.01
 controller: FlyingAI
 lightRadius: 30
 lightColor: 6f7fe8
-engineSize: 3.50
+engineSize: 3
+engineOffset: -0.1
 weapons: [
    {
    top: false
