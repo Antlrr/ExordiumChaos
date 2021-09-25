@@ -19,12 +19,12 @@ weapons: [
    x: 0
    y: 0
    shots: 2
-   shotDelay: 3
+   shotDelay: 6
    recoil: 1
    reload: 14
    bullet: {
       type: basicBulletType
-      sprite: spin-bullet
+      sprite: antdustry-spin-bullet
       lightOpacity: 0
       spin: 4
       collidesTeam: false
@@ -39,6 +39,13 @@ weapons: [
       shrinkY: 0.3
       backColor: 52a379
       frontColor: 7afadc
-    }
-  }
+      hitEffect: {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 4
+         colorFrom: 7afadc
+         colorTo: 7afadc00
+         }
+      }
+   }
 ]
