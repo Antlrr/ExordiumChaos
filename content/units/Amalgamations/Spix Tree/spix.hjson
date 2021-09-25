@@ -11,20 +11,29 @@ lightRadius: 30
 lightColor: 6f7fe8
 weapons: [
    {
-   name: spix-weapon
    top: false
-   mirror: true
-   x: 3
-   y: 2.50
+   mirror: false
+   rotate: false
+   x: 0
+   y: 0
    shots: 2
-   recoil: 2
+   shotDelay: 3
+   recoil: 1
    reload: 14
    bullet: {
-   type: basicBulletType
-   collidesTeam: false
-   damage: 65
-   lifetime: 25
-   speed: 7
+      type: basicBulletType
+      sprite: spin-bullet
+      spin: 4
+      collidesTeam: false
+      damage: 40
+      lifetime: 58
+      speed: 2
+      width: 5
+      length: 5
+      shrinkX: 0.3
+      shrinkY: 0.3
+      backColor: 52a379
+      frontColor: 7afadc
     }
   }
 ]
