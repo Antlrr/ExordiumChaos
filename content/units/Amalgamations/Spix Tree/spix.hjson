@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 500
+health: 300
 speed: 3
 accel: 3
 armor: 20
@@ -9,6 +9,8 @@ drag: 0.01
 controller: FlyingAI
 lightRadius: 30
 lightColor: 6f7fe8
+engineOffset: -2
+engineSize: 6
 weapons: [
    {
    top: false
@@ -23,13 +25,15 @@ weapons: [
    bullet: {
       type: basicBulletType
       sprite: spin-bullet
-      lightOpacity: 0.01
+      lightOpacity: 0
       spin: 4
       collidesTeam: false
       damage: 40
       lifetime: 58
-      speed: 2
-      width: 5
+      speed: 6
+      width: 6
+      pierce: true
+      pierceBuilding: true
       length: 5
       shrinkX: 0.3
       shrinkY: 0.3
