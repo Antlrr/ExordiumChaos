@@ -9,19 +9,22 @@ hitSize: 13
 drag: 0.01
 controller: FlyingAI
 lightRadius: 30
-lightColor: 7aFaDC
+lightColor: 7afadc
+lowAltitude: true
+rotateShooting: false
 weapons: [
    {
-      name: ray-weapon
-      top: true
-      mirror: true
-      x: 4
-      y: -4
-      shootSound: lasershoot
-      shots: 2
+   name: ray-weapon
+   top: true
+   mirror: true
+   rotate: true
+   x: 6
+   y: -4.50
+   shootSound: lasershoot
+   shots: 2
    shotDelay: 6
    recoil: 5
-   reload: 30
+   reload: 28
    autoTarget: true
    bullet: {
       type: basicBulletType
