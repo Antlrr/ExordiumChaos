@@ -23,7 +23,7 @@ weapons: [
    shootSound: lasershoot
    shots: 2
    shotDelay: 6
-   recoil: 5
+   recoil: 1
    reload: 28
    autoTarget: true
    bullet: {
@@ -33,7 +33,7 @@ weapons: [
       spin: 6
       collidesTeam: false
       damage: 40
-      lifetime: 58
+      lifetime: 73
       speed: 2
       width: 8
       pierce: true
