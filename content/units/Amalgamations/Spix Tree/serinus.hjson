@@ -11,12 +11,12 @@ lightRadius: 30
 lightColor: 7aFaDC
 weapons: [
    {
-      name: serinus-weapon
+      name: ray-weapon
       top: true
       mirror: true
       x: 4
-      y: 0
-      shootSound: laser
+      y: -4
+      shootSound: lasershoot
       shots: 3
       recoil: 2
       reload: 12
