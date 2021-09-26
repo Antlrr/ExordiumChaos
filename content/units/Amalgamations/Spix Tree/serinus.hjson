@@ -17,16 +17,37 @@ weapons: [
       x: 4
       y: -4
       shootSound: lasershoot
-      shots: 3
-      recoil: 2
-      reload: 12
-      bullet: {
-         type: laserBulletType
-         length: 40
-         colors: [5fc79f, 7afadc, ffffff]
-         lightColor: 7afadc
-         collidesTeam: false
-         damage: 69
+      shots: 2
+   shotDelay: 6
+   recoil: 5
+   reload: 30
+   autoTarget: true
+   bullet: {
+      type: basicBulletType
+      sprite: antdustry-spin-bullet
+      lightOpacity: 0
+      spin: 6
+      collidesTeam: false
+      damage: 40
+      lifetime: 58
+      speed: 2
+      width: 8
+      pierce: true
+      pierceBuilding: true
+      height: 8
+      shrinkX: 0.3
+      shrinkY: 0.3
+      backColor: 52a379
+      frontColor: 7afadc
+      hitEffect: {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 10
+         strokeFrom: 1
+         strokeTo: 0
+         colorFrom: 7afadc
+         colorTo: 7afadc00
+         }
       }
    }
 ]
