@@ -22,7 +22,7 @@ weapons: [
      y: 0
      shootSound: explosion
      bullet: {
-       status: antdustry-boxed
+       status: boxed
        statusDuration: 150
        type: BombBulletType
        hitEffect: pulverize
