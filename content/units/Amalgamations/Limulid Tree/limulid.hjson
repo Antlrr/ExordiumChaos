@@ -43,6 +43,7 @@ weapons: [
       pierce: true
       collidesAir: true
       statusDuration: 240
+      status: antdustry-disarmed
       shootEffect: none
       smokeEffect: none
       hitEffect: {
@@ -57,7 +58,6 @@ weapons: [
       }
       ejectEffect: none
       despawnEffect: none
-      status: burning
       keepVelocity: false
       hittable: false
       }
