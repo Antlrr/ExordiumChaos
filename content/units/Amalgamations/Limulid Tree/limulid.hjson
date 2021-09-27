@@ -27,12 +27,12 @@ weapons: [
    rotateSpeed: 5
    top: false
    mirror: true
-   x: 4
+   x: 4.50
    y: 3
    recoil: -5
    reload: 5
    inaccuracy: 10
-   ejectEffect: casing1
+   ejectEffect: none
    shootSound: plantBreak
    bullet: {
       type: BulletType
@@ -43,8 +43,17 @@ weapons: [
       pierce: true
       collidesAir: true
       statusDuration: 240
-      hitEffect: hitFlameSmall
-      shootEffect: shootSmallFlame
+      hitEffect: {
+         type: ParticleEffect
+         line: true
+         strokeFrom: 1
+         strokeTo: 0
+         lenFrom: 5
+         lenTo: 0
+         colorFrom: 7afadc
+         colorTo: 7afadc00
+      }
+      shootEffect: none
       ejectEffect: none
       despawnEffect: none
       status: burning
@@ -52,4 +61,13 @@ weapons: [
       hittable: false
       }
    }
+]
+abilities: [
+  {
+    type: UnitSpawnAbility
+    unit: pico
+    spawnX: 0
+    spawnY: -2
+    spawnTime: 600
+  }
 ]
