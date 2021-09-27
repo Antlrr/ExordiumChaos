@@ -27,9 +27,9 @@ weapons: [
    rotateSpeed: 5
    top: false
    mirror: true
-   x: 4.50
+   x: 2
    y: 3
-   recoil: -5
+   recoil: -3
    reload: 5
    inaccuracy: 10
    ejectEffect: none
@@ -38,8 +38,8 @@ weapons: [
       type: BulletType
       collidesTeam: true
       ammoMultiplier: 3
-      hitSize: 7
-      lifetime: 18
+      hitSize: 4
+      lifetime: 3
       pierce: true
       collidesAir: true
       statusDuration: 240
@@ -53,7 +53,11 @@ weapons: [
          colorFrom: 7afadc
          colorTo: 7afadc00
       }
-      shootEffect: none
+      shootEffect: {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 0
+      }
       ejectEffect: none
       despawnEffect: none
       status: burning
