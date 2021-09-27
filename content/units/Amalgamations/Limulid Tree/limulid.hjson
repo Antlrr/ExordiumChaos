@@ -34,7 +34,6 @@ weapons: [
    inaccuracy: 10
    ejectEffect: none
    shootSound: plantBreak
-   shootEffect: none
    bullet: {
       type: BulletType
       collidesTeam: true
@@ -44,6 +43,8 @@ weapons: [
       pierce: true
       collidesAir: true
       statusDuration: 240
+      shootEffect: none
+      smokeEffect: none
       hitEffect: {
          type: ParticleEffect
          line: true
