@@ -27,13 +27,13 @@ weapons: [
     top: true
     x: 4
     y: 0
-    reload: 10
+    reload: -10
     rotate: true
     mirror: true
     recoil: 1
     shootSound: laser
     bullet: {
-      type: laserBulletType
+      type: BasicBulletType
       colors: [5fc79f, 7afadc, ffffff]
       lightColor: 7afadc
       damage: 37.60
