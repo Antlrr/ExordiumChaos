@@ -13,6 +13,7 @@ mechFrontSway: 0
 controller: SuicideAI
 lightRadius: 30
 lightColor: ffffff
+immunities: [antdustry-boxed]
 weapons: [
   {
      name: cardboard-box-base
@@ -22,7 +23,7 @@ weapons: [
      y: 0
      shootSound: explosion
      bullet: {
-       status: boxed
+       status: antdustry-boxed
        statusDuration: 150
        type: BombBulletType
        hitEffect: pulverize
