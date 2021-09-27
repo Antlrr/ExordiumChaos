@@ -22,6 +22,8 @@ weapons: [
      y: 0
      shootSound: explosion
      bullet: {
+       status: antdustry-boxed
+       statusDuration: 150
        type: BombBulletType
        hitEffect: pulverize
        splashDamageRadius: 64
