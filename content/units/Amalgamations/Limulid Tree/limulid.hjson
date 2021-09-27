@@ -22,24 +22,34 @@ lightRadius: 30
 lightColor: ffffff
 weapons: [
   {
-    name: spix-weapon
-    top: true
-    x: 4
-    y: 0
-    reload: 11
-    rotate: true
-    mirror: true
-    recoil: 1
-    shootSound: laser
-    bullet: {
-      type: LaserBulletType
-      colors: [5fc79f, 7afadc, ffffff]
-      lightColor: 7afadc
-      damage: 37.60
-      lifetime: 15.30
-      length: 150
-      width: 5
-      collidesTeam: false
-    }
-  }
+   name: claw-weapon
+   rotate: false
+   rotateSpeed: 5
+   top: false
+   mirror: true
+   x: 4
+   y: 3
+   recoil: -5
+   reload: 5
+   inaccuracy: 10
+   ejectEffect: casing1
+   shootSound: plantBreak
+   bullet: {
+      type: BulletType
+      collidesTeam: true
+      ammoMultiplier: 3
+      hitSize: 7
+      lifetime: 18
+      pierce: true
+      collidesAir: true
+      statusDuration: 240
+      hitEffect: hitFlameSmall
+      shootEffect: shootSmallFlame
+      ejectEffect: none
+      despawnEffect: none
+      status: burning
+      keepVelocity: false
+      hittable: false
+      }
+   }
 ]
