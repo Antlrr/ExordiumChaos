@@ -1,6 +1,5 @@
 type: legs
 hovering: true
-groundLayer: 10
 visualElevation: 0.2
 health: 300
 armor: 10.05
@@ -27,13 +26,13 @@ weapons: [
     top: true
     x: 4
     y: 0
-    reload: -10
+    reload: 11
     rotate: true
     mirror: true
     recoil: 1
     shootSound: laser
     bullet: {
-      type: BasicBulletType
+      type: LaserBulletType
       colors: [5fc79f, 7afadc, ffffff]
       lightColor: 7afadc
       damage: 37.60
