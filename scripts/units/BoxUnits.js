@@ -10,8 +10,8 @@ bigbox.constructor = () => extend(MechUnit, {
 });
 
 Events.on(ClientLoadEvent, b  => {
-   bigbox.immunities.add(statuses.boxedStatus);
-   bigbox.weapons.get(0).bullet.status = statuses.boxedStatus;
+   bigbox.immunities.add(statuses.eeeeStatus);
+   bigbox.weapons.get(0).bullet.status = statuses.eeeeStatus;
    bigbox.weapons.get(0).bullet.statusDuration = 180;
    bigbox.weapons.get(0).shootStatus = statuses.eeeeStatus;
    bigbox.weapons.get(0).shootStatusDuration = 180;
