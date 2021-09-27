@@ -42,8 +42,6 @@ weapons: [
       lifetime: 12
       pierce: true
       collidesAir: true
-      statusDuration: 240
-      status: antdustry-disarmed
       shootEffect: none
       smokeEffect: none
       hitEffect: {
