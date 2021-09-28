@@ -45,6 +45,7 @@ weapons: [
       collidesAir: true
       shootEffect: none
       smokeEffect: none
+      damage: 30
       hitEffect: {
          type: ParticleEffect
          line: true
