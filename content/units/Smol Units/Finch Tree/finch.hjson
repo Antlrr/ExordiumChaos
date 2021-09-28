@@ -12,7 +12,7 @@ mineTier: 1
 mineSpeed: 1
 engineSize: 2
 engineOffset: -0.02
-controller: MinerAI
+controller: FormationAI
 lightRadius: 30
 lightColor: 8cc7f5
 research: smol-factory
