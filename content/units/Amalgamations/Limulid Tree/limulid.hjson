@@ -10,8 +10,8 @@ controller: GroundAI
 mineSpeed: 1
 mineTier: 2
 legCount: 4
-legLength: 9.20
-legBaseOffset: 4
+legLength: 7
+legBaseOffset: 6
 legExtension: 1
 legSpeed: 0.70
 legSplashRange: 0
@@ -20,7 +20,7 @@ maxStretch: 1.30
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
-legGroupSize: 1
+legGroupSize: 2
 weapons: [
   {
    name: claw-weapon
@@ -29,7 +29,7 @@ weapons: [
    top: false
    mirror: true
    x: 4.50
-   y: 3.50
+   y: 3.75
    recoil: -6
    reload: 5
    inaccuracy: 10
