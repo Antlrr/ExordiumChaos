@@ -10,9 +10,9 @@ controller: GroundAI
 mineSpeed: 1
 mineTier: 2
 legCount: 4
-legLength: 7
-legBaseOffset: 6
-legExtension: 1
+legLength: 6
+legBaseOffset: 3
+legExtension: 3
 legSpeed: 0.70
 legSplashRange: 0
 rippleScale: 0.20
