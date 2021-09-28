@@ -11,7 +11,7 @@ mineSpeed: 1
 mineTier: 2
 legCount: 4
 legLength: 9.20
-legBaseOffset: 1
+legBaseOffset: 2
 legExtension: 1
 legSpeed: 0.70
 legSplashRange: 0
@@ -20,6 +20,7 @@ maxStretch: 1.30
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
+legGroupSize: 1
 weapons: [
   {
    name: claw-weapon
