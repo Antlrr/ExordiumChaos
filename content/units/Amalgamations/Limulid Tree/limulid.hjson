@@ -27,9 +27,9 @@ weapons: [
    rotateSpeed: 5
    top: false
    mirror: true
-   x: 4
+   x: 4.50
    y: 3
-   recoil: -3
+   recoil: -8
    reload: 5
    inaccuracy: 10
    ejectEffect: none
@@ -39,7 +39,7 @@ weapons: [
       collidesTeam: true
       ammoMultiplier: 3
       hitSize: 4
-      lifetime: 12
+      lifetime: 8
       pierce: true
       collidesAir: true
       shootEffect: none
