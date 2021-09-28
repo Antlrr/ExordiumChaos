@@ -11,7 +11,7 @@ mineSpeed: 1
 mineTier: 2
 legCount: 4
 legLength: 9.20
-legBaseOffset: 2
+legBaseOffset: 4
 legExtension: 1
 legSpeed: 0.70
 legSplashRange: 0
