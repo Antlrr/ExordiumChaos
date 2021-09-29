@@ -68,3 +68,19 @@ weapons: [
     }
   }
 ]
+abilities: [
+  {
+    type: UnitSpawnAbility
+    unit: pico
+    spawnX: 2
+    spawnY: 0
+    spawnTime: 600
+  }
+  {
+    type: UnitSpawnAbility
+    unit: pico
+    spawnX: -2
+    spawnY: 0
+    spawnTime: 600
+  }
+]
