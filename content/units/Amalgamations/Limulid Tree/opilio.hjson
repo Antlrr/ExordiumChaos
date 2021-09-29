@@ -30,8 +30,8 @@ weapons: [
    rotateSpeed: 5
    top: false
    mirror: true
-   x: 2
-   y: 2
+   x: 2.25
+   y: 3
    recoil: -6
    reload: 5
    inaccuracy: 10
@@ -69,14 +69,14 @@ abilities: [
    {
       type: UnitSpawnAbility
       unit: pico
-      spawnX: 2
+      spawnX: 3
       spawnY: 0
       spawnTime: 600
    }
    {
       type: UnitSpawnAbility
       unit: pico
-      spawnX: -2
+      spawnX: -3
       spawnY: 0
       spawnTime: 600
    }
