@@ -24,49 +24,46 @@ allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
 weapons: [
-   {
-   name: spix-weapon
-   rotate: true
-   top: true
-   mirror: true
-   x: 4
-   y: 2
-   shots: 1
-   shootSound: sap
-   recoil: 1
-   reload: 12.30
-   bullet: {
-   type: sapBulletType
-   collidesTeam: false
-   colors: [5fc79f, 7afadc, ffffff]
-   lightColor: 7afadc
-   damage:65.40
-   lifetime: 9
-   length: 100
-   speed: 1
-    }
- }
- {
-   name: opilio-weapon
+  {
+   name: claw-weapon
    rotate: false
+   rotateSpeed: 5
    top: false
    mirror: true
-   x: 8.25
-   y: -0.20
-   shots: 2
-   shootSound: laser
-   recoil: 1
-   reload: 20
+   x: 5
+   y: 2
+   recoil: -6
+   reload: 5
+   inaccuracy: 10
+   ejectEffect: none
+   shootSound: plantBreak
    bullet: {
-   type: laserBulletType
-   collidesTeam: false
-   colors: [5fc79f, 7afadc, ffffff]
-   lightColor: 7afadc
-   damage: 80
-   lifetime: 9
-   length: 100
-    }
-  }
+      type: BulletType
+      collidesTeam: true
+      ammoMultiplier: 3
+      hitSize: 4
+      lifetime: 7
+      pierce: true
+      collidesAir: true
+      shootEffect: none
+      smokeEffect: none
+      damage: 30
+      hitEffect: {
+         type: ParticleEffect
+         line: true
+         strokeFrom: 1
+         strokeTo: 0
+         lenFrom: 5
+         lenTo: 0
+         colorFrom: 7afadc
+         colorTo: 7afadc00
+      }
+      ejectEffect: none
+      despawnEffect: none
+      keepVelocity: false
+      hittable: false
+      }
+   }
 ]
 abilities: [
   {
