@@ -68,7 +68,7 @@ abilities: [
     type: UnitSpawnAbility
     unit: pico
     spawnX: 0
-    spawnY: -2
+    spawnY: -4
     spawnTime: 600
   }
 ]
