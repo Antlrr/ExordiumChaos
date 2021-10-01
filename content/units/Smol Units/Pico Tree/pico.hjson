@@ -2,6 +2,7 @@ type: mech
 health: 100
 hitSize: 4
 commandLimit: 3
+commandRadius: 3
 speed: 0.75
 accel: 1
 drag: 2
@@ -13,7 +14,7 @@ weapons: [
    name: pico-weapon
    top: false
    mirror: true
-   x: 2.20
+   x: 3
    y: 0
    shots: 1
    recoil: 1
