@@ -11,7 +11,7 @@ lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
-   name: guppy-mount
+   name: cypris-mount
    rotate: true
    top: true
    mirror: false
