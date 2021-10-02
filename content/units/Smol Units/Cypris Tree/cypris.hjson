@@ -16,13 +16,14 @@ weapons: [
    top: true
    mirror: false
    x: 0
-   y: 0.20
+   y: 0
    shots: 1
    recoil: 1
    reload: 13
    bullet: {
      type: FireBulletType
      collidesTeam: false
+     shootX: 2
      damage: 18
      inaccuracy: 1
      lifetime: 60.20
