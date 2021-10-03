@@ -21,7 +21,7 @@ weapons: [
    recoil: 1
    reload: 60
    continuous: true
-   shootY: 3
+   shootY: 6
    bullet: {
       shootEffect: none
       type: ContinuousLaserBulletType
@@ -30,8 +30,8 @@ weapons: [
       lifetime: 50
       pierce: true
       collidesAir: true
-      length: 24
-      width: 1
+      length: 30
+      width: 0.50
       keepVelocity: false
       recoil: 0
       hittable: false
