@@ -22,16 +22,18 @@ weapons: [
    reload: 13
    bullet: {
       fragBullets: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
       fragBullet: {
          type: BasicBulletType
          width: 2
          height: 2
          damage: 8
-         lifetime: 11
+         lifetime: 30
          height: 2
          width: 10
          lightColor: 8aabff
-         shrinkX: 10
+         shrinkX: 3
          shrinY: -2
          hitEffect: none
          weaveMag: 2
