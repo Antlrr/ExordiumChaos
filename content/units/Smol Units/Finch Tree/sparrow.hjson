@@ -10,7 +10,7 @@ drag: 0.1
 controller: RepairAI
 lightRadius: 30
 lightColor: 8cc7f5
-crashDamageMultiplier: 0
+crashDamageMultiplier: -1
 weapons: [
   {
   reload: 24
@@ -18,22 +18,20 @@ weapons: [
   x: 0
   y: 0
   shootSound: explosion
-  shootEffect: {
-     type: WaveEffect
-     sizeFrom: 0
-     sizeTo: 100
-     strokeFrom: 1
-     strokeFrom: 0
-     colorFrom: 8aabff
-     colorTo: 8aabff00
-     }
   bullet: {
      type: EmpBulletType
-     radius: 100
+     radius: 200
      timeIncrease: 100
      timeDuration: 600
      powerDamageScl: 3 
      powerSclDecrease: 0.2
+     shootEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 200
+        colorFrom: 8aabff
+        colorTo: 8aabff00
+     }
      hitPowerEffect: {
         type: MultiEffect
         effects: [
@@ -58,7 +56,7 @@ weapons: [
            }
         ]
      }
-       splashDamageRadius: 100
+       splashDamageRadius: 200
        instantDisappear: true
        killShooter: true
        hittable: false
