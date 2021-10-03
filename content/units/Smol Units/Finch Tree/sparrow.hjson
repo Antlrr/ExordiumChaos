@@ -11,29 +11,35 @@ controller: RepairAI
 lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
-   {
-   name: cardboard-box-base
-   top: false
-   mirror: false
-   x: 0
-   y: 2
-   shots: 1
-   recoil: 0
-   reload: 13
-   shootSound: lasershoot
-   bullet: {
-     type: laserBoltBulletType
-     frontColor: 8cc7f5
-     backColor: 6a84c4
-     healPercent: 2
-     pierce: false
-     pierceBuilding: true
-     pierceCap: 3
-     collidesTeam: true
-     damage: 10
-     buildingDamageMultiplier: 0.7
-     lifetime: 83
-     speed: 3
-    }
+  {
+     name: cardboard-box-base
+     reload: 24
+     shootCone: 180
+     x: 0
+     y: 0
+     shootSound: explosion
+     bullet: {
+       type: EmpBulletType
+       type: BombBulletType
+       hitEffect: {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 64
+          strokeFrom: 1
+          strokeFrom: 0
+          colorFrom: 8aabff
+          colorTo: 8aabff
+       }
+       splashDamageRadius: 64
+       instantDisappear: true
+       killShooter: true
+       hittable: false
+       splashDamage: 48
+       damage: 0
+       collidesAir: true
+       lifetime: 10
+       speed: 1
+       healPercent: 0.1
+     }
   }
 ]
