@@ -31,7 +31,7 @@ weapons: [
       lifetime: 50
       pierce: true
       collidesAir: true
-      length: 30
+      length: 36
       width: 0.50
       keepVelocity: false
       recoil: 0
