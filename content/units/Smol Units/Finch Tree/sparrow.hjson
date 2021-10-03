@@ -18,10 +18,19 @@ weapons: [
   x: 0
   y: 0
   shootSound: explosion
+  shootEffect: {
+     type: WaveEffect
+     sizeFrom: 0
+     sizeTo: 100
+     strokeFrom: 1
+     strokeFrom: 0
+     colorFrom: 8aabff
+     colorTo: 8aabff00
+     }
   bullet: {
      type: EmpBulletType
      radius: 100
-     timeIncrease: 4
+     timeIncrease: 100
      timeDuration: 600
      powerDamageScl: 3 
      powerSclDecrease: 0.2
@@ -49,15 +58,6 @@ weapons: [
            }
         ]
      }
-     shootEffect: {
-        type: WaveEffect
-        sizeFrom: 0
-        sizeTo: 100
-        strokeFrom: 1
-        strokeFrom: 0
-        colorFrom: 8aabff
-        colorTo: 8aabff00
-       }
        splashDamageRadius: 100
        instantDisappear: true
        killShooter: true
