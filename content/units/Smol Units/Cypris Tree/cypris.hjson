@@ -24,6 +24,7 @@ weapons: [
    shootY: 6
    bullet: {
       shootEffect: none
+      shootSound: greenLaserChargeSmall
       type: ContinuousLaserBulletType
       collidesTeam: false
       damage: 10
