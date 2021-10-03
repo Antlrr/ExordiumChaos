@@ -23,14 +23,17 @@ weapons: [
    bullet: {
       shootEffect: none
       type: ContinuousLaserBulletType
-      width: 3
-      lifeTime: 50
-      length: 6
+      collidesTeam: false
       damage: 10
-      length: 10
-      width: 2
-      colors: [ffffff,8aabff,8aabff]
-      hitEffect: hitLancer
+      lifetime: 50
+      pierce: true
+      collidesAir: true
+      length: 8
+      width: 3
+      keepVelocity: false
+      recoil: 0
+      hittable: false
+      colors: [ffffff, 8aabff, 8aabff]
       }
    }
 ]
