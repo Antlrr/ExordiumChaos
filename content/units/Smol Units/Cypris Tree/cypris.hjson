@@ -23,6 +23,7 @@ weapons: [
    continuous: true
    shootY: 6
    shootSound: beam
+   soundPitchMax: 0.50
    bullet: {
       shootEffect: none
       type: ContinuousLaserBulletType
