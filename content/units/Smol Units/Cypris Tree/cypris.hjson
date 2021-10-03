@@ -21,35 +21,30 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-      fragBullets: 8
-      fragLifeMin: 0.0001
+      fragBullets: 1
       fragBullet: {
          type: BasicBulletType
-         speed: 1
-         damage: 20
-         height: 2
          width: 2
-         lifetime: 40
-         absorbable: true
-         splashDamage: 23
-         splashDamageRadius: 10
-         lightRadius: 0
+         height: 2
+         damage: 8
+         lifetime: 11
+         height: 2
+         width: 10
+         lightColor: 8aabff
+         shrinkX: 10
+         shrinY: -2
          hitEffect: none
-         despawnEffect: none
-         keepVelocity: true
-         fragBullets: 25
-         shrinkX: 3
-         shrinkY: -1
+         weaveMag: 2
+         weaveScale: 3
          fragBullet: {
-            type: MissileBulletType
-            damage: 8
-            lifetime: 11
+            type: LaserBulletType
+            width: 2
+            length: 6
+            damage: 20
             length: 10
             width: 2
-            lightColor: 8aabff
-            hitEffect: none
-            weaveMag: 1
-            weaveScale: 2
+            colors: [ffffff,8aabff,8aabff]
+            hitEffect: hitLancer
             }
          }
       }
