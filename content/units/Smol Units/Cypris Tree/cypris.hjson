@@ -24,6 +24,7 @@ weapons: [
    bullet: {
       shootEffect: none
       type: ContinuousLaserBulletType
+      shootX: 2
       collidesTeam: false
       damage: 10
       lifetime: 50
