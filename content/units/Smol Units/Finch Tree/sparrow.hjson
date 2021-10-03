@@ -20,11 +20,12 @@ weapons: [
   shootSound: explosion
   bullet: {
      type: EmpBulletType
-     radius: 100
+     radius: 60
      timeIncrease: 2
      timeDuration: 600
      powerDamageScl: 3
      powerSclDecrease: 0.2
+     lightningColor: 8aabff
      shootEffect: {
         type: WaveEffect
         sizeFrom: 0
