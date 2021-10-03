@@ -38,9 +38,11 @@ weapons: [
          hitEffect: none
          weaveMag: 2
          weaveScale: 3
+         fragBullets: 1
          fragBullet: {
             type: LaserBulletType
             width: 2
+            lifeTime: 10
             length: 6
             damage: 20
             length: 10
