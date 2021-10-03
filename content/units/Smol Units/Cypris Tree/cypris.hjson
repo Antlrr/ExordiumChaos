@@ -21,15 +21,35 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-     type: FireBulletType
-     collidesTeam: false
-     shootX: 2
-     damage: 18
-     inaccuracy: 1
-     lifetime: 60.20
-     speed: 2
-    }
-  }
+      fragBullets: 110
+      fragLifeMin: 0.01
+      fragBullet: {
+         type: BulletType
+         speed: 1
+         damage: 20
+         lifetime: 40
+         absorbable: true
+         splashDamage: 23
+         splashDamageRadius: 10
+         lightRadius: 0
+         hitEffect: none
+         despawnEffect: none
+         keepVelocity: true
+         fragBullets: 25
+         fragBullet: {
+            type: SapBulletType
+            damage: 1
+            knockback: 2
+            lifetime: 0
+            length: 10
+            width: 2
+            lightColor: 8aabff
+            hitEffect: none
+            status: none
+            }
+         }
+      }
+   }
 ]
 immunities: [burning]
 research: smol-factory
