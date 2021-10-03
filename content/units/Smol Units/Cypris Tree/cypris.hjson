@@ -22,9 +22,9 @@ weapons: [
    reload: 60
    continuous: true
    shootY: 6
+   shootSound: beam
    bullet: {
       shootEffect: none
-      shootSound: beam
       type: ContinuousLaserBulletType
       collidesTeam: false
       damage: 10
