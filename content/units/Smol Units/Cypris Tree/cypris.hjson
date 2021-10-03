@@ -27,7 +27,7 @@ weapons: [
       fragBullet: {
          type: BasicBulletType
          damage: 6
-         lifetime: 30
+         lifetime: 10
          speed: 3
          height: 2
          width: 10
@@ -37,6 +37,7 @@ weapons: [
          hitEffect: none
          fragBullets: 1
          fragBullet: {
+            shootEffect: none
             type: ContinuousLaserBulletType
             width: 3
             lifeTime: 60
