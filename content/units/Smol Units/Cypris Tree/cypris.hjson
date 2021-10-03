@@ -40,7 +40,7 @@ weapons: [
             type: SapBulletType
             damage: 1
             knockback: 2
-            lifetime: 0
+            lifetime: 3
             length: 10
             width: 2
             lightColor: 8aabff
