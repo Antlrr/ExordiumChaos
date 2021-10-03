@@ -10,26 +10,55 @@ drag: 0.1
 controller: RepairAI
 lightRadius: 30
 lightColor: 8cc7f5
+crashDamageMultiplier: 0
 weapons: [
   {
-     name: cardboard-box-base
-     reload: 24
-     shootCone: 180
-     x: 0
-     y: 0
-     shootSound: explosion
-     bullet: {
-       type: EmpBulletType
-       hitEffect: {
-          type: WaveEffect
-          sizeFrom: 0
-          sizeTo: 64
-          strokeFrom: 1
-          strokeFrom: 0
-          colorFrom: 8aabff
-          colorTo: 8aabff
+  reload: 24
+  shootCone: 180
+  x: 0
+  y: 0
+  shootSound: explosion
+  bullet: {
+     type: EmpBulletType
+     radius: 100
+     timeIncrease: 4
+     timeDuration: 600
+     powerDamageScl: 3 
+     powerSclDecrease: 0.2
+     hitPowerEffect: {
+        type: MultiEffect
+        effects: [
+           {
+           type: ParticleEffect
+           line: true
+           colorFrom: 8aabff
+           colorTo: 8aabff00
+           lenFrom: 0
+           lenTo: 3
+           strokeFrom: 0
+           strokeTo: 0.75
+           }
+           {
+           type: WaveEffect
+           sizeFrom: 0
+           sizeTo: 8
+           strokeFrom: 0.50
+           strokeFrom: 0
+           colorFrom: 8aabff
+           colorTo: 8aabff00
+           }
+        ]
+     }
+     shootEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 100
+        strokeFrom: 1
+        strokeFrom: 0
+        colorFrom: 8aabff
+        colorTo: 8aabff00
        }
-       splashDamageRadius: 64
+       splashDamageRadius: 100
        instantDisappear: true
        killShooter: true
        hittable: false
