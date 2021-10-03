@@ -34,17 +34,17 @@ weapons: [
          width: 10
          lightColor: 8aabff
          shrinkX: 3
-         shrinkY: -2
+         shrinkY: 0
          hitEffect: none
          weaveMag: 2
          weaveScale: 3
          fragBullets: 1
          fragBullet: {
-            type: LaserBulletType
-            width: 2
-            lifeTime: 10
+            type: ContinuousLaserBulletType
+            width: 3
+            lifeTime: 50
             length: 6
-            damage: 20
+            damage: 10
             length: 10
             width: 2
             colors: [ffffff,8aabff,8aabff]
