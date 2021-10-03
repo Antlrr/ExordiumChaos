@@ -22,9 +22,9 @@ weapons: [
    reload: 13
    bullet: {
       fragBullets: 110
-      fragLifeMin: 0.01
+      fragLifeMin: 1
       fragBullet: {
-         type: BulletType
+         type: BasicBulletType
          speed: 1
          damage: 20
          lifetime: 40
@@ -36,16 +36,18 @@ weapons: [
          despawnEffect: none
          keepVelocity: true
          fragBullets: 25
+         shrinkX: 3
+         shrinkY: -1
          fragBullet: {
-            type: SapBulletType
-            damage: 1
-            knockback: 2
-            lifetime: 3
+            type: MissileBulletType
+            damage: 8
+            lifetime: 11
             length: 10
             width: 2
             lightColor: 8aabff
             hitEffect: none
-            status: none
+            weaveMag: 1
+            weaveScale: 2
             }
          }
       }
