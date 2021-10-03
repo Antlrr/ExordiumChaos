@@ -19,36 +19,18 @@ weapons: [
    y: 0
    shots: 1
    recoil: 1
-   reload: 13
+   reload: 60
    bullet: {
-      fragBullets: 1
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragBullet: {
-         type: BasicBulletType
-         damage: 6
-         lifetime: 10
-         speed: 3
-         height: 2
-         width: 10
-         lightColor: 8aabff
-         shrinkX: 3
-         shrinkY: 0
-         hitEffect: none
-         fragBullets: 1
-         fragBullet: {
-            shootEffect: none
-            type: ContinuousLaserBulletType
-            width: 3
-            lifeTime: 60
-            length: 6
-            damage: 10
-            length: 10
-            width: 2
-            colors: [ffffff,8aabff,8aabff]
-            hitEffect: hitLancer
-            }
-         }
+      shootEffect: none
+      type: ContinuousLaserBulletType
+      width: 3
+      lifeTime: 50
+      length: 6
+      damage: 10
+      length: 10
+      width: 2
+      colors: [ffffff,8aabff,8aabff]
+      hitEffect: hitLancer
       }
    }
 ]
