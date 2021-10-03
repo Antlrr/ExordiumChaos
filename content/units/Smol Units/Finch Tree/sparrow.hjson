@@ -20,7 +20,6 @@ weapons: [
      shootSound: explosion
      bullet: {
        type: EmpBulletType
-       type: BombBulletType
        hitEffect: {
           type: WaveEffect
           sizeFrom: 0
