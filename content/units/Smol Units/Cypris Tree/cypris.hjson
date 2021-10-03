@@ -24,14 +24,14 @@ weapons: [
    bullet: {
       shootEffect: none
       type: ContinuousLaserBulletType
-      shootX: 2
+      shootX: 6
       collidesTeam: false
       damage: 10
       lifetime: 50
       pierce: true
       collidesAir: true
       length: 16
-      width: 3
+      width: 2
       keepVelocity: false
       recoil: 0
       hittable: false
