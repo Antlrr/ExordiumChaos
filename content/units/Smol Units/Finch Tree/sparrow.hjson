@@ -20,10 +20,10 @@ weapons: [
   shootSound: explosion
   bullet: {
      type: EmpBulletType
-     radius: 200
-     timeIncrease: 100
+     radius: 100
+     timeIncrease: 2
      timeDuration: 600
-     powerDamageScl: 3 
+     powerDamageScl: 3
      powerSclDecrease: 0.2
      shootEffect: {
         type: WaveEffect
@@ -56,16 +56,16 @@ weapons: [
            }
         ]
      }
-       splashDamageRadius: 200
-       instantDisappear: true
-       killShooter: true
-       hittable: false
-       splashDamage: 48
-       damage: 0
-       collidesAir: true
-       lifetime: 10
-       speed: 1
-       healPercent: 0.1
+     splashDamageRadius: 200
+     instantDisappear: true
+     killShooter: true
+     hittable: false
+     splashDamage: 48
+     damage: 0
+     collidesAir: true
+     lifetime: 10
+     speed: 1
+     healPercent: 30
      }
   }
 ]
