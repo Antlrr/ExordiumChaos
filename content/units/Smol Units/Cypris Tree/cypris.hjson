@@ -26,23 +26,20 @@ weapons: [
       fragVelocityMax: 1
       fragBullet: {
          type: BasicBulletType
-         width: 6
-         height: 6
-         damage: 8
-         lifetime: 40
+         damage: 6
+         lifetime: 30
+         speed: 3
          height: 2
          width: 10
          lightColor: 8aabff
          shrinkX: 3
          shrinkY: 0
          hitEffect: none
-         weaveMag: 2
-         weaveScale: 3
          fragBullets: 1
          fragBullet: {
             type: ContinuousLaserBulletType
             width: 3
-            lifeTime: 50
+            lifeTime: 60
             length: 6
             damage: 10
             length: 10
