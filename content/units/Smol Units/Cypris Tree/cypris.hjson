@@ -21,12 +21,14 @@ weapons: [
    recoil: 1
    reload: 13
    bullet: {
-      fragBullets: 110
-      fragLifeMin: 1
+      fragBullets: 8
+      fragLifeMin: 0.0001
       fragBullet: {
          type: BasicBulletType
          speed: 1
          damage: 20
+         height: 2
+         width: 2
          lifetime: 40
          absorbable: true
          splashDamage: 23
