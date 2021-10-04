@@ -27,10 +27,9 @@ abilities: [
       name: violent
       localizedName: Violent
       show: true
-      speedMultiplier: 8
+      speedMultiplier: 3
       damageMultiplier: 50
-      reloadMultiplier: 2
-      dragMultiplier: 2
+      reloadMultiplier: -2
       }
    }
 ]
