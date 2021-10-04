@@ -34,7 +34,7 @@ abilities: [
              length: 0
              particles: 1
              cone: 0
-             lifetime: 300
+             lifetime: 200
              region: antdustry-termination-glow
              sizeFrom: 88
              sizeTo: 88
@@ -46,7 +46,7 @@ abilities: [
              length: 0
              particles: 1
              cone: 0
-             lifetime: 350
+             lifetime: 400
              region: antdustry-termination-glow
              sizeFrom: 80
              sizeTo: 80
