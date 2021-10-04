@@ -1,6 +1,6 @@
 type: flying
 flying: true
-hitSize: 88
+hitSize: 110
 health: 600000000
 armor: 80000
 speed: 0.7
