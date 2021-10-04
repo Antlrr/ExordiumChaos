@@ -36,10 +36,11 @@ abilities: [
              cone: 0
              lifetime: 300
              region: antdustry-termination-glow
-             sizeFrom: 80
-             sizeTo: 80
+             sizeFrom: 88
+             sizeTo: 88
              colorFrom: 7afadc00
              colorTo: 7afadc
+             lightOpacity: 10
              }
              {
              length: 0
@@ -53,53 +54,7 @@ abilities: [
              colorTo: 2d2b34
              lightOpacity: 0
              }
-             {
-             length: 0
-             particles: 1
-             cone: 0
-             lifetime: 400
-             region: antdustry-termination-glow
-             sizeFrom: 80
-             sizeTo: 80
-             colorFrom: 7afadc00
-             colorTo: 7afadc
-             }
-             {
-             length: 0
-             particles: 1
-             cone: 0
-             lifetime: 450
-             region: antdustry-termination-glow
-             sizeFrom: 80
-             sizeTo: 80
-             colorFrom: 2b2d3400
-             colorTo: 2b2d34
-             lightOpacity: 0
-             }
-             {
-             length: 0
-             particles: 1
-             cone: 0
-             lifetime: 500
-             region: antdustry-termination-glow
-             sizeFrom: 80
-             sizeTo: 80
-             colorFrom: 7afadc00
-             colorTo: 7afadc
-             }
-             {
-             length: 0
-             particles: 1
-             cone: 0
-             lifetime: 550
-             region: antdustry-termination-glow
-             sizeFrom: 80
-             sizeTo: 80
-             colorFrom: 2b2d3400
-             colorTo: 2d2b34
-             lightOpacity: 0
-            }
-         ]
-      }
-   }
-]
+          ]
+       }
+    }
+ ]
