@@ -29,19 +29,8 @@ abilities: [
       show: true
       speedMultiplier: 8
       damageMultiplier: 50
-      reloadMultiplier: 70
-      }
-   activeEffect: {
-      type: ParticleEffect
-      lightOpacity: 10
-      particles: 8
-      region: antdustry-violence
-      lifetime: 40
-      length: 0
-      sizeFrom: 12
-      sizeTo: 12
-      colorFrom: d40000
-      colorTo: d40000
+      reloadMultiplier: 2
+      dragMultiplier: 2
       }
    }
 ]
