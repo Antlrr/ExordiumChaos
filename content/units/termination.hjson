@@ -6,7 +6,7 @@ armor: 80000
 speed: 0.7
 rotateSpeed: 0.10
 accel: 1
-drag: 0.5
+drag: 0.04
 lowAltitude: true
 engineOffset: 53
 engineSize: 20
