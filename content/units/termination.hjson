@@ -18,6 +18,7 @@ mineSpeed: 1200
 deathSound: demise
 outlineColor: 2d2c32
 abilities: [
+   {
    type: StatusFieldAbility
    duration: 1500
    range: 1000
@@ -41,5 +42,6 @@ abilities: [
       sizeTo: 12
       colorFrom: d40000
       colorTo: d40000
+      }
    }
 ]
