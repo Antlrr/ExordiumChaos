@@ -21,14 +21,14 @@ weapons: [
    {
    name: termination-weapon
    x: 0
-   y: 0
+   y: 1.50
    top: false
    rotate: false
    mirror: false
    reload: 600
    heatColor: 7afadc
    shots: 30
-   shotDelay: 20
+   shotDelay: 3
    shootY: 62
    bullet: {
       type: EmpBulletType
@@ -37,14 +37,14 @@ weapons: [
       frontColor: 7afadc
       trailColor: 7afadc
       trailLength: 5
-      trailWidth: 9
+      trailWidth: 5
       width: 10
       height: 10
       damage: 680
       lifetime: 60
       speed: 2
       keepVelocity: false
-      inaccuracy: 4
+      inaccuracy: 10
       timeIncrease: 4
       timeDuration: 900
       unitDamageScl: 10
