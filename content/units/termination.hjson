@@ -117,6 +117,7 @@ weapons: [
    mirror: false
    reload: 300
    heatColor: 8aabff
+   }
    {
    name: termination-arc-mount
    top: true
