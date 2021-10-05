@@ -44,16 +44,15 @@ weapons: [
             {
                type: WaveEffect
                lifetime: 85
-               sizeFrom: 100
+               sizeFrom: 0
                sizeTo: 100
                line: true
                strokeFrom: 3
                strokeTo: 0
                colorFrom: 7afadc
                colorTo: 7afadc0
-               sides: 6
+               sides: 8
                cone: 0
-               spin: 3
             }
             {
                type: WaveEffect
