@@ -27,9 +27,10 @@ weapons: [
    mirror: false
    reload: 600
    heatColor: 7afadc
-   shots: 30
+   shots: 4
    shotDelay: 3
    shootY: 62
+   Inaccuracy: 10
    bullet: {
       type: EmpBulletType
       sprite: circle-bullet
@@ -44,7 +45,6 @@ weapons: [
       lifetime: 60
       speed: 2
       keepVelocity: false
-      inaccuracy: 10
       timeIncrease: 4
       timeDuration: 900
       unitDamageScl: 10
