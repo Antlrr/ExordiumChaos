@@ -17,6 +17,7 @@ mineTier: 900
 mineSpeed: 1200
 deathSound: demise
 outlineColor: 2d2c32
+immunities: [violent]
 weapons: [
    {
    name: termination-arc-mount
