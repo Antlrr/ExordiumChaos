@@ -1,2 +1,5 @@
-disarmed: true
-hidden: true
+named: disarmed
+localizedName: Disarmed
+disarm: true
+show: true
+
