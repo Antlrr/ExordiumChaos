@@ -119,7 +119,7 @@ weapons: [
    heatColor: 8aabff
    continuous: true
    shootSound: beam
-   shootY 62
+   shootY: 62
    bullet: {
       type: ContinuousLaserBulletType
       lifetime: 600
