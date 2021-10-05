@@ -19,12 +19,12 @@ deathSound: demise
 outlineColor: 2d2c32
 weapons: [
    {
-   name: termination-weapon
-   x: 0
-   y: 1.50
-   top: false
-   rotate: false
-   mirror: false
+   name: the-weapon
+   x: 16
+   y: 10
+   top: true
+   rotate: true
+   mirror: true
    reload: 300
    heatColor: 7afadc
    shots: 4
@@ -43,11 +43,14 @@ weapons: [
       height: 10
       damage: 680
       lifetime: 60
-      speed: 2
+      speed: 5
+      accel: 0.01
       keepVelocity: false
       timeIncrease: 4
       timeDuration: 900
       unitDamageScl: 10
+      splashDamage: 240
+      splashDamageRadius: 100
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -105,6 +108,15 @@ weapons: [
       }
    }
    }
+   {
+   name: termination-weapon
+   x: 0
+   y: 1.50
+   top: false
+   rotate: false
+   mirror: false
+   reload: 300
+   heatColor: 8aabff
    {
    name: termination-arc-mount
    top: true
