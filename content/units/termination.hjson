@@ -20,8 +20,8 @@ outlineColor: 2d2c32
 weapons: [
    {
    name: the-weapon
-   x: 16
-   y: 10
+   x: 18
+   y: 18
    top: true
    rotate: true
    mirror: true
@@ -115,8 +115,17 @@ weapons: [
    top: false
    rotate: false
    mirror: false
-   reload: 300
+   reload: 1320
    heatColor: 8aabff
+   continuous: true
+   bullet: {
+      type: ContinuousLaserBulletType
+      lifetime: 600
+      colors: [8aabff,ffffff,8aabff]
+      length: 360
+      width: 30
+      damage: 340
+      }
    }
    {
    name: termination-arc-mount
