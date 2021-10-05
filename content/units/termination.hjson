@@ -20,7 +20,6 @@ outlineColor: 2d2c32
 weapons: [
    {
    name: termination-weapon
-   y: 58
    top: false
    rotate: false
    mirror: false
@@ -28,6 +27,7 @@ weapons: [
    heatColor: 7afadc
    shots: 30
    shotDelay: 10
+   shootY: 62
    bullet: {
       type: EmpBulletType
       damage: 680
