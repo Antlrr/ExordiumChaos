@@ -71,6 +71,7 @@ weapons: [
          ]
       }
    }
+   }
    {
    name: termination-arc-mount
    top: true
