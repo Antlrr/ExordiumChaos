@@ -19,6 +19,60 @@ deathSound: demise
 outlineColor: 2d2c32
 weapons: [
    {
+   name: termination-weapon
+   y: 58
+   top: false
+   rotate: false
+   mirror: false
+   reload: 600
+   heatColor: 7afadc
+   shots: 30
+   shotDelay: 10
+   bullet: {
+      type: EmpBulletType
+      damage: 680
+      lifetime: 60
+      speed: 2
+      keepVelocity: false
+      inaccuracy: 4
+      timeIncrease: 4
+      timeDuration: 900
+      unitDamageScl: 10
+      despawnEffect: {
+         type: MultiEffect
+         effects: [
+            {
+               type: WaveEffect
+               lifetime: 85
+               sizeFrom: 100
+               sizeTo: 100
+               line: true
+               strokeFrom: 3
+               strokeTo: 0
+               colorFrom: 7afadc
+               colorTo: 7afadc0
+               sides: 6
+               cone: 0
+               spin: 3
+            }
+            {
+               type: WaveEffect
+               lifetime: 30
+               sizeFrom: 100
+               sizeTo: 100
+               line: true
+               strokeFrom: 20
+               strokeTo: 0
+               colorFrom: 7afadc
+               colorTo: 7afadc0
+               sides: 8
+               cone: 0
+               }
+            }
+         ]
+      }
+   }
+   {
    name: termination-arc-mount
    top: true
    mirror: true
@@ -32,6 +86,7 @@ weapons: [
    heatColor: 7afadc
    shots: 5
    shootSound: spark
+   shootY: 2
    bullet: {
       type: LightningBulletType
       lightOpacity: 10
