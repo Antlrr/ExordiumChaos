@@ -38,7 +38,7 @@ weapons: [
       damage: 230
       lightningColor: 7afadc
       lightningLength: 40
-      status: disarm
+      status: disarmed
       }
    }
 ]
