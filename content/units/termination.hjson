@@ -31,19 +31,14 @@ weapons: [
    autoTarget: true
    heatColor: 7afadc
    shots: 5
+   shootSound: spark
    bullet: {
       type: LightningBulletType
-      shootSound: spark
       lightOpacity: 10
       damage: 230
       lightningColor: 7afadc
       lightningLength: 40
-      status: {
-         name: disarmed
-         localizedName: Disarmed
-         show: false
-         disarm: true
-         }
+      status: disarm
       }
    }
 ]
