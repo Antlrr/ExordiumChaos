@@ -20,16 +20,26 @@ outlineColor: 2d2c32
 weapons: [
    {
    name: termination-weapon
+   x: 0
+   y: 0
    top: false
    rotate: false
    mirror: false
    reload: 600
    heatColor: 7afadc
    shots: 30
-   shotDelay: 10
+   shotDelay: 20
    shootY: 62
    bullet: {
       type: EmpBulletType
+      sprite: circle-bullet
+      backColor: 7afadc
+      frontColor: 7afadc
+      trailColor: 7afadc
+      trailLength: 5
+      trailWidth: 9
+      width: 10
+      height: 10
       damage: 680
       lifetime: 60
       speed: 2
