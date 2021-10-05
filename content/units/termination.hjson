@@ -25,19 +25,19 @@ weapons: [
    top: false
    rotate: false
    mirror: false
-   reload: 600
+   reload: 300
    heatColor: 7afadc
    shots: 4
    shotDelay: 3
    shootY: 62
-   Inaccuracy: 10
    bullet: {
       type: EmpBulletType
       sprite: circle-bullet
+      inaccuracy: 17
       backColor: 7afadc
       frontColor: 7afadc
       trailColor: 7afadc
-      trailLength: 5
+      trailLength: 14
       trailWidth: 5
       width: 10
       height: 10
@@ -48,6 +48,30 @@ weapons: [
       timeIncrease: 4
       timeDuration: 900
       unitDamageScl: 10
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+            {
+               type: WaveEffect
+               sizeFrom: 0
+               sizeTo: 10
+               line: true
+               sides: 8
+               colorFrom: 7afadc
+               colorTo: 7afadc0
+            }
+            {
+               type: ParticleEffect
+               line: true
+               strokeFrom: 1
+               strokeTo: 0
+               lenFrom: 8
+               lenTo: 0
+               colorFrom: 7afadc
+               colorTo: 7afadc0
+            }
+         ]
+      }
       despawnEffect: {
          type: MultiEffect
          effects: [
