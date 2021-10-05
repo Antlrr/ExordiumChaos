@@ -23,18 +23,21 @@ weapons: [
    top: true
    mirror: true
    rotate: true
+   rotateSpeed: 1
    x: 10.50
    y: 0
    recoil: 1
    reload: 60
    autoTarget: true
    heatColor: 7afadc
+   shots: 5
    bullet: {
       type: LightningBulletType
+      shootSound: 
       lightOpacity: 10
       damage: 25000
       lightningColor: 7afadc
-      lightningLength: 140
+      lightningLength: 40
       status: {
          name: disarmed
          localizedName: Disarmed
