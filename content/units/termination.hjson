@@ -17,11 +17,38 @@ mineTier: 900
 mineSpeed: 1200
 deathSound: demise
 outlineColor: 2d2c32
+weapons: [
+   {
+   name: termination-arc-mount
+   top: true
+   mirror: true
+   rotate: true
+   x: 10.50
+   y: 0
+   recoil: 1
+   reload: 60
+   autoTarget: true
+   heatColor: 7afadc
+   bullet: {
+      type: LightningBulletType
+      lightOpacity: 10
+      damage: 25000
+      lightningColor: 7afadc
+      lightningLength: 140
+      status: {
+         name: disarmed
+         localizedName: Disarmed
+         show: false
+         disarm: true
+         }
+      }
+   }
+]
 abilities: [
    {
    type: StatusFieldAbility
    duration: 1500
-   range: 1000
+   range: 100
    reload: 900
    effect: {
       name: violent
