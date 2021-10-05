@@ -11,4 +11,4 @@ effect: {
    colorTo: b2876800
    region: antdustry-boxparticle
 }
-hidden: false
+show: true
