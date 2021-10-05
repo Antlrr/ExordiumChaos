@@ -67,7 +67,6 @@ weapons: [
                colorTo: 7afadc0
                sides: 8
                cone: 0
-               }
             }
          ]
       }
