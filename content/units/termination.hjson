@@ -116,14 +116,14 @@ weapons: [
    rotate: false
    mirror: false
    reload: 1320
-   heatColor: 8aabff
+   heatColor: 7afadc
    continuous: true
    shootSound: beam
-   shootY: 62
+   shootY: 68
    bullet: {
       type: ContinuousLaserBulletType
       lifetime: 600
-      colors: [8aabff,ffffff,8aabff]
+      colors: [7afadc,ffffff,7afadc]
       length: 360
       width: 10
       damage: 340
