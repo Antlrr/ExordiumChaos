@@ -49,7 +49,7 @@ weapons: [
       timeIncrease: 4
       timeDuration: 900
       unitDamageScl: 10
-      splashDamage: 240
+      splashDamage: 230
       splashDamageRadius: 100
       shootEffect: {
          type: MultiEffect
