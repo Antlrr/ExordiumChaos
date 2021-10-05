@@ -127,6 +127,8 @@ weapons: [
       length: 360
       width: 10
       damage: 340
+      keepVelocity: false
+      hittable: false
       }
    }
    {
