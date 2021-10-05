@@ -24,8 +24,8 @@ weapons: [
    mirror: true
    rotate: true
    rotateSpeed: 1
-   x: 30
-   y: 6
+   x: 28
+   y: 10
    recoil: 1
    reload: 60
    autoTarget: true
@@ -33,9 +33,9 @@ weapons: [
    shots: 5
    bullet: {
       type: LightningBulletType
-      shootSound: 
+      shootSound: spark
       lightOpacity: 10
-      damage: 25000
+      damage: 230
       lightningColor: 7afadc
       lightningLength: 40
       status: {
