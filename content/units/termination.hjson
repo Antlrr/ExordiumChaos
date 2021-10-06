@@ -157,20 +157,3 @@ weapons: [
       }
    }
 ]
-abilities: [
-   {
-   type: StatusFieldAbility
-   duration: 1500
-   range: 100
-   reload: 900
-   effect: {
-      name: violent
-      localizedName: Violent
-      show: true
-      speedMultiplier: 3
-      damageMultiplier: 50
-      reloadMultiplier: 2
-      healthMultiplier: 3
-      }
-   }
-]
