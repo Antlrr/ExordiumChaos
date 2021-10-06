@@ -63,6 +63,7 @@ weapons: [
    mirror: false
    reload: 180
    shootY: 4
+   shootSound: artillery
    bullet: {
       type: BasicBulletType
       sprite: antdustry-spin-bullet
