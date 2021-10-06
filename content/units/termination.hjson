@@ -76,6 +76,7 @@ weapons: [
                lenTo: 8
                colorFrom: 7afadc
                colorTo: 7afadc0
+            }
             {
                type: WaveEffect
                sizeFrom: 10
