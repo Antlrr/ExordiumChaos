@@ -30,13 +30,13 @@ weapons: [
       lightOpacity: 0
       spin: 6
       collidesTeam: false
-      damage: 40
+      damage: 24
       lifetime: 73
       speed: 2
-      width: 4
+      width: 6
       pierce: true
       pierceBuilding: true
-      height: 4
+      height: 6
       shrinkX: 0.3
       shrinkY: 0.3
       backColor: 52a379
@@ -67,11 +67,11 @@ weapons: [
       lightOpacity: 0
       spin: 2
       collidesTeam: false
-      damage: 40
-      lifetime: 240
+      damage: 50
+      lifetime: 140
       speed: 0.5
-      width: 11
-      height: 11
+      width: 9
+      height: 9
       pierce: true
       homingPower: 1
       pierceBuilding: true
@@ -79,6 +79,18 @@ weapons: [
       shrinkY: 0.1
       backColor: 52a379
       frontColor: 7afadc
+      fragBullets: 2
+      fragBullet: {
+         type: ContinuousLaserBulletType
+         length: 10
+         width: 4
+         damage: 10
+         colors: [ffffff,7afadc,52a379]
+         lifetime: 120
+         keepVelocity: false
+         pierce: true
+         absorbable: true
+         }
       }
    }
 ]
