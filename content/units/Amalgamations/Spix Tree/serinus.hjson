@@ -54,4 +54,31 @@ weapons: [
          }
       }
    }
+   {
+   name: serinus-cannon
+   y: 5
+   x: 0
+   top: false
+   rotate: false
+   mirror: false
+   bullet: {
+      type: BasicBulletType
+      sprite: antdustry-spin-bullet
+      lightOpacity: 0
+      spin: 2
+      collidesTeam: false
+      damage: 40
+      lifetime: 73
+      speed: 0.5
+      width: 18
+      height: 18
+      pierce: true
+      homingPower: 1
+      pierceBuilding: true
+      shrinkX: 0.1
+      shrinkY: 0.1
+      backColor: 52a379
+      frontColor: 7afadc
+      }
+   }
 ]
