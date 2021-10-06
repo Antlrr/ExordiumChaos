@@ -61,6 +61,8 @@ weapons: [
    top: false
    rotate: false
    mirror: false
+   reload: 180
+   shootY: 4
    bullet: {
       type: BasicBulletType
       sprite: antdustry-spin-bullet
@@ -70,8 +72,8 @@ weapons: [
       damage: 40
       lifetime: 73
       speed: 0.5
-      width: 18
-      height: 18
+      width: 12
+      height: 12
       pierce: true
       homingPower: 1
       pierceBuilding: true
