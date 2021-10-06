@@ -1,8 +1,8 @@
 type: flying
 flying: true
 hitSize: 110
-health: 600000000
-armor: 80000
+health: 6000000
+armor: 4000
 speed: 0.7
 rotateSpeed: 0.10
 accel: 1
@@ -11,8 +11,8 @@ lowAltitude: true
 engineOffset: 50
 engineSize: 20
 fallSpeed: 0.010
-lightColor: ffffff
-lightRadius: 0
+lightColor: 7afadc
+lightRadius: 110
 mineTier: 900
 mineSpeed: 1200
 deathSound: demise
