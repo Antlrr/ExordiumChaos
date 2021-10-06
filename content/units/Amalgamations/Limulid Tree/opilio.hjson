@@ -39,6 +39,7 @@ weapons: [
    shootSound: plantBreak
    bullet: {
       type: BulletType
+      absorbable: false
       collidesTeam: true
       ammoMultiplier: 3
       hitSize: 4

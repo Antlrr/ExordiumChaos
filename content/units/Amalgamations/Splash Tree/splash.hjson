@@ -26,6 +26,7 @@ weapons: [
    shootSound: lasershoot
    bullet: {
       type: BasicBulletType
+      absorbable: false
       sprite: circle-bullet
       collidesTeam: false
       damage: 32
@@ -46,6 +47,7 @@ weapons: [
       fragBullets: 4
       fragBullet: {
          type: MissileBulletType
+         absorbable: false
          homingPower: 0.8
          lifetime: 48
          speed: 1

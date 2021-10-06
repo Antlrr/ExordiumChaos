@@ -23,6 +23,7 @@ weapons: [
    autoTarget: true
    bullet: {
       type: basicBulletType
+      absorbable: false
       sprite: antdustry-spin-bullet
       lightOpacity: 0
       spin: 6

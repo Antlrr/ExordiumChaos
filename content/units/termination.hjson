@@ -51,6 +51,7 @@ weapons: [
       unitDamageScl: 10
       splashDamage: 230
       splashDamageRadius: 100
+      absorbable: false
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -153,23 +154,6 @@ weapons: [
       lightningColor: 7afadc
       lightningLength: 40
       status: disarmed
-      }
-   }
-]
-abilities: [
-   {
-   type: StatusFieldAbility
-   duration: 1500
-   range: 100
-   reload: 900
-   effect: {
-      name: violent
-      localizedName: Violent
-      show: true
-      speedMultiplier: 3
-      damageMultiplier: 50
-      reloadMultiplier: 2
-      healthMultiplier: 3
       }
    }
 ]
