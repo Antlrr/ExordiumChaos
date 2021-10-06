@@ -54,6 +54,7 @@ weapons: [
       absorbable: false
       shootEffect: {
          type: MultiEffect
+         lifetime: 240
          effects: [
             {
                type: WaveEffect
@@ -63,14 +64,18 @@ weapons: [
                sides: 8
                colorFrom: 7afadc
                colorTo: 7afadc0
+               strokeFrom: 7
+               strokeTo: 7
+               spin: 5
+               accel: 0.1
             }
             {
                type: ParticleEffect
                line: true
                strokeFrom: 1
                strokeTo: 0
-               lenFrom: 8
-               lenTo: 0
+               lenFrom: 0
+               lenTo: 8
                colorFrom: 7afadc
                colorTo: 7afadc0
             }
