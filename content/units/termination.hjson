@@ -58,7 +58,7 @@ weapons: [
          effects: [
             {
                type: WaveEffect
-               sizeFrom: 0
+               sizeFrom: 10
                sizeTo: 10
                line: true
                sides: 8
@@ -66,8 +66,6 @@ weapons: [
                colorTo: 7afadc0
                strokeFrom: 7
                strokeTo: 7
-               spin: 5
-               accel: 0.1
             }
             {
                type: ParticleEffect
@@ -78,6 +76,17 @@ weapons: [
                lenTo: 8
                colorFrom: 7afadc
                colorTo: 7afadc0
+            {
+               type: WaveEffect
+               sizeFrom: 10
+               sizeTo: 13
+               line: true
+               sides: 8
+               colorFrom: 7afadc
+               colorTo: 7afadc0
+               strokeFrom: 2
+               strokeTo: 0
+               spin: 5
             }
          ]
       }
