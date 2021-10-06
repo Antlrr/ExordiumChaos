@@ -82,11 +82,11 @@ weapons: [
       fragBullets: 2
       fragBullet: {
          type: ContinuousLaserBulletType
-         length: 10
-         width: 4
+         length: 12
+         width: 1
          damage: 10
-         colors: [ffffff,7afadc,52a379]
-         lifetime: 120
+         colors: [ffffff,7afadc,7afadc]
+         lifetime: 240
          keepVelocity: false
          pierce: true
          absorbable: true
