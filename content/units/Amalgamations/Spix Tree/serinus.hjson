@@ -28,6 +28,7 @@ weapons: [
    bullet: {
       type: basicBulletType
       sprite: antdustry-spin-bullet
+      absorbable: false
       lightOpacity: 0
       spin: 6
       collidesTeam: false
@@ -68,6 +69,7 @@ weapons: [
       lightOpacity: 0
       spin: 2
       collidesTeam: false
+      absorbable: false
       damage: 50
       lifetime: 140
       speed: 0.5
