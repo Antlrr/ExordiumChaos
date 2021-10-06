@@ -11,7 +11,8 @@ controller: FlyingAI
 lightRadius: 30
 lightColor: 7afadc
 lowAltitude: true
-rotateShooting: false
+rotateShooting: true
+rotateSpeed: 1
 weapons: [
    {
    name: ray-weapon
