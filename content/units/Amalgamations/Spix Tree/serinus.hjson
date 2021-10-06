@@ -21,10 +21,8 @@ weapons: [
    x: 6
    y: -4.50
    shootSound: lasershoot
-   shots: 2
-   shotDelay: 6
    recoil: 1
-   reload: 28
+   reload: 60
    autoTarget: true
    bullet: {
       type: basicBulletType
@@ -35,10 +33,10 @@ weapons: [
       damage: 40
       lifetime: 73
       speed: 2
-      width: 8
+      width: 4
       pierce: true
       pierceBuilding: true
-      height: 8
+      height: 4
       shrinkX: 0.3
       shrinkY: 0.3
       backColor: 52a379
@@ -70,10 +68,10 @@ weapons: [
       spin: 2
       collidesTeam: false
       damage: 40
-      lifetime: 73
+      lifetime: 240
       speed: 0.5
-      width: 12
-      height: 12
+      width: 11
+      height: 11
       pierce: true
       homingPower: 1
       pierceBuilding: true
