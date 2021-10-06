@@ -51,6 +51,7 @@ weapons: [
       unitDamageScl: 10
       splashDamage: 230
       splashDamageRadius: 100
+      absorbable: false
       shootEffect: {
          type: MultiEffect
          effects: [
