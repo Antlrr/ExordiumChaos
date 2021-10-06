@@ -54,12 +54,12 @@ weapons: [
       absorbable: false
       shootEffect: {
          type: MultiEffect
-         lifetime: 240
+         lifetime: 60
          effects: [
             {
                type: WaveEffect
-               sizeFrom: 10
-               sizeTo: 10
+               sizeFrom: 5
+               sizeTo: 5
                line: true
                sides: 8
                colorFrom: 7afadc
@@ -79,13 +79,13 @@ weapons: [
             }
             {
                type: WaveEffect
-               sizeFrom: 10
-               sizeTo: 13
+               sizeFrom: 5
+               sizeTo: 10
                line: true
                sides: 8
                colorFrom: 7afadc
                colorTo: 7afadc0
-               strokeFrom: 2
+               strokeFrom: 0.50
                strokeTo: 0
                spin: 5
             }
