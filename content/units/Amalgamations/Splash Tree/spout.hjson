@@ -9,6 +9,7 @@ drag: 0.1
 controller: GroundAI
 lightRadius: 60
 lightColor: 7afadc
+rotateShooting: false
 weapons: [
       {
    rotate: true
