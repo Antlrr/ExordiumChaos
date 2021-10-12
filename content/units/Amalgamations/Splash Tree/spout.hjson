@@ -83,7 +83,7 @@ weapons: [
          collidesTeam: false
          damage: 14
          keepVelocity: false
-         backColor: 7afadc
+         backColor: 7afadc00
          frontColor: 7afadc
          pierce: true
          pierceBuilding: true
