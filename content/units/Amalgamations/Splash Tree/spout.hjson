@@ -27,8 +27,8 @@ abilities: [
          particles: 10
          region: circle
          length: 0
-         sizeFrom: 6
-         sizeTo: 6
+         sizeFrom: 4
+         sizeTo: 4
          colorFrom: 7afadc
          colorTo: 7afadc
          }
@@ -36,7 +36,7 @@ abilities: [
          type: ParticleEffect
          lifetime: 60
          particles: 10
-         sizeFrom: 6
+         sizeFrom: 3
          sizeTo: 0
          region: circle
          colorFrom: 7afadc
