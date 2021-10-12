@@ -10,7 +10,115 @@ controller: GroundAI
 lightRadius: 60
 lightColor: 7afadc
 weapons: [
-   
+      {
+   rotate: true
+   top: true
+   mirror: false
+   x: 0
+   y: 0
+   recoil: 1
+   reload: 180
+   shootSound: lasershoot
+   shots: 5
+   shotDelay: 18
+   inaccuracy: 180
+   bullet: {
+      type: BasicBulletType
+      absorbable: false
+      sprite: circle-bullet
+      collidesTeam: false
+      damage: 84
+      homingPower: 0.2
+      lifetime: 130
+      speed: 5
+      drag: 0
+      accel: 0.1
+      width: 8
+      height: 8
+      backColor: 7afadc
+      frontColor: 7afadc
+      shrinkX: 0
+      shrinkY: 0
+      trailLength: 0
+      trailWidth: 5
+      trailMult: 6
+      trailSize: 3
+      trailColor: 7afadc
+      trailInterval: 1
+      trailEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: ParticleEffect
+            particles: 10
+            region: circle
+            length: 3
+            sizeFrom: 0
+            sizeTo: 2
+            colorFrom: 7afadc
+            colorTo: 7afadc
+            }
+            {
+            type: ParticleEffect
+            lifetime: 60
+            particles: 10
+            length: 4
+            sizeFrom: 2
+            sizeTo: 0
+            region: circle
+            colorFrom: 7afadc
+            colorTo: 7afadc00
+            }
+         }
+      ]
+      fragBullets: 4
+      fragBullet: {
+         type: MissileBulletType
+         absorbable: false
+         homingPower: 0.8
+         lifetime: 30
+         speed: 4
+         collidesTeam: false
+         damage: 20
+         backColor: 7afadc
+         frontColor: 7afadc
+         pierce: true
+         pierceBuilding: true
+         pierceCap: 6
+         weaveScale: 6
+         weaveMag: 7
+         trailLength: 10
+         trailWidth: 2
+         trailMult: 0
+         trailSize: 1
+         trailColor: 7afadc
+         trailInterval: 0
+         }
+      despawnEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 5
+            colorFrom: 7afadc
+            colorTo: 7afadc
+            }
+            {
+            type: ParticleEffect
+            line: True
+            strokeFrom: 2
+            strokeTo: 0
+            lenFrom: 0
+            lenTo: 3
+            colorFrom: 7afadc
+            colorTo: 7afadc
+               }
+            ]
+         }
+      }
+   }
+]
 abilities: [
     {
     type: MoveLightningAbility
