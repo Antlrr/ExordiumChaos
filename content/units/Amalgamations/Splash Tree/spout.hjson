@@ -9,6 +9,8 @@ drag: 0.1
 controller: GroundAI
 lightRadius: 60
 lightColor: 7afadc
+weapons: [
+   
 abilities: [
     {
     type: MoveLightningAbility
@@ -36,7 +38,7 @@ abilities: [
          type: ParticleEffect
          lifetime: 60
          particles: 10
-         sizeFrom: 3
+         sizeFrom: 2
          sizeTo: 0
          region: circle
          colorFrom: 7afadc
