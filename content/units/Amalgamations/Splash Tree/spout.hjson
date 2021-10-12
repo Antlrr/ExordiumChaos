@@ -10,6 +10,7 @@ controller: GroundAI
 lightRadius: 60
 lightColor: 7afadc
 rotateShooting: false
+rotateSpeed: 0.80
 weapons: [
       {
    rotate: true
@@ -121,8 +122,8 @@ weapons: [
                length: 0
                particles: 1
                spin: 3
-               sizeFrom: 2
-               sizeTo: 2
+               sizeFrom: 8
+               sizeTo: 8
                colorFrom: 7afadc
                colorTo: 7afadc00
                }
