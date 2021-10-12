@@ -19,10 +19,10 @@ abilities: [
     shootSound: none
     shootEffect: {
       type: MultiEffect
-      lifetime: 10
       effects: [
          {
          type: ParticleEffect
+         lifetime: 5
          lightOpacity: 10
          particles: 10
          region: circle
