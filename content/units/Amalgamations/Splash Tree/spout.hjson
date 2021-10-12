@@ -1,6 +1,6 @@
 type: naval
 flying: false
-health: 4630
+health: 850
 speed: 0.60
 accel: 2
 armor: 65
@@ -26,6 +26,7 @@ weapons: [
    inaccuracy: 70
    bullet: {
       type: BasicBulletType
+      collideTerrain: true
       absorbable: false
       sprite: circle-bullet
       collidesTeam: false
