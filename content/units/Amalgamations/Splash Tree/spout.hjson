@@ -81,7 +81,9 @@ weapons: [
          height: 18
          absorbable: false
          lifetime: 800
-         speed: 0
+         speed: 0.6
+         homingPower: 0.1
+         homingRange: 180
          collidesTeam: false
          damage: 14
          keepVelocity: false
