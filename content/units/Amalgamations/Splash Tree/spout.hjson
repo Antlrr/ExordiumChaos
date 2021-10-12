@@ -21,7 +21,7 @@ weapons: [
    shootSound: lasershoot
    shots: 5
    shotDelay: 18
-   inaccuracy: 180
+   inaccuracy: 90
    bullet: {
       type: BasicBulletType
       absorbable: false
@@ -30,9 +30,7 @@ weapons: [
       damage: 84
       homingPower: 0.2
       lifetime: 130
-      speed: 5
-      drag: 0
-      accel: 0.1
+      speed: 0.1
       width: 8
       height: 8
       backColor: 7afadc
