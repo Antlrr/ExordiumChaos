@@ -74,7 +74,6 @@ weapons: [
          width: 10
          height: 10
          absorbable: false
-         homingPower: 0.8
          lifetime: 800
          speed: 0
          collidesTeam: false
@@ -83,8 +82,6 @@ weapons: [
          frontColor: 7afadc
          pierce: true
          pierceBuilding: true
-         weaveScale: 6
-         weaveMag: 7
          trailLength: 0
          trailWidth: 0
          trailMult: 0
@@ -125,19 +122,20 @@ weapons: [
             {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 5
+            sizeTo: 10
+            strokeTo: 0
             colorFrom: 7afadc
-            colorTo: 7afadc
+            colorTo: 7afadc00
             }
             {
             type: ParticleEffect
-            line: True
+            line: true
             strokeFrom: 2
             strokeTo: 0
             lenFrom: 0
             lenTo: 3
             colorFrom: 7afadc
-            colorTo: 7afadc
+            colorTo: 7afadc00
                }
             ]
          }
