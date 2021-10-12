@@ -75,6 +75,8 @@ weapons: [
          type: BasicBulletType
          sprite: antdustry-tornado
          spin: -1
+         shrinkX: 0.50
+         shrinkY: 0.50
          width: 18
          height: 18
          absorbable: false
