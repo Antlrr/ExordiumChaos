@@ -72,6 +72,7 @@ weapons: [
       fragBullets: 1
       fragBullet: {
          type: BasicBulletType
+         sprite: tornado
          width: 14
          height: 14
          absorbable: false
