@@ -70,14 +70,15 @@ weapons: [
       }
       fragBullets: 1
       fragBullet: {
-         type: MissileBulletType
+         type: BasicBulletType
          width: 10
          height: 10
          absorbable: false
          lifetime: 800
          speed: 0
          collidesTeam: false
-         damage: 48
+         damage: 14
+         keepVelocity: false
          backColor: 7afadc
          frontColor: 7afadc
          pierce: true
@@ -116,13 +117,15 @@ weapons: [
             ]   
          }
       }
+      splashDamage: 57
+      splashDamageRadius: 34
       despawnEffect: {
          type: MultiEffect
          effects: [
             {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 10
+            sizeTo: 34
             strokeTo: 0
             colorFrom: 7afadc
             colorTo: 7afadc00
