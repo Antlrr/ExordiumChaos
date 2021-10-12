@@ -72,7 +72,6 @@ weapons: [
       fragBullets: 1
       fragBullet: {
          type: BasicBulletType
-         sprite: tornado
          width: 14
          height: 14
          absorbable: false
@@ -113,6 +112,17 @@ weapons: [
                sizeFrom: 2
                sizeTo: 0
                region: circle
+               colorFrom: 7afadc
+               colorTo: 7afadc00
+               }
+               {
+               type: ParticleEffect
+               region: antdustry-tornado
+               length: 0
+               particles: 1
+               spin: 3
+               sizeFrom: 2
+               sizeTo: 2
                colorFrom: 7afadc
                colorTo: 7afadc00
                }
