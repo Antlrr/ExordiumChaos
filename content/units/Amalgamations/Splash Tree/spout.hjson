@@ -1,0 +1,47 @@
+type: naval
+flying: false
+health: 4630
+speed: 0.60
+accel: 2
+armor: 65
+hitSize: 18
+drag: 0.1
+controller: GroundAI
+lightRadius: 60
+lightColor: 7afadc
+abilities: [
+    {
+    type: MoveLightningAbility
+    chance: 1
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+      type: MultiEffect
+      lifetime: 10
+      effects: [
+         type: ParticleEffect
+         lightOpacity: 10
+         particles: 10
+         region: circle
+         length: 0
+         sizeFrom: 6
+         sizeTo: 6
+         colorFrom: 7afadc
+         colorTo: 7afadc
+         }
+         {
+         type: ParticleEffect
+         lifetime: 60
+         particles: 10
+         sizeFrom: 6
+         sizeTo: 0
+         region: circle
+         colorFrom: 7afadc
+         colorTo: 7afadc00
+            }
+         ]   
+      }
+   }
+]
