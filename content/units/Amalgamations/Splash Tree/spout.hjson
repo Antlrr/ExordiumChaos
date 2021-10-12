@@ -16,12 +16,12 @@ weapons: [
    mirror: false
    x: 0
    y: 0
-   recoil: 1
-   reload: 180
+   recoil: 0
+   reload: 240
    shootSound: lasershoot
    shots: 5
    shotDelay: 18
-   inaccuracy: 90
+   inaccuracy: 120
    bullet: {
       type: BasicBulletType
       absorbable: false
@@ -30,7 +30,7 @@ weapons: [
       damage: 84
       homingPower: 0.2
       lifetime: 130
-      speed: 0.1
+      speed: 1
       width: 8
       height: 8
       backColor: 7afadc
@@ -50,8 +50,8 @@ weapons: [
             particles: 10
             region: circle
             length: 3
-            sizeFrom: 0
-            sizeTo: 2
+            sizeFrom: 2
+            sizeTo: 0
             colorFrom: 7afadc
             colorTo: 7afadc
             }
