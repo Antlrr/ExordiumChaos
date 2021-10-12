@@ -61,7 +61,7 @@ weapons: [
          weaveScale: 6
          weaveMag: 7
          trailLength: 10
-         trailWidth: 3.5
+         trailWidth: 2
          trailMult: 0
          trailSize: 1
          trailColor: 7afadc
