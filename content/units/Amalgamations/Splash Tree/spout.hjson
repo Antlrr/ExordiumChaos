@@ -69,8 +69,8 @@ weapons: [
             colorFrom: 7afadc
             colorTo: 7afadc00
             }
-         }
-      ]
+         ]
+      }
       fragBullets: 4
       fragBullet: {
          type: MissileBulletType
