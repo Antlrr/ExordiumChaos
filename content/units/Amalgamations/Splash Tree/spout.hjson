@@ -19,9 +19,9 @@ weapons: [
    recoil: 0
    reload: 240
    shootSound: lasershoot
-   shots: 5
+   shots: 4
    shotDelay: 18
-   inaccuracy: 120
+   inaccuracy: 70
    bullet: {
       type: BasicBulletType
       absorbable: false
@@ -51,7 +51,7 @@ weapons: [
             region: circle
             length: 3
             sizeFrom: 2
-            sizeTo: 0
+            sizeTo: 1
             colorFrom: 7afadc
             colorTo: 7afadc
             }
@@ -68,29 +68,57 @@ weapons: [
             }
          ]
       }
-      fragBullets: 4
+      fragBullets: 1
       fragBullet: {
          type: MissileBulletType
+         width: 10
+         height: 10
          absorbable: false
          homingPower: 0.8
-         lifetime: 30
-         speed: 4
+         lifetime: 800
+         speed: 0
          collidesTeam: false
-         damage: 20
+         damage: 48
          backColor: 7afadc
          frontColor: 7afadc
          pierce: true
          pierceBuilding: true
-         pierceCap: 6
          weaveScale: 6
          weaveMag: 7
-         trailLength: 10
-         trailWidth: 2
+         trailLength: 0
+         trailWidth: 0
          trailMult: 0
          trailSize: 1
          trailColor: 7afadc
-         trailInterval: 0
+         trailInterval: 0.1
+         trailEffect: {
+            type: MultiEffect
+            effects: [
+               {
+               type: ParticleEffect
+               lifetime: 5
+               lightOpacity: 10
+               particles: 10
+               region: circle
+               length: 0
+               sizeFrom: 4
+               sizeTo: 4
+               colorFrom: 7afadc
+               colorTo: 7afadc
+               }
+               {
+               type: ParticleEffect
+               lifetime: 60
+               particles: 10
+               sizeFrom: 2
+               sizeTo: 0
+               region: circle
+               colorFrom: 7afadc
+               colorTo: 7afadc00
+               }
+            ]   
          }
+      }
       despawnEffect: {
          type: MultiEffect
          effects: [
