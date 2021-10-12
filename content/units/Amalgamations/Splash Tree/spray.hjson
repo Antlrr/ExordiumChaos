@@ -122,7 +122,7 @@ weapons: [
       damage: 11
       speed: 2.4
       drag : 0.009
-      knockback: 2
+      knockback: 0.2
       shootEffect: shootSmall
       lifetime: 84
       collidesAir: false
