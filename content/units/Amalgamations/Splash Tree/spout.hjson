@@ -40,11 +40,10 @@ weapons: [
       shrinkX: 0
       shrinkY: 0
       trailLength: 0
-      trailWidth: 5
-      trailMult: 6
+      trailWidth: 0
       trailSize: 3
       trailColor: 7afadc
-      trailInterval: 1
+      trailInterval: 0.1
       trailEffect: {
          type: MultiEffect
          effects: [
