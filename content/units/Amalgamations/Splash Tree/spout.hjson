@@ -121,7 +121,7 @@ weapons: [
                region: antdustry-tornado
                length: 0
                particles: 1
-               spin: 3
+               spin: -2
                sizeFrom: 8
                sizeTo: 8
                colorFrom: 7afadc
