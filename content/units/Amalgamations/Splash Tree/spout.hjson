@@ -21,6 +21,7 @@ abilities: [
       type: MultiEffect
       lifetime: 10
       effects: [
+         {
          type: ParticleEffect
          lightOpacity: 10
          particles: 10
