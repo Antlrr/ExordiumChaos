@@ -30,7 +30,7 @@ weapons: [
       absorbable: false
       sprite: circle-bullet
       collidesTeam: false
-      damage: 84
+      damage: 45
       homingPower: 0.2
       lifetime: 130
       speed: 1
