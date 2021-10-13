@@ -23,6 +23,7 @@ weapons: [
    recoil: 5
    reload: 30
    autoTarget: true
+   shootEffect: blastExplosion
    bullet: {
       type: basicBulletType
       killShooter: true
