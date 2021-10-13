@@ -70,6 +70,6 @@ abilities: [
     unit: fragment
     spawnX: 0
     spawnY: 0
-    spawnTime: 600
+    spawnTime: 220
   }
 ]
