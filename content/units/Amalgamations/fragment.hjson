@@ -9,7 +9,7 @@ drag: 0
 controller: FlyingAI
 lightRadius: 30
 lightColor: 6f7fe8
-engineSize: 0.20
+engineSize: 0
 commandLimit: 1
 weapons: [
    {
@@ -31,8 +31,8 @@ weapons: [
       keepVelocity: false
       collidesTeam: false
       damage: 40
-      lifetime: 58
-      speed: 2
+      lifetime: 20
+      speed: 0
       width: 2
       pierce: true
       pierceBuilding: true
