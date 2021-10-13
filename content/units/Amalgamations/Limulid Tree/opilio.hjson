@@ -30,8 +30,8 @@ weapons: [
    rotateSpeed: 5
    top: false
    mirror: true
-   x: 6
-   y: 2.25
+   x: 6.50
+   y: 2.50
    recoil: -6
    reload: 5
    inaccuracy: 10
