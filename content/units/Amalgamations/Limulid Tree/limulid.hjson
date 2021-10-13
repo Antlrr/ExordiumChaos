@@ -69,7 +69,7 @@ abilities: [
     type: UnitSpawnAbility
     unit: fragment
     spawnX: 0
-    spawnY: -0.75
+    spawnY: -0.50
     spawnTime: 220
   }
 ]
