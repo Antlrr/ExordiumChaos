@@ -67,7 +67,7 @@ weapons: [
 abilities: [
   {
     type: UnitSpawnAbility
-    unit: pico
+    unit: fragment
     spawnX: 0
     spawnY: 0
     spawnTime: 600
