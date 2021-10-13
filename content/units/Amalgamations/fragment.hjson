@@ -1,0 +1,46 @@
+type: flying
+flying: true
+health: 10
+speed: 3
+accel: 0.1
+armor: 20
+hitSize: 4
+drag: 0
+controller: FlyingAI
+lightRadius: 30
+lightColor: 6f7fe8
+weapons: [
+   {
+   top: false
+   mirror: false
+   rotate: false
+   x: 0
+   y: 0
+   shots: 2
+   shotDelay: 6
+   recoil: 5
+   reload: 30
+   autoTarget: true
+   killShooter: true
+   bullet: {
+      type: basicBulletType
+      absorbable: false
+      sprite: circle
+      keepVelocity: false
+      collidesTeam: false
+      damage: 40
+      lifetime: 58
+      speed: 2
+      width: 2
+      pierce: true
+      pierceBuilding: true
+      height: 2
+      shrinkX: 0.3
+      shrinkY: 0.3
+      backColor: 52a37900
+      frontColor: 7afadc00
+      splashDamage: 2
+      splashDamageRadius: 20
+      }
+   }
+]
