@@ -7,7 +7,7 @@ visualElevation: 0.7
 health: 300
 armor: 60.40
 speed: 0.60
-rotateSpeed: 1.50
+rotateSpeed: 1.5
 buildSpeed: 6.1
 mineSpeed: 10.8
 mineTier: 3
@@ -30,8 +30,8 @@ weapons: [
    rotateSpeed: 5
    top: false
    mirror: true
-   x: 4
-   y: 1
+   x: 7.50
+   y: 4
    recoil: -6
    reload: 5
    inaccuracy: 10
