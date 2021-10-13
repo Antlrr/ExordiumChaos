@@ -9,6 +9,8 @@ drag: 0
 controller: FlyingAI
 lightRadius: 30
 lightColor: 6f7fe8
+engineSize: 0.20
+commandLimit: 1
 weapons: [
    {
    top: false
@@ -21,9 +23,9 @@ weapons: [
    recoil: 5
    reload: 30
    autoTarget: true
-   killShooter: true
    bullet: {
       type: basicBulletType
+      killShooter: true
       absorbable: false
       sprite: circle
       keepVelocity: false
