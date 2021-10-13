@@ -30,8 +30,8 @@ weapons: [
    rotateSpeed: 5
    top: false
    mirror: true
-   x: 7.50
-   y: 4
+   x: 6
+   y: 2.25
    recoil: -6
    reload: 5
    inaccuracy: 10
@@ -78,7 +78,7 @@ abilities: [
       type: UnitSpawnAbility
       unit: fragment
       spawnX: 0
-      spawnY: -3
+      spawnY: -5
       spawnTime: 120
    }
 ]
