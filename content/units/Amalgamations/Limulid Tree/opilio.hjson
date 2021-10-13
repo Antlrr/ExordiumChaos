@@ -69,16 +69,16 @@ weapons: [
 abilities: [
    {
       type: UnitSpawnAbility
-      unit: pico
-      spawnX: 4
-      spawnY: -2
-      spawnTime: 600
+      unit: fragment
+      spawnX: 0
+      spawnY: -1
+      spawnTime: 120
    }
    {
       type: UnitSpawnAbility
-      unit: pico
-      spawnX: -4
+      unit: fragment
+      spawnX: 0
       spawnY: -2
-      spawnTime: 600
+      spawnTime: 120
    }
 ]
