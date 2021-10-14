@@ -18,10 +18,9 @@ weapons: [
    rotate: false
    x: 0
    y: 0
-   shots: 2
-   shotDelay: 6
+   shots: 1
    recoil: 5
-   reload: 30
+   reload: 60
    autoTarget: true
    shootEffect: blastExplosion
    bullet: {
