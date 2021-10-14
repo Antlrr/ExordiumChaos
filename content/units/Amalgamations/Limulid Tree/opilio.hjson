@@ -31,7 +31,7 @@ weapons: [
    top: false
    mirror: true
    x: 6.75
-   y: 3.50
+   y: 3.25
    recoil: -6
    reload: 5
    inaccuracy: 10
