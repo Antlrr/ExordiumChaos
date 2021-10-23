@@ -3,7 +3,7 @@ hovering: true
 armor: 20.30
 hitSize: 15
 groundLayer: 75
-visualElevation: 0.7
+visualElevation: 0.4
 health: 300
 armor: 60.40
 speed: 0.60
