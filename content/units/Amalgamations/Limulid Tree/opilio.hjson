@@ -14,7 +14,7 @@ mineTier: 3
 controller: GroundAI
 legCount: 6
 legLength: 12
-legBaseOffset: 2
+legBaseOffset: -0.50
 legExtension: 0.30
 legSpeed: 1.50
 legSplashRange: 0.01
