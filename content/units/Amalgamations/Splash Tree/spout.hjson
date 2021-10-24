@@ -74,7 +74,7 @@ weapons: [
       fragBullets: 1
       fragBullet: {
          type: BasicBulletType
-         sprite: antdustry-tornado
+         sprite: exordium-tornado
          spin: -1
          shrinkX: 0.50
          shrinkY: 0.50
