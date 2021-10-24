@@ -6,7 +6,7 @@ accel: 0.1
 armor: 20
 hitSize: 4
 drag: 0
-controller: FlyingAI
+controller: HugAI
 lightRadius: 30
 lightColor: 6f7fe8
 engineSize: 0
