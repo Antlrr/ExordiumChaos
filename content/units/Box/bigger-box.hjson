@@ -42,7 +42,7 @@ weapons: [
         pierce: true
         pierceCap: 3
         pierceBuildings: false
-        sprite: antdustry-boxbullet
+        sprite: exordium-boxbullet
         spin: 2
         frontColor: c9a58f
         backColor: b28768
