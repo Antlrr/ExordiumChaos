@@ -11,7 +11,7 @@ mineSpeed: 10.8
 mineTier: 3
 controller: GroundAI
 legCount: 6
-legLength: 20
+legLength: 30
 legBaseOffset: -0.50
 legExtension: 2
 legSpeed: 0.20
@@ -21,3 +21,26 @@ maxStretch: 1
 allowLegStep: true
 lightRadius: 30
 lightColor: ffffff
+abilities: [
+   {
+      type: UnitSpawnAbility
+      unit: fragment
+      spawnX: 1
+      spawnY: 0
+      spawnTime: 120
+   }
+   {
+      type: UnitSpawnAbility
+      unit: fragment
+      spawnX: -3
+      spawnY: -2
+      spawnTime: 120
+   }
+   {
+      type: UnitSpawnAbility
+      unit: fragment
+      spawnX: 3
+      spawnY: -2
+      spawnTime: 120
+   }
+]
