@@ -24,7 +24,7 @@ weapons: [
    bullet: {
       type: basicBulletType
       absorbable: false
-      sprite: antdustry-spin-bullet
+      sprite: exordium-spin-bullet
       lightOpacity: 0
       spin: 6
       collidesTeam: false
