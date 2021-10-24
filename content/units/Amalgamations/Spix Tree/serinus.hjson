@@ -27,7 +27,7 @@ weapons: [
    autoTarget: true
    bullet: {
       type: basicBulletType
-      sprite: antdustry-spin-bullet
+      sprite: exordium-spin-bullet
       absorbable: false
       lightOpacity: 0
       spin: 6
@@ -66,7 +66,7 @@ weapons: [
    shootSound: artillery
    bullet: {
       type: BasicBulletType
-      sprite: antdustry-spin-bullet
+      sprite: exordium-spin-bullet
       lightOpacity: 0
       spin: 2
       collidesTeam: false
