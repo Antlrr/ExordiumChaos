@@ -25,22 +25,22 @@ abilities: [
    {
       type: UnitSpawnAbility
       unit: fragment
-      spawnX: 1
-      spawnY: 0
+      spawnX: 0
+      spawnY: 0.25
       spawnTime: 120
    }
    {
       type: UnitSpawnAbility
       unit: fragment
-      spawnX: -3
-      spawnY: -2
+      spawnX: -4
+      spawnY: -4
       spawnTime: 120
    }
    {
       type: UnitSpawnAbility
       unit: fragment
-      spawnX: 3
-      spawnY: -2
+      spawnX: 4
+      spawnY: -4
       spawnTime: 120
    }
 ]
