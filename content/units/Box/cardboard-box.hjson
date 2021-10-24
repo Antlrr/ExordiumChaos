@@ -13,17 +13,16 @@ mechFrontSway: 0
 controller: SuicideAI
 lightRadius: 30
 lightColor: ffffff
-immunities: [antdustry-boxed]
+immunities: [exordium-boxed]
 weapons: [
   {
-     name: cardboard-box-base
      reload: 24
      shootCone: 180
      x: 0
      y: 0
      shootSound: explosion
      bullet: {
-       status: antdustry-boxed
+       status: exordium-boxed
        statusDuration: 150
        type: BombBulletType
        hitEffect: pulverize
