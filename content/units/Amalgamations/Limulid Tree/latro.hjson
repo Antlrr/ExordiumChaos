@@ -10,6 +10,7 @@ buildSpeed: 6.1
 mineSpeed: 10.8
 mineTier: 3
 controller: GroundAI
+legPairOffset: 4
 legCount: 6
 legLength: 30
 legBaseOffset: -0.50
