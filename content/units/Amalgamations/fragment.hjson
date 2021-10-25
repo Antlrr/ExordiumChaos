@@ -35,15 +35,25 @@ weapons: [
       damage: 2
       lifetime: 100
       speed: 2
-      width: 8
+      width: 3
       pierce: true
       pierceBuilding: true
       pierceCap: 2
-      height: 8
+      height: 3
       shrinkX: 0.3
       shrinkY: 0.3
       backColor: 7afadc
       frontColor: 7afadc
+      trailChance: 1
+      trailEffect: {
+         type: ParticleEfffect
+         particles: 2
+         region: circle
+         colorFrom: 7afadc
+         colorTo: 7afadc00
+         sizeFrom: 2
+         sizeTo: 0
+         }
       }
    }
 ]
