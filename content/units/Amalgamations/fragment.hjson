@@ -44,14 +44,14 @@ weapons: [
       shrinkY: 0.3
       backColor: 7afadc
       frontColor: 7afadc
-      trailChance: 1
+      trailChance: 0.1
       trailEffect: {
          type: ParticleEfffect
          particles: 2
          region: circle
          colorFrom: 7afadc
          colorTo: 7afadc00
-         sizeFrom: 2
+         sizeFrom: 1
          sizeTo: 0
          }
       }
