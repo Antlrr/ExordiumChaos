@@ -24,15 +24,19 @@ lightRadius: 30
 lightColor: ffffff
 weapons: [
    {
-   name: sap-bullet-mount
+   name: sap-weapon-mount
    x: 7
-   y: 7
+   y: 6
    top: true
    rotate: true
    mirror: true
+   reload: 10
    bullet: {
       type: SapBulletType
       color: 7afadc
+      shootSound: sap
+      damage: 8
+      length: 60
       }
    }
 ]
