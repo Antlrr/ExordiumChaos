@@ -19,6 +19,7 @@ legSplashRange: 0.01
 rippleScale: 2
 maxStretch: 1
 allowLegStep: true
+legGroupSize: 2
 lightRadius: 30
 lightColor: ffffff
 abilities: [
@@ -32,15 +33,15 @@ abilities: [
    {
       type: UnitSpawnAbility
       unit: fragment
-      spawnX: -4
-      spawnY: -4
+      spawnX: -6
+      spawnY: -6
       spawnTime: 120
    }
    {
       type: UnitSpawnAbility
       unit: fragment
-      spawnX: 4
-      spawnY: -4
+      spawnX: 6
+      spawnY: -6
       spawnTime: 120
    }
 ]
