@@ -5,7 +5,7 @@ speed: 3
 accel: 0.1
 armor: 20
 hitSize: 4
-drag: 0
+drag: 0.50
 controller: HugAI
 lightRadius: 30
 lightColor: 6f7fe8
@@ -21,7 +21,7 @@ weapons: [
    y: 0
    shots: 1
    recoil: 0
-   reload: 60
+   reload: 20
    autoTarget: true
    shootEffect: blastExplosion
    bullet: {
@@ -29,17 +29,17 @@ weapons: [
       collideAir: true
       killShooter: true
       absorbable: false
-      sprite: circle
+      sprite: circle-bullet
       keepVelocity: false
       collidesTeam: false
       damage: 2
-      lifetime: 60
+      lifetime: 100
       speed: 2
-      width: 2
+      width: 8
       pierce: true
       pierceBuilding: true
       pierceCap: 2
-      height: 2
+      height: 8
       shrinkX: 0.3
       shrinkY: 0.3
       backColor: 7afadc
