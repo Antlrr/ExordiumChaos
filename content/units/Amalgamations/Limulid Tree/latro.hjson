@@ -31,11 +31,13 @@ weapons: [
    rotate: true
    mirror: true
    reload: 10
+   rotateSpeed: 1.90
+   shootSound: sap
+   shootY: 4
    bullet: {
       type: SapBulletType
       color: 7afadc
-      shootSound: sap
-      damage: 8
+      damage: 68
       length: 60
       }
    }
