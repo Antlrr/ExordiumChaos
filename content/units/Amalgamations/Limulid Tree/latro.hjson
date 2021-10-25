@@ -39,7 +39,7 @@ weapons: [
       color: 7afadc
       damage: 68
       length: 60
-      sapStrength: 2
+      sapStrength: 1
       }
    }
 ]
