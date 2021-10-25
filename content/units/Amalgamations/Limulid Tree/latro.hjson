@@ -30,7 +30,7 @@ weapons: [
    top: true
    rotate: true
    mirror: true
-   reload: 10
+   reload: 5
    rotateSpeed: 1.90
    shootSound: sap
    shootY: 4
@@ -39,6 +39,7 @@ weapons: [
       color: 7afadc
       damage: 68
       length: 60
+      sapStrength: 2
       }
    }
 ]
