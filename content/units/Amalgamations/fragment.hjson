@@ -11,6 +11,7 @@ lightRadius: 30
 lightColor: 6f7fe8
 engineSize: 0
 commandLimit: 1
+targetAir: true
 weapons: [
    {
    top: false
@@ -19,30 +20,30 @@ weapons: [
    x: 0
    y: 0
    shots: 1
-   recoil: 5
+   recoil: 0
    reload: 60
    autoTarget: true
    shootEffect: blastExplosion
    bullet: {
       type: basicBulletType
+      collideAir: true
       killShooter: true
       absorbable: false
       sprite: circle
       keepVelocity: false
       collidesTeam: false
-      damage: 40
-      lifetime: 20
-      speed: 0
+      damage: 2
+      lifetime: 60
+      speed: 2
       width: 2
       pierce: true
       pierceBuilding: true
+      pierceCap: 2
       height: 2
       shrinkX: 0.3
       shrinkY: 0.3
-      backColor: 52a37900
-      frontColor: 7afadc00
-      splashDamage: 2
-      splashDamageRadius: 20
+      backColor: 7afadc
+      frontColor: 7afadc
       }
    }
 ]
