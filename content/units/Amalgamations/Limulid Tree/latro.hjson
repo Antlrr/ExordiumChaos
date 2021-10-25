@@ -22,6 +22,20 @@ allowLegStep: true
 legGroupSize: 2
 lightRadius: 30
 lightColor: ffffff
+weapons: [
+   {
+   name: sap-bullet-mount
+   x: 7
+   y: 7
+   top: true
+   rotate: true
+   mirror: true
+   bullet: {
+      type: SapBulletType
+      color: 7afadc
+      }
+   }
+]
 abilities: [
    {
       type: UnitSpawnAbility
@@ -33,14 +47,14 @@ abilities: [
    {
       type: UnitSpawnAbility
       unit: fragment
-      spawnX: -6
+      spawnX: -6.50
       spawnY: -6
       spawnTime: 120
    }
    {
       type: UnitSpawnAbility
       unit: fragment
-      spawnX: 6
+      spawnX: 6.50
       spawnY: -6
       spawnTime: 120
    }
