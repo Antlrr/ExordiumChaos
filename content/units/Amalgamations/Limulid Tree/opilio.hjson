@@ -65,6 +65,25 @@ weapons: [
       hittable: false
       }
    }
+   {
+   name: sap-weapon-mount
+   x: 3
+   y: 0
+   top: true
+   rotate: true
+   mirror: true
+   reload: 5
+   rotateSpeed: 1.90
+   shootSound: sap
+   shootY: 4
+   bullet: {
+      type: SapBulletType
+      color: 7afadc
+      damage: 25
+      length: 20
+      sapStrength: 0.2
+      }
+   }
 ]
 abilities: [
    {
