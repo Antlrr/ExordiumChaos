@@ -67,8 +67,8 @@ weapons: [
    }
    {
    name: sap-weapon-mount
-   x: 7
-   y: 0
+   x: 8
+   y: -0.50
    top: true
    rotate: true
    mirror: true
