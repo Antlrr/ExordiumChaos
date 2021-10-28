@@ -12,9 +12,9 @@ rotateSpeed: 0.90
 controller: GroundAI
 legPairOffset: 5
 legCount: 4
-legLength: 30
-legBaseOffset: 50
-legExtension: 10
+legLength: 50
+legBaseOffset: 20
+legExtension: 5
 legSpeed: 0.60
 legSplashRange: 4
 rippleScale: 1
