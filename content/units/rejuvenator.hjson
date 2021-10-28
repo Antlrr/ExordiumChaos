@@ -14,7 +14,7 @@ legPairOffset: 20
 legCount: 4
 legLength: 10
 legBaseOffset: 1
-legExtension: 1
+legExtension: 30
 legSpeed: 0.60
 legSplashRange: 4
 rippleScale: 1
