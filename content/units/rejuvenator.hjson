@@ -1,7 +1,7 @@
 type: legs
 hovering: true
-groundLayer: 75
-visualElevation: 10.5
+groundLayer: 76
+visualElevation: 2
 buildSpeed: 10.30
 mineSpeed: 100.30
 mineTier: 9
@@ -10,6 +10,7 @@ armor: 80
 speed: 0.20
 rotateSpeed: 0.90
 controller: GroundAI
+legPairOffset: 20
 legCount: 4
 legLength: 10
 legBaseOffset: 1
