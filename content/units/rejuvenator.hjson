@@ -25,97 +25,51 @@ lightColor: ffffff
 weapons: [
    {
    shootSound: laserblast
-      top: false
-      mirror: false
-      shake: 17
-      shootY: 5
-      x: 0
-      y: 0
-      reload: 350
-      recoil: 0
-      cooldownTime: 35
-      bullet: {
-         type: laserBulletType
-         length: 999
-         damage: 999999999
-         speed: 2
-         width: 76
-         lifetime: 65
-         lightningSpacing: 35
-         lightningLength: 70
-         lightningDelay: 1.1
-         lightningLengthRand: 15
-         lightningDamage: 9999999
-         lightningAngleRand: 20
-         largeHit: true
-         lightColor: Fc62b5
-         lightningColor: Fc62b5
-         healPercent: 9999999
-         collidesTeam: false
-         sideAngle: 15
-         sideWidth: 0
-         sideLength: 0
-         colors: [Fc62b5, ffffff]
-         shootEffect: {
-            type: WaveEffect
-            sizeFrom: 40
-            sizeTo: 0
-            lifetime: 30
-            strokeFrom: 2
-            strokeTo: 1
-            colorFrom: Fc62b5
-            colorTo: fffffff
-            }
+   top: false
+   mirror: false
+   shake: 17
+   shootY: 10
+   x: 0
+   y: 0
+   reload: 350
+   recoil: 0
+   cooldownTime: 35
+   shots: 2
+   spacing: 80
+   bullet: {
+      type: laserBulletType
+      length: 999
+      damage: 999999999
+      width: 64
+      lifetime: 65
+      lightningSpacing: 35
+      lightningLength: 70
+      lightningDelay: 1.1
+      lightningLengthRand: 15
+      lightningDamage: 9999999
+      lightningAngleRand: 20
+      largeHit: true
+      lightColor: ffffff
+      lightningColor: ffffff
+      healPercent: 9999999
+      collidesTeam: false
+      sideAngle: 15
+      sideWidth: 0
+      sideLength: 0
+      colors: [ffffff, ffffff]
+      shootEffect: {
+         type: WaveEffect
+         sizeFrom: 40
+         sizeTo: 0
+         lifetime: 30
+         strokeFrom: 2
+         strokeTo: 1
+         colorFrom: Fc62b5
+         colorTo: fffffff
          }
       }
-      {
-      shootSound: laserblast
-      top: false
-      mirror: false
-      shake: 17
-      shootY: 5
-      x: 0
-      y: 0
-      reload: 350
-      recoil: 0
-      cooldownTime: 35
-      spacing: 90
-      bullet: {
-         type: laserBulletType
-         length: 999
-         damage: 999999999
-         speed: -2
-         width: 76
-         lifetime: 65
-         lightningSpacing: 35
-         lightningLength: 70
-         lightningDelay: 1.1
-         lightningLengthRand: 15
-         lightningDamage: 9999999
-         lightningAngleRand: 20
-         largeHit: true
-         lightColor: Fc62b5
-         lightningColor: Fc62b5
-         healPercent: 9999999
-         collidesTeam: false
-         sideAngle: 15
-         sideWidth: 0
-         sideLength: 0
-         colors: [Fc62b5, ffffff]
-         inaccuracy: 90
-         shootEffect: {
-            type: WaveEffect
-            sizeFrom: 40
-            sizeTo: 0
-            lifetime: 30
-            strokeFrom: 2
-            strokeTo: 1
-            colorFrom: Fc62b5
-            colorTo: fffffff
-           }
-         }
-       }
-     ]
+   }
+]
 abilities: [
    {
       type: EnergyFieldAbility
@@ -124,7 +78,7 @@ abilities: [
       range: 100
       maxTargets: 20
       shootSound: bigshot
-      color: Fc62b5
+      color: ffffff
       healPercent: 9999999
       status: unmoving
       statusDuration: 100
