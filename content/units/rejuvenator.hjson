@@ -35,7 +35,8 @@ weapons: [
    recoil: 0
    cooldownTime: 35
    shots: 2
-   spacing: 80
+   spacing: 360
+   firstShotDelay: 30
    bullet: {
       type: laserBulletType
       length: 999
@@ -58,14 +59,29 @@ weapons: [
       sideLength: 0
       colors: [ffffff, ffffff]
       shootEffect: {
-         type: WaveEffect
-         sizeFrom: 40
-         sizeTo: 0
-         lifetime: 30
-         strokeFrom: 2
-         strokeTo: 1
-         colorFrom: Fc62b5
-         colorTo: fffffff
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 40
+            sizeTo: 0
+            lifetime: 30
+            strokeFrom: 2
+            strokeTo: 1
+            strokeFrom: 2
+            strokeTo: 0
+            colorFrom: ffffff
+            colorTo: fffffff0
+            }
+            {
+            type: ParticleEffect
+            lifetime: 31
+            length: 0
+            sizeFrom: 0
+            sizeTo: 8
+            colorFrom: ffffff0
+            colorTo: fffffff
+            }
          }
       }
    }
