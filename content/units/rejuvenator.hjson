@@ -81,7 +81,8 @@ weapons: [
             sizeTo: 8
             colorFrom: ffffff0
             colorTo: fffffff
-            }
+               }
+            ]
          }
       }
    }
