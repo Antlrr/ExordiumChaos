@@ -22,9 +22,9 @@ weapons: [
    shots: 10
    spacing: 10
    shotDelay: 2
+   shootEffect: none
    bullet: {
       type: BasicBulletType
-      sprite: mine-bullet
       trailLength: 6
       trailWidth: 3
       trailColor: 8cc7f5
@@ -35,7 +35,7 @@ weapons: [
       backColor: 8cc7f5
       collidesTeam: false
       damage: 28
-      lifetime: 1000
+      lifetime: 50
       speed: 4
       drag: 0.1
       shrinkX: 0.1
