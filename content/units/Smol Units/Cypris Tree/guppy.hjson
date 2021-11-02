@@ -26,6 +26,8 @@ weapons: [
       type: BasicBulletType
       sprite: circle-bullet
       layer: 10
+      frontColor: ffffff
+      backColor: 8cc7f5
       collidesTeam: false
       damage: 28
       lifetime: 500
