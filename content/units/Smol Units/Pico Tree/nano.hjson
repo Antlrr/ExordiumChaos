@@ -13,8 +13,8 @@ weapons: [
    name: nano-weapon
    top: false
    mirror: true
-   x: -4.50
-   y: -0.25
+   x: 7
+   y: 0
    shots: 1
    recoil: 1
    reload: 10
@@ -27,8 +27,9 @@ weapons: [
      collidesTeam: false
      homingPower: 0.04
      damage: 35
-     lifetime: 27
-     speed: 3
+     lifetime: 10
+     speed: 0.1
+     drag: -0.1
     }
   }
 ]
