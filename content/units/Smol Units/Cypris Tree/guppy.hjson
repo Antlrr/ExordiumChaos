@@ -25,12 +25,17 @@ weapons: [
    bullet: {
       type: BasicBulletType
       sprite: mine-bullet
+      trailLength: 6
+      trailWidth: 3
+      trailColor: 8cc7f5
+      height: 4
+      width: 4
       layer: 10
       frontColor: ffffff
       backColor: 8cc7f5
       collidesTeam: false
       damage: 28
-      lifetime: 500
+      lifetime: 1000
       speed: 4
       drag: 0.1
       shrinkX: 0.1
