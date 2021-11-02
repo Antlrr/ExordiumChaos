@@ -19,7 +19,7 @@ weapons: [
    shots: 1
    recoil: 1
    reload: 60
-   shots: 20
+   shots: 10
    spacing: 10
    shotDelay: 2
    bullet: {
@@ -28,8 +28,8 @@ weapons: [
       trailLength: 6
       trailWidth: 3
       trailColor: 8cc7f5
-      height: 4
-      width: 4
+      height: 8
+      width: 8
       layer: 10
       frontColor: ffffff
       backColor: 8cc7f5
