@@ -19,18 +19,18 @@ weapons: [
    recoil: 1
    reload: 10
    bullet: {
-     type: basicBulletType
-     frontColor: 8cc7f5
-     backColor: 6a84c4
-     height: 8
-     width: 6
-     collidesTeam: false
-     homingPower: 0.04
-     damage: 35
-     lifetime: 10
-     speed: 0.1
-     drag: -0.1
-    }
-  }
+      type: basicBulletType
+      frontColor: 8cc7f5
+      backColor: 6a84c4
+      height: 8
+      width: 6
+      collidesTeam: false
+      homingPower: 0.04
+      damage: 35
+      lifetime: 23
+      speed: 0.1
+      drag: -0.1
+      }
+   } 
 ]
 research: smol-updater
