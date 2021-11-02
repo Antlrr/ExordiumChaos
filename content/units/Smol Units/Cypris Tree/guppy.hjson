@@ -30,7 +30,7 @@ weapons: [
       trailColor: 8cc7f5
       height: 8
       width: 8
-      layer: 10
+      layer: 101
       frontColor: ffffff
       backColor: 8cc7f5
       collidesTeam: false
