@@ -11,7 +11,6 @@ lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
-   name: guppy-mount
    rotate: true
    top: true
    mirror: false
@@ -20,13 +19,18 @@ weapons: [
    shots: 1
    recoil: 1
    reload: 13
+   shots: 20
+   spacing: 4
+   shotDelay: 2
    bullet: {
-   type: MissileBulletType
-   collidesTeam: false
-   damage: 28
-   lifetime: 63.20
-   speed: 2
-    }
-  }
+      type: MissileBulletType
+      layer: 10
+      collidesTeam: false
+      damage: 28
+      lifetime: 500
+      speed: 2
+      drag: 0.1
+      }
+   }
 ]
 research: smol-updater
