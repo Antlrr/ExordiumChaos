@@ -23,12 +23,13 @@ weapons: [
    spacing: 4
    shotDelay: 2
    bullet: {
-      type: MissileBulletType
+      type: BasicBulletType
+      sprite: circle-bullet
       layer: 10
       collidesTeam: false
       damage: 28
       lifetime: 500
-      speed: 2
+      speed: 4
       drag: 0.1
       }
    }
