@@ -27,7 +27,7 @@ weapons: [
       collidesTeam: false
       homingPower: 0.04
       damage: 35
-      lifetime: 23
+      lifetime: 54
       speed: 0.1
       drag: -0.1
       }
