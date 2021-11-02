@@ -13,7 +13,7 @@ weapons: [
    name: nano-weapon
    top: false
    mirror: true
-   x: 7
+   x: 6
    y: 0
    shots: 1
    recoil: 1
