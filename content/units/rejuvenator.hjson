@@ -36,6 +36,7 @@ weapons: [
    cooldownTime: 35
    firstShotDelay: 30
    bullet: {
+      name: rejuvenator-weapon
       type: laserBulletType
       length: 999
       damage: 9e999
