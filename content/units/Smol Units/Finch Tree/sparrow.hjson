@@ -18,6 +18,7 @@ weapons: [
   x: 0
   y: 0
   shootSound: explosion
+  shootOnDeath: true
   bullet: {
      type: EmpBulletType
      radius: 60
