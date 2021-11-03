@@ -27,13 +27,12 @@ weapons: [
    layerOffset: -1
    bullet: {
       type: BasicBulletType
-      layer: 10
       trailLength: 6
       trailWidth: 3
       trailColor: 8cc7f5
       height: 8
       width: 8
-      layer: 101
+      layer: 59
       frontColor: ffffff
       backColor: 8cc7f5
       collidesTeam: false
