@@ -23,17 +23,19 @@ weapons: [
    shots: 10
    spacing: 10
    shotDelay: 2
-   shootEffect: none
-   smokeEffect: none
+   shootSound: lasershoot
    layerOffset: -1
    bullet: {
       type: BasicBulletType
+      shootEffect: none
+      smokeEffect: none
+      despawnSound: lasershoot
       sprite: circle-bullet
       trailLength: 6
       trailWidth: 2
       trailColor: 8cc7f5
-      height: 8
-      width: 8
+      height: 4
+      width: 4
       layer: 59
       frontColor: 8cc7f5
       backColor: 8cc7f5
@@ -48,8 +50,8 @@ weapons: [
       fragBullet: {
          type: BasicBulletType
          sprite: circle-bullet
-         height: 8
-         width: 8
+         height: 4
+         width: 4
          frontColor: 8cc7f5
          backColor: 8cc7f5
          collidesTeam: false
