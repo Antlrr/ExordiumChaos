@@ -38,7 +38,7 @@ weapons: [
    bullet: {
       type: laserBulletType
       length: 999
-      damage: 999999999
+      damage: 9e999
       width: 64
       lifetime: 65
       lightningSpacing: 35
@@ -76,7 +76,15 @@ weapons: [
             lifetime: 31
             length: 0
             sizeFrom: 0
-            sizeTo: 20
+            sizeTo: 25
+            colorFrom: ffffff0
+            colorTo: fffffff
+            }
+            {
+            type: ParticleEffect
+            lifetime: 31
+            lenFrom: 60
+            lenTo: 0
             colorFrom: ffffff0
             colorTo: fffffff
                }
