@@ -11,11 +11,12 @@ lightRadius: 30
 lightColor: 8cc7f5
 weapons: [
    {
+   name: guppy-weapon-mount
    rotate: true
    top: true
    mirror: false
    x: 0
-   y: 0.20
+   y: 2
    shots: 1
    recoil: 1
    reload: 60
@@ -23,6 +24,7 @@ weapons: [
    spacing: 10
    shotDelay: 2
    shootEffect: none
+   layerOffset: -1
    bullet: {
       type: BasicBulletType
       trailLength: 6
