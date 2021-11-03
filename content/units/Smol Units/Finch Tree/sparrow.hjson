@@ -1,7 +1,6 @@
 type: flying
 flying: true
 commandLimit: 6
-lowAltitude: true
 health: 175
 hitSize: 6
 speed: 2.15
@@ -21,7 +20,7 @@ weapons: [
   shootOnDeath: true
   bullet: {
      type: EmpBulletType
-     radius: 60
+     radius: 50
      timeIncrease: 2
      timeDuration: 600
      powerDamageScl: 3
