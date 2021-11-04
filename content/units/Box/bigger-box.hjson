@@ -27,6 +27,7 @@ weapons: [
      firstShotDelay: 10
      shotDelay: 0
      shootSound: explosion
+     shootStatus: dying
      bullet: {
         type: basicBulletType
         hitEffect: pulverize
