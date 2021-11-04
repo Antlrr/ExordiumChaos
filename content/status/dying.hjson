@@ -1,4 +1,5 @@
 named: dying
 localizedName: Dying
-damage:
+damage: 2.1
+permanent: true
 show: true
