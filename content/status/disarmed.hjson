@@ -1,4 +1,4 @@
-named: disarmed
-localizedName: Disarmed
-disarm: true
+named: dying
+localizedName: Dying
+damage:
 show: true
