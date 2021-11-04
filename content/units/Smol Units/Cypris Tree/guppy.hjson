@@ -43,7 +43,32 @@ weapons: [
       drag: 0.1
       shrinkX: 0.1
       shrinkY: 0.1
-      fragBullets: 50
+      absorbable: false
+      despawnEffect: {
+         type: MultiEffect
+         lifetime: 30
+         effects: [
+            {
+            type: ParticleEffect
+            length: 10
+            sizeFrom: 3
+            sizeTo: 0
+            colorFrom: 8cc7f50
+            colorTo: 8cc7f500
+            }
+            {
+            type: WaveEffect
+            length: 10
+            sizeFrom: 0
+            sizeTo: 5
+            colorFrom: 8cc7f50
+            colorTo: 8cc7f50
+            strokeFrom: 1
+            strokeTo: 0
+            }
+         ]
+      }
+      fragBullets: 22
       fragLifeMin: 5
       fragLifeMax: 32
       fragBullet: {
