@@ -46,7 +46,7 @@ weapons: [
       absorbable: false
       despawnEffect: {
          type: MultiEffect
-         lifetime: 30
+         lifetime: 120
          effects: [
             {
             type: ParticleEffect
@@ -60,10 +60,10 @@ weapons: [
             type: WaveEffect
             length: 10
             sizeFrom: 0
-            sizeTo: 5
+            sizeTo: 25
             colorFrom: 8cc7f50
             colorTo: 8cc7f50
-            strokeFrom: 1
+            strokeFrom: 2
             strokeTo: 0
             }
          ]
