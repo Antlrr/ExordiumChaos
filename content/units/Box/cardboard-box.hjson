@@ -16,25 +16,26 @@ lightColor: ffffff
 immunities: [exordium-boxed]
 weapons: [
   {
-     reload: 24
-     shootCone: 180
-     x: 0
-     y: 0
-     shootSound: explosion
-     bullet: {
-       status: exordium-boxed
-       statusDuration: 150
-       type: BombBulletType
-       hitEffect: pulverize
-       splashDamageRadius: 64
-       instantDisappear: true
-       killShooter: true
-       hittable: false
-       splashDamage: 45
-       damage: 0
-       collidesAir: true
-       lifetime: 10
-       speed: 1
+   reload: 24
+   shootCone: 180
+   x: 0
+   y: 0
+   shootSound: explosion
+   shootOnDeath: true
+   bullet: {
+      status: exordium-boxed
+      statusDuration: 150
+      type: BombBulletType
+      hitEffect: pulverize
+      splashDamageRadius: 64
+      instantDisappear: true
+      killShooter: true
+      hittable: false
+      splashDamage: 45
+      damage: 0
+      collidesAir: true
+      lifetime: 10
+      speed: 1
      }
   }
 ]
