@@ -16,8 +16,8 @@ lightColor: ffffff
 weapons: [
    {
    name: box-weapon
-   recoilTime: 20
-   reload: 240
+   recoilTime: 40
+   reload: 250
    mirror: false
    shootCone: 15
    x: 0
@@ -26,7 +26,7 @@ weapons: [
    shots: 8
    spacing: 5
    firstShotDelay: 10
-   shotDelay: 0
+   shotDelay: 4
    shootSound: explosion
    shootStatus: dying
    bullet: {
