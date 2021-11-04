@@ -17,7 +17,7 @@ weapons: [
    {
    name: box-weapon
    recoilTime: 40
-   reload: 250
+   reload: 300
    mirror: false
    shootCone: 15
    x: 0
