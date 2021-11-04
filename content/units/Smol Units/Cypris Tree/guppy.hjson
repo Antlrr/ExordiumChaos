@@ -46,11 +46,11 @@ weapons: [
       absorbable: false
       despawnEffect: {
          type: MultiEffect
-         lifetime: 120
+         lifetime: 100
          effects: [
             {
             type: ParticleEffect
-            length: 10
+            length: 18
             sizeFrom: 3
             sizeTo: 0
             colorFrom: 8cc7f50
@@ -60,7 +60,7 @@ weapons: [
             type: WaveEffect
             length: 10
             sizeFrom: 0
-            sizeTo: 25
+            sizeTo: 23
             colorFrom: 8cc7f50
             colorTo: 8cc7f50
             strokeFrom: 2
@@ -68,7 +68,9 @@ weapons: [
             }
          ]
       }
-      fragBullets: 22
+      splashDamageRadius: 22
+      splashDamage: 12
+      fragBullets: 10
       fragLifeMin: 5
       fragLifeMax: 32
       fragBullet: {
