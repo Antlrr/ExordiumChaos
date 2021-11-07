@@ -87,8 +87,7 @@ weapons: [
             sizeFrom: 5
             sizeTo: 5
             lifetime: 31
-            lenFrom: 60
-            lenTo: 0
+            interp: pow50in
             colorFrom: ffffff0
             colorTo: fffffff
                }
