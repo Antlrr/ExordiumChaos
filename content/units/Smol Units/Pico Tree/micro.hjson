@@ -1,0 +1,38 @@
+type: mech
+health: 150
+hitSize: 4
+commandLimit: 6
+speed: 0.60
+accel: 1
+drag: 2
+controller: GroundAI
+groundLayer: 66
+lightRadius: 30
+lightColor: 8cc7f5
+weapons: [
+   {
+   name: nano-weapon
+   top: false
+   mirror: true
+   rotate: false
+   x: 2
+   y: 3
+   shots: 1
+   recoil: 1
+   reload: 10
+   layerOffset: -1
+   bullet: {
+      type: basicBulletType
+      frontColor: 8cc7f5
+      backColor: 6a84c4
+      height: 12
+      width: 8
+      collidesTeam: false
+      homingPower: 0.04
+      damage: 35
+      lifetime: 54
+      speed: 0.1
+      drag: -0.1
+      }
+   } 
+]
