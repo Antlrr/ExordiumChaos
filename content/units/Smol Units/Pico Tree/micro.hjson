@@ -26,7 +26,9 @@ weapons: [
       type: basicBulletType
       frontColor: 8cc7f5
       backColor: 6a84c4
-      height: 10
+      trailColor: 8cc7f5
+      trailLength: 4
+      height: 8
       width: 6
       collidesTeam: false
       homingPower: 0.04
