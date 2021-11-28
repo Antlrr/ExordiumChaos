@@ -3,7 +3,7 @@ health: 200
 armor: 2
 hitSize: 12
 commandLimit: 6
-speed: 0.4/
+speed: 0.4
 accel: 1
 drag: 1
 controller: GroundAI
