@@ -22,6 +22,7 @@ weapons: [
    reload: 10
    layerOffset: -1
    shootY: 6
+   shootSound: shootBig
    bullet: {
       type: basicBulletType
       frontColor: 8cc7f5
@@ -50,12 +51,13 @@ weapons: [
    recoil: 1
    reload: 58
    shootY: 8
+   shootSound: lasershoot
    bullet: {
       type: BulletType
       width: 6
       height: 8
       speed: 2
-      lifetime: 10
+      lifetime: 32
       fragBullets: 3
       fragBullet: {
          type: BulletType
