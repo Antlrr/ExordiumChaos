@@ -21,7 +21,7 @@ weapons: [
    recoil: 1
    reload: 10
    layerOffset: -1
-   shootY: 1.20
+   shootY: 5
    bullet: {
       type: basicBulletType
       frontColor: 8cc7f5
