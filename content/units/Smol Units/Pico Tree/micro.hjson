@@ -38,5 +38,35 @@ weapons: [
       speed: 0.1
       drag: -0.1
       }
-   } 
+   }
+   {
+   name: nano-weapon
+   top: false
+   mirror: true
+   rotate: false
+   x: 0
+   y: 10
+   shots: 1
+   recoil: 1
+   reload: 58
+   shootY: 8
+   bullet: {
+      type: BulletType
+      width: 0
+      height: 0
+      speed: 0
+      lifetime: 10
+      fragBullets: 1
+      despawnSound: lasershoot
+      fragBullet: {
+         type: BasicBulletType
+         lifetime: 63
+         weaveMag: 7
+         weaveScale: 6
+         width: 7
+         height: 9
+         damage: 26
+         }
+      }
+   }
 ]
