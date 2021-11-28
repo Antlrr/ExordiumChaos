@@ -32,7 +32,7 @@ weapons: [
       collidesTeam: false
       damage: 35
       lifetime: 54
-      speed: 0.01
+      speed: 0.050
       drag: -0.1
       }
    }
