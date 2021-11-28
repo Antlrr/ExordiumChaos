@@ -21,14 +21,14 @@ weapons: [
    recoil: 1
    reload: 10
    layerOffset: -1
-   shootY: 5
+   shootY: 6
    bullet: {
       type: basicBulletType
       frontColor: 8cc7f5
       backColor: 6a84c4
       trailColor: 8cc7f5
       trailEffect: artilleryTrail
-      trailChance: 0.60
+      trailChance: 0.2
       height: 8
       width: 6
       collidesTeam: false
