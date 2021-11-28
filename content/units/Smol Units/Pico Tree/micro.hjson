@@ -18,11 +18,11 @@ weapons: [
    x: 3
    y: 3.50
    shots: 1
-   recoil: 1
+   recoil: 3
    reload: 10
    layerOffset: -1
    shootY: 6
-   shootSound: shootBig
+   shootSound: pew
    bullet: {
       type: basicBulletType
       frontColor: 8cc7f5
@@ -57,6 +57,7 @@ weapons: [
       width: 6
       height: 8
       speed: 2
+      damage: 24
       lifetime: 32
       fragBullets: 3
       fragBullet: {
@@ -64,7 +65,7 @@ weapons: [
          width: 0
          height: 0
          speed: 0
-         lifetime: 10
+         lifetime: 2
          fragBullets: 1
          despawnSound: lasershoot
          fragBullet: {
