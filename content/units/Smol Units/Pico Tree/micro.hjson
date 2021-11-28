@@ -40,7 +40,7 @@ weapons: [
       }
    }
    {
-   name: nano-weapon
+   name: micro-weapon
    top: false
    mirror: true
    rotate: false
