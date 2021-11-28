@@ -28,6 +28,7 @@ weapons: [
       backColor: 6a84c4
       trailColor: 8cc7f5
       trailEffect: artilleryTrail
+      trailChance: 0.60
       height: 8
       width: 6
       collidesTeam: false
