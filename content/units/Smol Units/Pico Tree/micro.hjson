@@ -45,7 +45,7 @@ weapons: [
    mirror: true
    rotate: false
    x: 10
-   y: 0
+   y: -0.50
    shots: 1
    recoil: 1
    reload: 58
@@ -53,8 +53,8 @@ weapons: [
    shootSound: lasershoot
    bullet: {
       type: BasicBulletType
-      width: 6
-      height: 8
+      width: 8
+      height: 12
       speed: 2
       damage: 24
       lifetime: 32
