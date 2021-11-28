@@ -33,7 +33,6 @@ weapons: [
       height: 8
       width: 6
       collidesTeam: false
-      homingPower: 0.04
       damage: 35
       lifetime: 54
       speed: 0.1
@@ -76,6 +75,7 @@ weapons: [
             width: 7
             height: 9
             damage: 26
+            homingPower: 0.2
             }
          }
       }
