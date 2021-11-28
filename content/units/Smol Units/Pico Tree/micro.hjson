@@ -24,7 +24,7 @@ weapons: [
    shootY: 6
    shootSound: pew
    bullet: {
-      type: ArtilleryBulletType
+      type: BasicBulletType
       frontColor: 8cc7f5
       backColor: 6a84c4
       trailColor: 8cc7f5
