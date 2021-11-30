@@ -9,12 +9,13 @@ drag: 0.1
 controller: FlyingAI
 lightRadius: 30
 lightColor: 8cc7f5
-engineSize: 6
+engineSize: 5.50
+lowAltitude: true
 weapons: [
    {
    name: carve-weapon
    reload: 48
-   recoil: 18
+   recoil: 0
    x: 0
    y: 0
    shootSound: laser
@@ -24,6 +25,9 @@ weapons: [
       length: 62
       width: 10
       colors: [ffffff,8cc7f5,8cc7f5]
+      sideAngle: 45
+      lightningSpacing: 2
+      damage: 64
       }
    }
 ]
