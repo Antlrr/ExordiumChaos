@@ -22,13 +22,13 @@ weapons: [
    bullet: {
       type: LaserBulletType
       lightningColor: 8cc7f5
-      length: 62
+      length: 120
       width: 10
       colors: [ffffff,8cc7f5,8cc7f5]
       sideAngle: 45
       lightingSpacing: 31
       lightingLength: 7.50
-      damage: 64
+      damage: 32
       }
    }
 ]
