@@ -1,0 +1,29 @@
+type: flying
+flying: true
+commandLimit: 6
+health: 175
+hitSize: 6
+speed: 1.80
+accel: 0.80
+drag: 0.1
+controller: FlyingAI
+lightRadius: 30
+lightColor: 8cc7f5
+engineSize: 6
+weapons: [
+   {
+   name: carve-weapon
+   reload: 48
+   recoil: 18
+   x: 0
+   y: 0
+   shootSound: laser
+   bullet: {
+      type: LaserBulletType
+      lightningColor: 8cc7f5
+      length: 62
+      width: 10
+      colors: [ffffff,8cc7f5,8cc7f5]
+      }
+   }
+]
