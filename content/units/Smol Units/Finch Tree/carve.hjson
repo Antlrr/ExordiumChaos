@@ -19,6 +19,7 @@ weapons: [
    x: 0
    y: 0
    shootSound: laser
+   shootY: -3
    bullet: {
       type: LaserBulletType
       lightningColor: 8cc7f5
@@ -32,3 +33,4 @@ weapons: [
       }
    }
 ]
+research: sparrow
