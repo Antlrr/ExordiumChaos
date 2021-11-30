@@ -26,7 +26,8 @@ weapons: [
       width: 10
       colors: [ffffff,8cc7f5,8cc7f5]
       sideAngle: 45
-      lightningSpacing: 2
+      lightningSpacing: 6
+      lightingLength: 7.50
       damage: 64
       }
    }
