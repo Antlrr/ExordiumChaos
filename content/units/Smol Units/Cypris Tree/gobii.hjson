@@ -1,0 +1,54 @@
+type: naval
+flying: false
+commandLimit: 6
+health: 150
+hitSize: 5
+speed: 0.6
+accel: 2
+drag: 0.2
+controller: GroundAI
+lightRadius: 30
+lightColor: 8cc7f5
+weapons: [
+   {
+   name: gobii-weapon-mount
+   rotate: true
+   top: true
+   mirror: true
+   x: -6
+   y: 10
+   shots: 1
+   recoil: 2
+   reload: 60
+   shootSound: laser
+   bullet: {
+      type: RailBulletType
+      shootEffect: none
+      updateEffect: circle-bullet
+      collidesTeam: false
+      damage: 42
+      length: 52
+      furthest: 52
+      }
+   }
+   {
+   name: gobii-sapper
+   rotate: true
+   top: true
+   mirror: false
+   x: 12
+   y: 6
+   shots: 1
+   recoil: 0.2
+   reload: 3
+   shootSound: sap
+   layerOffset: -1
+   bullet: {
+      type: SapBulletType
+      shootEffect: none
+      collidesTeam: false
+      damage: 42
+      length: 120
+      }
+   }
+]
