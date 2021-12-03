@@ -43,14 +43,12 @@ weapons: [
    recoil: 0.2
    reload: 3
    shootSound: sap
-   layerOffset: -1
    bullet: {
       type: SapBulletType
       shootEffect: none
       collidesTeam: false
       damage: 3
       length: 120
-      layer: 59
       knockback: -1.5
       color: 8cc7f5
       }
@@ -66,14 +64,12 @@ weapons: [
    recoil: 0.2
    reload: 3
    shootSound: sap
-   layerOffset: -1
    bullet: {
       type: SapBulletType
       shootEffect: none
       collidesTeam: false
       damage: 3
       length: 120
-      layer: 59
       knockback: -1.5
       color: 8cc7f5
       }
