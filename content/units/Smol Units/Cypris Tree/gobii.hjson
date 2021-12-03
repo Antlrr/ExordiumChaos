@@ -34,7 +34,7 @@ weapons: [
    name: gobii-sapper
    rotate: true
    top: true
-   mirror: false
+   mirror: true
    x: 6
    y: 12
    shots: 1
