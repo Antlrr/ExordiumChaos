@@ -46,8 +46,9 @@ weapons: [
       type: SapBulletType
       shootEffect: none
       collidesTeam: false
-      damage: 42
+      damage: 3
       length: 120
+      layer: 10
       }
    }
 ]
