@@ -28,7 +28,7 @@ weapons: [
       damage: 42
       length: 68
       furthest: 68
-      updateEffect: unitSpirit
+      updateEffect: artilleryTrail
       hitEffect: unitCapKill
       }
    }
@@ -52,6 +52,30 @@ weapons: [
       length: 120
       layer: 59
       knockback: -1.5
+      color: 8cc7f5
+      }
+   }
+   {
+   name: gobii-sapper
+   rotate: true
+   top: true
+   mirror: true
+   x: 4
+   y: 11.25
+   shots: 1
+   recoil: 0.2
+   reload: 3
+   shootSound: sap
+   layerOffset: -1
+   bullet: {
+      type: SapBulletType
+      shootEffect: none
+      collidesTeam: false
+      damage: 3
+      length: 120
+      layer: 59
+      knockback: -1.5
+      color: 8cc7f5
       }
    }
 ]
