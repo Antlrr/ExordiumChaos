@@ -24,7 +24,6 @@ weapons: [
    bullet: {
       type: RailBulletType
       shootEffect: none
-      updateEffect: circle-bullet
       collidesTeam: false
       damage: 42
       length: 52
