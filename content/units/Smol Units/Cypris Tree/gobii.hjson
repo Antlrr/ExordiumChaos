@@ -15,8 +15,8 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: -6
-   y: 10
+   x: 6
+   y: -10
    shots: 1
    recoil: 2
    reload: 60
@@ -35,8 +35,8 @@ weapons: [
    rotate: true
    top: true
    mirror: false
-   x: 12
-   y: 6
+   x: 6
+   y: 12
    shots: 1
    recoil: 0.2
    reload: 3
