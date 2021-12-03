@@ -26,8 +26,8 @@ weapons: [
       shootEffect: none
       collidesTeam: false
       damage: 42
-      length: 52
-      furthest: 52
+      length: 68
+      furthest: 68
       updateEffect: unitSpirit
       hitEffect: unitCapKill
       }
@@ -51,7 +51,7 @@ weapons: [
       damage: 3
       length: 120
       layer: 59
-      knockback: -0.9
+      knockback: -1.5
       }
    }
 ]
