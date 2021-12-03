@@ -28,7 +28,7 @@ weapons: [
       damage: 42
       length: 68
       furthest: 68
-      updateEffect: artilleryTrail
+      updateEffect: unitCapKill
       hitEffect: unitCapKill
       }
    }
@@ -58,7 +58,7 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 4
+   x: 2.50
    y: 11.25
    shots: 1
    recoil: 0.2
