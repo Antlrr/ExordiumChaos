@@ -20,6 +20,7 @@ weapons: [
    y: 0
    shootSound: laser
    shootY: -3
+   recoil: 2
    bullet: {
       type: LaserBulletType
       lightningColor: 8cc7f5
@@ -30,6 +31,7 @@ weapons: [
       lightingSpacing: 31
       lightingLength: 7.50
       damage: 32
+      recoil: 2
       }
    }
 ]
