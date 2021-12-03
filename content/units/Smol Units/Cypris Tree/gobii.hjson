@@ -28,6 +28,8 @@ weapons: [
       damage: 42
       length: 52
       furthest: 52
+      updateEffect: unitSpirit
+      hitEffect: unitCapKill
       }
    }
    {
@@ -48,7 +50,8 @@ weapons: [
       collidesTeam: false
       damage: 3
       length: 120
-      layer: 10
+      layer: 59
+      knockback: -0.9
       }
    }
 ]
