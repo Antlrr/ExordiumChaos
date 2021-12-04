@@ -29,6 +29,19 @@ weapons: [
         effects: [
           {
             type: ParticleEffect
+            cone: 8
+            particles: 12
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 30
+            length: 15
+            colorFrom: 8cc7f5
+            colorTo: 5869bd
+            sizeFrom: 2
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
             cone: 11.50
             particles: 10
             interp: pow3Out
@@ -38,19 +51,6 @@ weapons: [
             colorFrom: 8cc7f5
             colorTo: 8cc7f5
             sizeFrom: 3
-            sizeTo: 0
-          }
-          {
-            type: ParticleEffect
-            cone: 8
-            particles: 12
-            interp: pow3Out
-            sizeInterp: pow5In
-            lifetime: 30
-            length: 15
-            colorFrom: 8cc7f5
-            colorTo: 454545
-            sizeFrom: 2
             sizeTo: 0
           }
         ]
