@@ -20,7 +20,7 @@ weapons: [
    shots: 1
    recoil: 2
    reload: 4
-   shootSound: laser
+   shootSound: flame
    bullet: {
       type: BulletType
       shootEffect: {
@@ -33,7 +33,7 @@ weapons: [
             particles: 10
             interp: pow3Out
             sizeInterp: pow5In
-            lifetime: 10
+            lifetime: 30
             length: 30
             colorFrom: 8cc7f5
             colorTo: 8cc7f5
@@ -46,7 +46,7 @@ weapons: [
             particles: 12
             interp: pow3Out
             sizeInterp: pow5In
-            lifetime: 10
+            lifetime: 30
             length: 15
             colorFrom: 8cc7f5
             colorTo: 8cc7f5
