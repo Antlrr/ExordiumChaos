@@ -28,7 +28,7 @@ weapons: [
       damage: 42
       length: 68
       furthest: 68
-      updateEffect: unitCapKill
+      updateEffect: railTrail
       hitEffect: unitCapKill
       }
    }
