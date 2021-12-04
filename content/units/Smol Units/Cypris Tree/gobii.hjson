@@ -28,7 +28,7 @@ weapons: [
       damage: 42
       length: 68
       furthest: 68
-      updateEffect: railTrail
+      updateEffect: blockSelect
       hitEffect: unitCapKill
       }
    }
@@ -58,7 +58,7 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 0.50
+   x: 1.25
    y: 11.25
    shots: 1
    recoil: 0.2
