@@ -19,17 +19,44 @@ weapons: [
    y: -7
    shots: 1
    recoil: 2
-   reload: 60
+   reload: 4
    shootSound: laser
    bullet: {
-      type: RailBulletType
-      shootEffect: none
+      type: BulletType
+      shootEffect: {
+        type: MultiEffect
+        lifetime: 25
+        effects: [
+          {
+            type: ParticleEffect
+            cone: 11.50
+            particles: 10
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 10
+            length: 30
+            colorFrom: 8cc7f5
+            colorTo: 8cc7f5
+            sizeFrom: 3
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
+            cone: 8
+            particles: 12
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 10
+            length: 15
+            colorFrom: 8cc7f5
+            colorTo: 8cc7f5
+            sizeFrom: 2
+            sizeTo: 0
+          }
+        ]
+      }
       collidesTeam: false
-      damage: 42
-      length: 68
-      furthest: 68
-      updateEffect: blockSelect
-      hitEffect: unitCapKill
+      damage: 20
       }
    }
    {
