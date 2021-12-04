@@ -21,6 +21,7 @@ weapons: [
    recoil: 2
    reload: 4
    shootSound: flame
+   shootY: 5
    bullet: {
       type: BulletType
       shootEffect: {
