@@ -58,11 +58,11 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 1.50
+   x: 0.50
    y: 11.25
    shots: 1
    recoil: 0.2
-   reload: 3
+   reload: 6
    shootSound: sap
    bullet: {
       type: SapBulletType
