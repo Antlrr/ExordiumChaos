@@ -85,7 +85,7 @@ weapons: [
    rotate: true
    top: true
    mirror: true
-   x: 1.25
+   x: 2
    y: 11.25
    shots: 1
    recoil: 0.2
