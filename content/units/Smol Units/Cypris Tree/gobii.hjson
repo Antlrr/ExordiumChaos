@@ -57,6 +57,8 @@ weapons: [
       }
       collidesTeam: false
       damage: 20
+      hitEffect: none
+      despawnEffect: none
       }
    }
    {
