@@ -10,7 +10,7 @@ consumes: {
     }
   }
 upgrades: [
-  [sparrow, carve
+  [sparrow, carve]
   [guppy, gobii]
   [nano, micro]
 ]
