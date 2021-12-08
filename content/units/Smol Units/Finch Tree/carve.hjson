@@ -6,7 +6,8 @@ hitSize: 6
 speed: 1.80
 accel: 0.80
 drag: 0.1
-controller: FlyingAI
+controller: BuilderAI
+buildSpeed: 2
 lightRadius: 30
 lightColor: 8cc7f5
 engineSize: 5.50
