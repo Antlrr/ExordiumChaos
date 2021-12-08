@@ -58,7 +58,7 @@ weapons: [
         ]
       }
       collidesTeam: false
-      damage: 20
+      damage: 30
       hitEffect: none
       despawnEffect: none
       }
@@ -104,5 +104,14 @@ weapons: [
       knockback: -1.5
       color: 8cc7f5
       }
+   }
+]
+abilities: [
+   {
+   type: ForceFieldAbility
+   radius: 120
+   regen: 1.20
+   max: 210
+   cooldown: 360
    }
 ]
