@@ -1,11 +1,12 @@
 type: naval
 flying: false
 commandLimit: 6
-health: 150
-hitSize: 5
+health: 760
+armor: 8
+hitSize: 28
 speed: 0.6
 accel: 2
-drag: 0.2
+drag: 0.17
 controller: GroundAI
 lightRadius: 30
 lightColor: 8cc7f5
